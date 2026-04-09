@@ -21,6 +21,7 @@
 		<mdclass:Enum>Enum.ТипСобытияТрекинга</mdclass:Enum>
 		<mdclass:Enum>Enum.ТипУведомления</mdclass:Enum>
 		<mdclass:Enum>Enum.ФормаОплаты</mdclass:Enum>
+		<mdclass:Catalog>Catalog.ВидыЭтаповДоставки</mdclass:Catalog>
 		<mdclass:Catalog>Catalog.Заказчики</mdclass:Catalog>
 		<mdclass:Catalog>Catalog.МаршрутыДоставки</mdclass:Catalog>
 		<mdclass:Catalog>Catalog.НормативыДоставки</mdclass:Catalog>
