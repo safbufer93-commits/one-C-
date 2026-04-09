@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Артикул" id="7">
+			<DataPath>Объект.Артикул</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="АртикулКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="АртикулРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Производитель" id="10">
+			<DataPath>Объект.Производитель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПроизводительКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПроизводительРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ЕдиницаИзмерения" id="13">
+			<DataPath>Объект.ЕдиницаИзмерения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Вес" id="16">
+			<DataPath>Объект.Вес</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВесКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ВесРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Длина" id="19">
+			<DataPath>Объект.Длина</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДлинаКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДлинаРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Ширина" id="22">
+			<DataPath>Объект.Ширина</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ШиринаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ШиринаРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="Высота" id="25">
+			<DataPath>Объект.Высота</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВысотаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ВысотаРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ОбъемныйВес" id="28">
+			<DataPath>Объект.ОбъемныйВес</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъемныйВесКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ОбъемныйВесРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="Объем" id="31">
+			<DataPath>Объект.Объем</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбъемКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ОбъемРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<Table name="КроссНомера" id="34">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.КроссНомера</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="КроссНомераКонтекстноеМеню" id="35"/>
+			<AutoCommandBar name="КроссНомераКоманднаяПанель" id="36"/>
+			<ExtendedTooltip name="КроссНомераРасширеннаяПодсказка" id="37"/>
+			<ChildItems>
+			<LabelField name="КроссНомераНомерСтроки" id="38">
+				<DataPath>Объект.КроссНомера.LineNumber</DataPath>
+				<ContextMenu name="КроссНомераНомерСтрокиКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="КроссНомераНомерСтрокиРасширеннаяПодсказка" id="40"/>
+			</LabelField>
+			<InputField name="КроссНомераНомер" id="41">
+				<DataPath>Объект.КроссНомера.Номер</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="КроссНомераНомерКонтекстноеМеню" id="42"/>
+				<ExtendedTooltip name="КроссНомераНомерРасширеннаяПодсказка" id="43"/>
+			</InputField>
+			<InputField name="КроссНомераКомментарий" id="44">
+				<DataPath>Объект.КроссНомера.Комментарий</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="КроссНомераКомментарийКонтекстноеМеню" id="45"/>
+				<ExtendedTooltip name="КроссНомераКомментарийРасширеннаяПодсказка" id="46"/>
+			</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Товары</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

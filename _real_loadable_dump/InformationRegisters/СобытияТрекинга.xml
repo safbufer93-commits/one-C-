@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="4cab9f7c-27c4-75ee-62b6-506249006d62">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СобытияТрекинга" category="Record">
+				<xr:TypeId>a18a1bb7-53fb-240a-9a05-f6f8c507bdf0</xr:TypeId>
+				<xr:ValueId>f48dfbee-a5f6-2864-91e2-4169a8999fc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СобытияТрекинга" category="Manager">
+				<xr:TypeId>e86c54f6-59f5-c991-c13f-f313d8aaabf0</xr:TypeId>
+				<xr:ValueId>3e77f8e1-e0f4-57cf-7daa-4142d37f9087</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СобытияТрекинга" category="Selection">
+				<xr:TypeId>d6f89dd8-b39d-35bc-c783-27c3bcfb5cfa</xr:TypeId>
+				<xr:ValueId>031a654c-828a-ef41-1536-d2961c99fea8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СобытияТрекинга" category="List">
+				<xr:TypeId>e284c1da-c4f0-a321-2bd0-1c0fa7488904</xr:TypeId>
+				<xr:ValueId>b784866e-7161-46a5-0eaf-07a375e6fbd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СобытияТрекинга" category="RecordSet">
+				<xr:TypeId>73beb521-d06c-c849-8f89-f3df6aec576f</xr:TypeId>
+				<xr:ValueId>6688d1ae-35f2-d40f-6215-5937b3075081</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СобытияТрекинга" category="RecordKey">
+				<xr:TypeId>7314bbb7-0b55-6d6a-cc9d-97645500c685</xr:TypeId>
+				<xr:ValueId>61b8e5c0-4a5e-4759-f7c5-3a370a4c208d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СобытияТрекинга" category="RecordManager">
+				<xr:TypeId>2d5ab1db-c660-5b2a-bc73-ff0a8eac25aa</xr:TypeId>
+				<xr:ValueId>dee067b8-9e2f-ba9e-f379-96329eb26132</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СобытияТрекинга</Name>
+			<Synonym/>
+			<Comment/>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+		<Dimension uuid="eb78668e-e6ba-8a45-7e95-620bc024a02f">
+			<Properties>
+				<Name>Отправка</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Отправка</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Resource uuid="f91efce6-ee50-6689-8e33-d49e2560c62e">
+			<Properties>
+				<Name>ТипСобытия</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.ТипСобытияТрекинга</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Resource uuid="e730925f-311f-f938-4001-5271773ab560">
+			<Properties>
+				<Name>Описание</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Resource uuid="d0102d7f-4122-6cab-c24b-7c32bfd1324d">
+			<Properties>
+				<Name>Местоположение</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>150</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Attribute uuid="b1391c00-d65c-d6aa-7a6d-167df0981ec2">
+			<Properties>
+				<Name>ИсточникДанных</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="7de315d5-17ed-739b-a213-632f211438a7">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

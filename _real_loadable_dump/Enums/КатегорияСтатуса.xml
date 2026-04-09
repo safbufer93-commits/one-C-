@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="193595b5-ecb7-a5bb-07d2-36b5ae72f9f7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КатегорияСтатуса" category="Ref">
+				<xr:TypeId>cdd45155-3a84-4a9e-2981-7034b3e22898</xr:TypeId>
+				<xr:ValueId>61dd132c-a553-4667-5cae-1c9381bf57b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КатегорияСтатуса" category="Manager">
+				<xr:TypeId>4701ceba-1ba2-1d7c-e085-e986d64c5f46</xr:TypeId>
+				<xr:ValueId>67c6b7e8-bde6-34b1-1006-9f0116147040</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КатегорияСтатуса" category="List">
+				<xr:TypeId>b76465ac-520f-7ec2-98ee-356b62b69bf8</xr:TypeId>
+				<xr:ValueId>99443c6b-b814-e526-d7ce-e9c27056a6be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КатегорияСтатуса</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5a026899-a833-feeb-5b60-ebac5ae99de2">
+				<Properties>
+					<Name>Заказ</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3d33e4d0-32a2-76c6-55d8-24b77108bed0">
+				<Properties>
+					<Name>Оплата</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5c030258-088a-a675-cb2c-2189e91dbe40">
+				<Properties>
+					<Name>Доставка</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

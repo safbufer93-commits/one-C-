@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ТипДоставки" id="7">
+			<DataPath>Объект.ТипДоставки</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТипДоставкиКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТипДоставкиРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="МетодРасчета" id="10">
+			<DataPath>Объект.МетодРасчета</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="МетодРасчетаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="МетодРасчетаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Валюта" id="13">
+			<DataPath>Объект.Валюта</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВалютаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ТарифЗаКг" id="16">
+			<DataPath>Объект.ТарифЗаКг</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТарифЗаКгКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ТарифЗаКгРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ТарифФакт" id="19">
+			<DataPath>Объект.ТарифФакт</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТарифФактКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ТарифФактРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ТарифОбъем" id="22">
+			<DataPath>Объект.ТарифОбъем</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТарифОбъемКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ТарифОбъемРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ФиксСбор" id="25">
+			<DataPath>Объект.ФиксСбор</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ФиксСборКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ФиксСборРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="Коэф" id="28">
+			<DataPath>Объект.Коэф</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КоэфКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="КоэфРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="КоэфОбъемногоВеса" id="31">
+			<DataPath>Объект.КоэфОбъемногоВеса</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КоэфОбъемногоВесаКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="КоэфОбъемногоВесаРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="МинимальныйВесКг" id="34">
+			<DataPath>Объект.МинимальныйВесКг</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="МинимальныйВесКгКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="МинимальныйВесКгРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<CheckBoxField name="ТребуетТаможню" id="37">
+			<DataPath>Объект.ТребуетТаможню</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ТребуетТаможнюКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ТребуетТаможнюРасширеннаяПодсказка" id="39"/>
+		</CheckBoxField>
+		<CheckBoxField name="VAT5НаЗакупку" id="40">
+			<DataPath>Объект.VAT5НаЗакупку</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="VAT5НаЗакупкуКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="VAT5НаЗакупкуРасширеннаяПодсказка" id="42"/>
+		</CheckBoxField>
+		<InputField name="СопутствующиеРасходыПроцент" id="43">
+			<DataPath>Объект.СопутствующиеРасходыПроцент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СопутствующиеРасходыПроцентКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="СопутствующиеРасходыПроцентРасширеннаяПодсказка" id="45"/>
+		</InputField>
+		<InputField name="СрокМинДней" id="46">
+			<DataPath>Объект.СрокМинДней</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СрокМинДнейКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="СрокМинДнейРасширеннаяПодсказка" id="48"/>
+		</InputField>
+		<InputField name="СрокМаксДней" id="49">
+			<DataPath>Объект.СрокМаксДней</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СрокМаксДнейКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="СрокМаксДнейРасширеннаяПодсказка" id="51"/>
+		</InputField>
+		<InputField name="ДатаНачалаДействия" id="52">
+			<DataPath>Объект.ДатаНачалаДействия</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаНачалаДействияКонтекстноеМеню" id="53"/>
+			<ExtendedTooltip name="ДатаНачалаДействияРасширеннаяПодсказка" id="54"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.НормативыДоставки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

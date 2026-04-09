@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="6959e0ae-30f0-4144-bddb-32bbdfaf7815">
+	<mdclass:n>ТипУведомления</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип уведомления</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="3ad0e132-f185-4068-a9da-7f13b504a19d">
+		<mdclass:n>ИзменениеСтатуса</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Изменение статуса</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="6645fa72-d407-4950-bd79-bc59b62839b8">
+		<mdclass:n>ПросрочкаОплаты</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Просрочка оплаты</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="54b42c8f-c975-4951-b9d2-33108ce752f8">
+		<mdclass:n>ЗадержкаДоставки</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Задержка доставки</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="7e4d8a20-e621-4641-b190-e9d708e19afa">
+		<mdclass:n>НетДокумента</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Нет документа</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

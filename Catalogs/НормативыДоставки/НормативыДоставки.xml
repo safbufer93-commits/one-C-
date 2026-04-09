@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Catalog" uuid="af387708-47b5-4bfc-9a57-13dbcb25f3f2">
+	<mdclass:n>НормативыДоставки</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Нормативы тарифов доставки</core:content></core:item></mdclass:Synonym>
+	<mdclass:Hierarchical>false</mdclass:Hierarchical>
+	<mdclass:CodeLength>9</mdclass:CodeLength>
+	<mdclass:DescriptionLength>100</mdclass:DescriptionLength>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+		<mdclass:Attribute uuid="226b93b3-206a-4f06-8a94-8721502fe22d">
+			<mdclass:n>ТипДоставки</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип доставки</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>EnumRef.ТипДоставки</mdclass:Type>
+			<mdclass:FillRequired>true</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="44e6e8fc-284f-49e7-9500-db7bcefffacc">
+			<mdclass:n>МетодРасчета</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Метод расчёта</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>EnumRef.МетодРасчетаДоставки</mdclass:Type>
+			<mdclass:FillRequired>true</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="10714fa9-b8b3-496d-b323-68dded7e8617">
+			<mdclass:n>Валюта</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Валюта</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>3</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>true</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="39da2378-0cbe-49a3-b797-e0fb27e9c263">
+			<mdclass:n>ТарифЗаКг</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тариф за кг</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="4e6484b9-731f-4297-bfe1-ed9f12d5b0bd">
+			<mdclass:n>ТарифФакт</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тариф факт</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="7bc6dd29-35e9-4615-b147-cfbb80826adb">
+			<mdclass:n>ТарифОбъем</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тариф объём</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="5bab390e-e435-4546-ac62-7588a81ec4e2">
+			<mdclass:n>ФиксСбор</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Фикс сбор</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="091d44db-0799-444a-af28-c9b635bb84c4">
+			<mdclass:n>Коэф</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Коэф</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>4</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="84680598-2ec9-4a9d-a1a6-3b37b74acf48">
+			<mdclass:n>КоэфОбъемногоВеса</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Коэф объём веса</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>0</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="8f325233-073b-4df8-a097-9bb174fcd3ab">
+			<mdclass:n>МинимальныйВесКг</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Мин вес кг</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="a18d4770-a91d-4105-9019-a7127df9d866">
+			<mdclass:n>ТребуетТаможню</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Требует таможни</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:boolean</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="bde383a3-e5c4-4704-ac07-7f32f969df85">
+			<mdclass:n>VAT5НаЗакупку</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>VAT 5% на закупку</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:boolean</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="7608f3fe-af15-45de-bbd1-eb0c44416c8f">
+			<mdclass:n>СопутствующиеРасходыПроцент</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сопутств расходы %</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>5</mdclass:Digits><mdclass:FractionDigits>4</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="91f799d3-0a93-43df-b449-c0bc5e0e3d28">
+			<mdclass:n>СрокМинДней</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Срок мин дней</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>0</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="76c42959-49da-40be-b8c2-3a0b3ba1c3ef">
+			<mdclass:n>СрокМаксДней</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Срок макс дней</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>0</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="ce278197-0b64-404c-9e7d-ca0b1cbceff5">
+			<mdclass:n>ДатаНачалаДействия</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Дата начала действия</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:date</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+</mdclass:Catalog>

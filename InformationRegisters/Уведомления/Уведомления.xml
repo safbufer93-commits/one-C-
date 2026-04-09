@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:InformationRegister" uuid="cc3fdb04-a2fd-4962-b4f4-856669bf9ded">
+	<mdclass:n>Уведомления</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Уведомления сотрудникам</core:content></core:item></mdclass:Synonym>
+	<mdclass:Periodicity>Second</mdclass:Periodicity>
+	<mdclass:WriteMode>Independent</mdclass:WriteMode>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Dimension uuid="701d2ac6-10ca-40a1-96c1-5ec7a6873ef9">
+		<mdclass:n>Получатель</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Получатель</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>CatalogRef.Сотрудники</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="ac50b2f9-e87f-4bca-83ba-8c4eaee97ceb">
+		<mdclass:n>Тип</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип уведомления</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>50</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Resource uuid="cafebf9e-0eca-4228-81af-b01c1cc97aa8">
+		<mdclass:n>Текст</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Текст</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>500</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+	</mdclass:Resource>
+	<mdclass:Resource uuid="e5347d13-d733-4084-a9a1-faea3730b44b">
+		<mdclass:n>Прочитано</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Прочитано</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:boolean</mdclass:Type>
+	</mdclass:Resource>
+		<mdclass:Attribute uuid="fcfc037f-4f29-455e-8daa-341cef5db330">
+			<mdclass:n>Заказ</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказ</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>DocumentRef.Заказ</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="9c2eedc1-c88f-4036-955c-335ebf37cd7d">
+			<mdclass:n>Отправка</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Отправка</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>DocumentRef.Отправка</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="9dea0117-c55f-4bd8-9233-37f31a2d7bcf">
+			<mdclass:n>ДатаПрочтения</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Дата прочтения</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:date</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+</mdclass:InformationRegister>

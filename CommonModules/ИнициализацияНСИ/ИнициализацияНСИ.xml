@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:CommonModule" uuid="1b1969dd-c93a-4df3-b9d6-fbfbe4f71001">
+	<mdclass:n>ИнициализацияНСИ</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Инициализация НСИ</core:content></core:item></mdclass:Synonym>
+	<mdclass:Global>false</mdclass:Global>
+	<mdclass:ClientManagedApplication>true</mdclass:ClientManagedApplication>
+	<mdclass:Server>true</mdclass:Server>
+	<mdclass:ExternalConnection>true</mdclass:ExternalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Catalog" uuid="a551df24-e0cc-471b-9978-64159d51820c">
+	<mdclass:n>ТочкиМаршрута</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Точки маршрута</core:content></core:item></mdclass:Synonym>
+	<mdclass:Hierarchical>false</mdclass:Hierarchical>
+	<mdclass:CodeLength>9</mdclass:CodeLength>
+	<mdclass:DescriptionLength>150</mdclass:DescriptionLength>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Attribute uuid="0cbe4ba0-c920-410e-a278-e836702ff09a">
+		<mdclass:n>МаршрутДоставки</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Маршрут доставки</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>CatalogRef.МаршрутыДоставки</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="e03f00ed-1fbf-4859-8048-c547000a23a1">
+		<mdclass:n>Порядок</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Порядок</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>0</mdclass:FractionDigits></mdclass:NumberQualifiers>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="4e8dbe34-66c7-4e45-a48e-737763d64708">
+		<mdclass:n>ТипТочки</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип точки</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>EnumRef.ТипМаршрутнойТочки</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="e984fe04-10bd-43aa-af31-24768a3f2811">
+		<mdclass:n>Адрес</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Адрес</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>250</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="459b370b-c47d-4a81-b232-324917113613">
+		<mdclass:n>Комментарий</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Комментарий</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>250</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+	</mdclass:Attribute>
+</mdclass:Catalog>

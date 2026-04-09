@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="57b1d0c4-5777-a735-1b22-e739285a7ca6">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.МаршрутыДоставки" category="Object">
+				<xr:TypeId>ea3a52d2-1747-6ed8-3151-b460387be2db</xr:TypeId>
+				<xr:ValueId>eb3b9732-3c5a-63e0-8b1c-0c3a2fadd2be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.МаршрутыДоставки" category="Ref">
+				<xr:TypeId>898e6953-19d5-8942-c8a1-4bc51b798d1c</xr:TypeId>
+				<xr:ValueId>79994292-6de5-8678-4ba3-a350590ca294</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.МаршрутыДоставки" category="Selection">
+				<xr:TypeId>5e95c891-1be9-7b7b-2161-3d1e3fae3807</xr:TypeId>
+				<xr:ValueId>f0b25b87-312e-791a-3464-d5ccb4e88c88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.МаршрутыДоставки" category="List">
+				<xr:TypeId>176a1b79-3001-8df5-bed6-a8f46711b1f8</xr:TypeId>
+				<xr:ValueId>5199f561-6571-a084-2c48-9bb86fcfaa11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.МаршрутыДоставки" category="Manager">
+				<xr:TypeId>31c9bfdd-4071-d808-b207-e076a8567fab</xr:TypeId>
+				<xr:ValueId>af1f1c6c-16e4-a034-08ba-d4d2039e42e7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МаршрутыДоставки</Name>
+			<Synonym/>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Catalog.МаршрутыДоставки.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultListForm>Catalog.МаршрутыДоставки.Form.ФормаСписка</DefaultListForm>
+		</Properties>
+		<ChildObjects>
+		<Attribute uuid="9778edd6-85c1-fd50-aa4d-ae8fca0c331f">
+			<Properties>
+				<Name>Перевозчик</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Перевозчики</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="1a0f224c-fa8e-da83-6068-732f83536ced">
+			<Properties>
+				<Name>СтранаОтправления</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="cb959b9e-01ab-256c-8bf8-f3d5a4f6cabb">
+			<Properties>
+				<Name>СтранаНазначения</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="683d6f3c-50bd-9b8b-7a1a-5af92c15a4f8">
+			<Properties>
+				<Name>НормативДней</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>10</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="47224bc6-ad3c-69c6-ea02-16f3174efc21">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
+
+			<TabularSection uuid="4766d8a7-4047-e2eb-6095-20f95d0aa2bd">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.МаршрутыДоставки.Точки" category="TabularSection">
+						<xr:TypeId>59aeb2d6-629b-9cdb-2b7e-e86e1787f2b2</xr:TypeId>
+						<xr:ValueId>1ed9c613-2bb9-4f22-ae10-b91fa8e1f054</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.МаршрутыДоставки.Точки" category="TabularSectionRow">
+						<xr:TypeId>42bc6dd9-2f12-2987-e76b-683021becca9</xr:TypeId>
+						<xr:ValueId>709b986a-40a6-85d2-f783-b60e5975acd9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Точки</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1e748987-c5c6-05be-5e0c-e4e5ae3f5335">
+						<Properties>
+							<Name>Порядок</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>ShowError</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4e357544-8cbd-1dbb-5161-40cf4a41fa63">
+						<Properties>
+							<Name>ТочкаМаршрута</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ТочкиМаршрута</v8:Type>
+							</Type>
+							<FillChecking>ShowError</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fdeffa91-b2da-d00f-7c5d-86489a553b66">
+						<Properties>
+							<Name>ПланДней</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4c5de607-3fc7-ba7f-03c0-b863861b7420">
+						<Properties>
+							<Name>КомментарийТочки</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>250</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

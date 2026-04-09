@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="02830282-a079-43f4-a52c-90f2a99ae35e">
+	<mdclass:n>РольПользователя</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Роль пользователя</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="c202d67c-fcdf-4899-b513-31e93c31ebf2">
+		<mdclass:n>Менеджер</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Менеджер по продажам</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="8163df5b-d8f2-4904-97e3-98335f91a20b">
+		<mdclass:n>Логист</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Логист</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="4e678998-d1a8-4c89-b5cd-109b539d14bf">
+		<mdclass:n>Финансист</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Финансист / бухгалтер</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="4887e162-2286-41f0-8e9b-8f33ba805ef6">
+		<mdclass:n>Руководитель</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Руководитель</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="a58f82eb-9f1c-4551-bf1e-481e5cd50a21">
+		<mdclass:n>Администратор</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Администратор</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

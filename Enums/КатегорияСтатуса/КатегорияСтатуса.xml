@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="88f25f46-a24e-4074-8ce3-bcb1c35192f8">
+	<mdclass:n>КатегорияСтатуса</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Категория статуса</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="d5a13c63-5d34-4db5-ac08-236a6042b592">
+		<mdclass:n>Заказ</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказ</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="b00f094f-9eb3-4a16-a009-99dfd806d308">
+		<mdclass:n>Оплата</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Оплата</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="df67e622-0b03-409e-8da1-12d0203990bd">
+		<mdclass:n>Доставка</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Доставка</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="532c0845-419f-c984-cf7f-e71885f8ea48">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Заказчики" category="Object">
+				<xr:TypeId>cb766ea2-ee72-9ba7-afd3-ca25c2b992e5</xr:TypeId>
+				<xr:ValueId>99f644b3-52c5-c904-8c49-adfe0373a893</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Заказчики" category="Ref">
+				<xr:TypeId>927645ef-797a-a7df-1f46-8eb7bf8d12c5</xr:TypeId>
+				<xr:ValueId>0f164419-66ba-2311-d732-8a431533a156</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Заказчики" category="Selection">
+				<xr:TypeId>dd11546f-9e2a-1f74-fc74-03639f8c672e</xr:TypeId>
+				<xr:ValueId>5992a173-a585-a805-8f2a-bfe426e3fa54</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Заказчики" category="List">
+				<xr:TypeId>cc430f1e-92f2-3fcd-c093-1a27b6ce4589</xr:TypeId>
+				<xr:ValueId>c73e87f2-b446-1d01-eb6d-d8603312ee65</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Заказчики" category="Manager">
+				<xr:TypeId>05ffcc92-fc17-ea9b-cf0d-05a9d3ca1c0a</xr:TypeId>
+				<xr:ValueId>afd242d8-2b3f-2998-9946-a16897a8ac7e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Заказчики</Name>
+			<Synonym/>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Catalog.Заказчики.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultListForm>Catalog.Заказчики.Form.ФормаСписка</DefaultListForm>
+		</Properties>
+		<ChildObjects>
+		<Attribute uuid="c19785e8-8fe8-334d-2f40-a596ebd6014c">
+			<Properties>
+				<Name>ФормаОплаты</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.ФормаОплаты</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="c53918fb-ea57-6fe5-09b6-fb3cd15e1499">
+			<Properties>
+				<Name>ИНН</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>12</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="ed3ac146-7419-c94f-3227-aaab9b2e00c1">
+			<Properties>
+				<Name>КПП</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>9</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="92f88454-18d3-61a6-065a-c2d542cf752b">
+			<Properties>
+				<Name>Телефон</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>20</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="acf37814-fd98-88c7-ee82-1982d70ef9ce">
+			<Properties>
+				<Name>Email</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="1429a9d5-bf8f-e49c-7ea2-4d1a2a6f083f">
+			<Properties>
+				<Name>АдресДоставкиПоУмолчанию</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="fa79cdbe-31d0-f29a-2432-17d7f01f8d45">
+			<Properties>
+				<Name>КонтактноеЛицо</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="6e5c83a9-0081-116c-552c-784f5a22e3cb">
+			<Properties>
+				<Name>ПлатежныеРеквизиты</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="fb2e4489-0527-fac5-4883-d7621fcab0d8">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

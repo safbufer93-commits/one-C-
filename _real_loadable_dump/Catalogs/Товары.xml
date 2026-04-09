@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="ef3272ef-7912-1304-4ce5-0540537c4fe4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Товары" category="Object">
+				<xr:TypeId>d2d08d7b-39f3-04f8-29d4-476b76df6e57</xr:TypeId>
+				<xr:ValueId>ef6fab16-7a0b-a0ed-9797-1d8bf7b01f34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Товары" category="Ref">
+				<xr:TypeId>20ca42bc-58ef-bc9e-ecd3-402a7b226a07</xr:TypeId>
+				<xr:ValueId>ed89df35-a3a8-edbe-4527-dcdd44d90af2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Товары" category="Selection">
+				<xr:TypeId>fbae5ba5-a072-f7ec-b2a0-09fd0174a9cf</xr:TypeId>
+				<xr:ValueId>4f4de9e9-bd2d-8faa-6384-d3f529984f95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Товары" category="List">
+				<xr:TypeId>1339ae54-6435-4a7f-e948-fd02fd443fdb</xr:TypeId>
+				<xr:ValueId>c1703169-2d32-a84f-d051-85c802abaaef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Товары" category="Manager">
+				<xr:TypeId>e368a67a-3e04-2c23-7e88-7fae1e0c0c14</xr:TypeId>
+				<xr:ValueId>71b66bf6-01ea-2ff6-da0f-cfd61c7aa7e1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Товары</Name>
+			<Synonym/>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>200</DescriptionLength>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Catalog.Товары.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultListForm>Catalog.Товары.Form.ФормаСписка</DefaultListForm>
+		</Properties>
+		<ChildObjects>
+		<Attribute uuid="77a438e1-a2e4-6b12-83aa-ffbf6118a217">
+			<Properties>
+				<Name>Артикул</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>50</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="b64bb247-3643-93ab-435c-d874b033bf23">
+			<Properties>
+				<Name>Производитель</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="41812c22-2b6d-40e4-3811-2ee40b93a37e">
+			<Properties>
+				<Name>ЕдиницаИзмерения</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>10</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="e0f7c951-4938-c0cf-58b7-521f945c147e">
+			<Properties>
+				<Name>Вес</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="c1a85d5c-fa9a-adbc-acd7-a76d5687228f">
+			<Properties>
+				<Name>Длина</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="a177995b-f73e-eb9d-b103-c49655c3db65">
+			<Properties>
+				<Name>Ширина</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="fa25b181-0421-105f-3da1-e7b03a469a36">
+			<Properties>
+				<Name>Высота</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="ac1af0d0-e84f-ae48-41ba-6d6f6e401b15">
+			<Properties>
+				<Name>ОбъемныйВес</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="272ba92c-664b-4bac-28fd-88b819a6929a">
+			<Properties>
+				<Name>Объем</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
+
+			<TabularSection uuid="f554f5ef-1a44-ef23-e769-a28a4045ff1a">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Товары.КроссНомера" category="TabularSection">
+						<xr:TypeId>345ba72f-246d-5500-c645-b0a98a31a714</xr:TypeId>
+						<xr:ValueId>d61ad293-793a-dfab-1c33-f4574c3dad9f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Товары.КроссНомера" category="TabularSectionRow">
+						<xr:TypeId>992fd779-8fa6-b093-2419-12a33afd14d5</xr:TypeId>
+						<xr:ValueId>2d19871d-9818-d369-4f90-80da80003f95</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>КроссНомера</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6a2c9dfb-1d6e-07e5-e4b0-729e709e82ff">
+						<Properties>
+							<Name>Номер</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<FillChecking>ShowError</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9cc4d053-8131-d3d7-0951-bb11cc126dc7">
+						<Properties>
+							<Name>Комментарий</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

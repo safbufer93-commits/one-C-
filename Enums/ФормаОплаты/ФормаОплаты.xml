@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="41f0ee97-bfda-42d9-b48d-48d685b91f35">
+	<mdclass:n>ФормаОплаты</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Форма оплаты</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="d4a2bee6-66c9-40b0-b2b7-a6e5544356e7">
+		<mdclass:n>Наличные</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Наличные</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="86b79ff9-e10f-49d0-bfe2-5d8a22489ac8">
+		<mdclass:n>Безналичные</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Безналичные</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="2c1c07c4-a164-480c-93f5-64a8bcb0385b">
+		<mdclass:n>СНДС</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>СНДС</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="c75a73e4-5134-4c13-934b-15833be381f9">
+		<mdclass:n>БезНДС</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>БезНДС</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="f713f85b-e1f8-4825-ad56-5880cd4684fa">
+		<mdclass:n>Другое</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Другое</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

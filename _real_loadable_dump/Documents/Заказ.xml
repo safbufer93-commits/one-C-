@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="a8b5ff4a-0863-cce4-be46-75243507a331">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Заказ" category="Object">
+				<xr:TypeId>1349be02-a648-0c0d-2e03-1157c7b69e55</xr:TypeId>
+				<xr:ValueId>da3779aa-fdbd-5a73-edd5-255c516e8994</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Заказ" category="Ref">
+				<xr:TypeId>6ab98ce2-82bf-63df-ee6b-ead1634865f4</xr:TypeId>
+				<xr:ValueId>7371d1d5-f54a-e160-1865-63e86a0cab1f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Заказ" category="Selection">
+				<xr:TypeId>e7d2bbe8-e1fd-1a60-b914-0382b698e5c1</xr:TypeId>
+				<xr:ValueId>4b1c3301-84b6-a8bf-e92f-46f1572736a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Заказ" category="List">
+				<xr:TypeId>ea285f4a-0678-705f-6ecd-97ebbca65182</xr:TypeId>
+				<xr:ValueId>eddac025-93f8-d9ec-3715-2806bceb5819</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Заказ" category="Manager">
+				<xr:TypeId>9584ff47-1aaf-285b-256b-d6c778d8bffb</xr:TypeId>
+				<xr:ValueId>af9bc403-ec50-0edc-1d68-ade6ae1dedcd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Заказ</Name>
+			<Synonym/>
+			<Comment/>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberPeriodicity>Year</NumberPeriodicity>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Document.Заказ.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultListForm>Document.Заказ.Form.ФормаСписка</DefaultListForm>
+			<Posting>Allow</Posting>
+			<RealTimePosting>Allow</RealTimePosting>
+			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
+			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+		<Attribute uuid="8a79608e-82f5-70df-40ee-17259746ce2e">
+			<Properties>
+				<Name>Заказчик</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Заказчики</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="ec47d43d-7b31-1d28-9524-7c6aa55629d3">
+			<Properties>
+				<Name>НомерЗаказаЗаказчика</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>20</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="338fab15-4f4b-6ae2-6873-db9284791b8c">
+			<Properties>
+				<Name>Менеджер</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="e6562604-084f-378f-12fb-296c05626055">
+			<Properties>
+				<Name>СтатусОплатыПоСчету</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="39ae6a2f-d2b4-7144-1171-b1bb86562cbd">
+			<Properties>
+				<Name>СтатусЗаказа</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="6d32aee0-01e4-94bb-f16f-a2f1b73f3090">
+			<Properties>
+				<Name>СтатусДоставки</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="eb18383e-73c2-6251-90ae-3f37a1f65234">
+			<Properties>
+				<Name>МестоДоставки</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="3a65adef-492e-9e39-3954-00586cbf97d8">
+			<Properties>
+				<Name>АдресДоставки</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="eda5fce2-b15d-6812-65e5-523c4e813007">
+			<Properties>
+				<Name>СпособДоставки</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.СпособДоставки</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="ff78db1a-f561-d2c3-3a46-57c9d665f62d">
+			<Properties>
+				<Name>СтатусЗаказаУПоставщика</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="3ebd2c2b-3518-d541-abdf-a1cec3ed41eb">
+			<Properties>
+				<Name>ДатаЗаказаУПоставщика</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="366658c1-e73a-e27c-6da5-f0f13d4dcacc">
+			<Properties>
+				<Name>СогласованнаяДатаПоставки</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="a21ab0d3-d53e-ded4-09ca-3306721a83d8">
+			<Properties>
+				<Name>ФормаОплаты</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.ФормаОплаты</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="c2580fe9-13d0-a7dc-b1e6-ccce4d87e6ea">
+			<Properties>
+				<Name>ВыборИП</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.ВидИП</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="8d7d6cd2-e5f6-f59c-76ba-b5e7ee7f48fb">
+			<Properties>
+				<Name>Примечание</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="fc3a16c1-fc51-c3e8-fb03-1894da202bf2">
+			<Properties>
+				<Name>СуммаЗаказаРуб</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="d8edc419-fd54-b632-c162-d7660a552195">
+			<Properties>
+				<Name>СуммаМаржиРуб</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="4633797e-7776-b62a-9306-9a9f9f6afc1d">
+			<Properties>
+				<Name>МаржаПроцент</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>5</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="4a46d868-da3e-5389-d1bc-fc32efe84edd">
+			<Properties>
+				<Name>ОбщийВес</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="f578b6b8-c539-e151-b08b-4423c80f9234">
+			<Properties>
+				<Name>ОбщийОбъемныйВес</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="5b21d29f-9941-a981-3726-a0c554756329">
+			<Properties>
+				<Name>КомментарийСогласования</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>500</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаСогласования</Form>
+
+			<TabularSection uuid="ebfba584-90d3-69e9-c893-a182ab094a7f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.Заказ.Позиции" category="TabularSection">
+						<xr:TypeId>a6fe9716-6e7d-e18a-1b5d-ae1efb5e80c8</xr:TypeId>
+						<xr:ValueId>0ba9db30-42c8-c9fc-dc3d-5994290256a0</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.Заказ.Позиции" category="TabularSectionRow">
+						<xr:TypeId>965136d1-87bc-3fd0-9834-807ebdff844a</xr:TypeId>
+						<xr:ValueId>942870d9-aba0-eae8-d9ad-c067a635c1d3</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Позиции</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="587e489d-895a-1786-08d0-fd8dd1f102a8">
+						<Properties>
+							<Name>Товар</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Товары</v8:Type>
+							</Type>
+							<FillChecking>ShowError</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="be91f7d4-6663-2c5e-0803-ee3f9c5def4d">
+						<Properties>
+							<Name>Производитель</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a5178713-e5b9-c1aa-0e3c-a683a6b4991e">
+						<Properties>
+							<Name>Количество</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>ShowError</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5ae49619-47ed-7d83-00c1-6f5f47b5f502">
+						<Properties>
+							<Name>Поставщик</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Поставщики</v8:Type>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5f72c4ab-3041-6d06-7124-b2f522181aa2">
+						<Properties>
+							<Name>СтранаПоставки</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2202883e-cae5-97ba-3b9d-89e4c59f68cc">
+						<Properties>
+							<Name>ЦенаДилераВалюта</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>ShowError</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="17ab4d47-3db7-5060-bcb2-10ae593cd386">
+						<Properties>
+							<Name>Валюта</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>3</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<FillChecking>ShowError</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d00c6002-89b9-1923-2c97-4bf4dac57004">
+						<Properties>
+							<Name>ФлагVAT5</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a7d85098-9d37-4b0d-8ada-c54b80989e0b">
+						<Properties>
+							<Name>ВесФакт</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a89c8a22-6839-85ec-e59d-5fa835e962ee">
+						<Properties>
+							<Name>Длина</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f5563453-a664-e7a3-3293-c6ffbf10864e">
+						<Properties>
+							<Name>Ширина</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="eee232d7-980e-c7f6-842f-9ff161c665b0">
+						<Properties>
+							<Name>Высота</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bdc32b1f-cd70-0e0a-e75b-e3231ffbbd75">
+						<Properties>
+							<Name>ВесОбъемный</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b6641826-02d7-6526-c463-aa2f0302759a">
+						<Properties>
+							<Name>ТипДоставки</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:EnumRef.ТипДоставки</v8:Type>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="18aca43e-fa07-f24f-fcb4-0ca77aa3ad99">
+						<Properties>
+							<Name>ПланДатаПоставки</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c264b3f6-2e1a-d2bf-b2f7-08a9e6ba428f">
+						<Properties>
+							<Name>ФактДатаПоставки</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7fc3cc9d-a931-930c-b42d-204d3eb161a0">
+						<Properties>
+							<Name>КурсВалюты</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>6</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8ddd545a-ca8a-797b-1dc2-656ec250150b">
+						<Properties>
+							<Name>КомиссияОплатыПроцент</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="49ad2fb7-ddf9-a8ed-b0b1-43264f2354e3">
+						<Properties>
+							<Name>ПланСтоимостьДоставки</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e7d6fcb5-6844-2686-b316-fb850c975f7f">
+						<Properties>
+							<Name>ФактСтоимостьДоставки</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c15d41ed-0279-44bf-5a80-6c5e1a125f28">
+						<Properties>
+							<Name>ПроцентПошлины</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6a60faa1-914c-f2e7-a603-7f8ab27e5c0b">
+						<Properties>
+							<Name>СуммаПошлины</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cd7773e1-09ad-814b-b210-133ca814bd9c">
+						<Properties>
+							<Name>СтавкаНДСВвоз</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6b2f8c42-aa37-0ed7-a86d-22fb0b400ae3">
+						<Properties>
+							<Name>СуммаНДСВвоз</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a07dca35-c23a-8865-5c17-689bd88fad36">
+						<Properties>
+							<Name>ПроцентКомиссии</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9a7993a1-4310-79fe-81d3-e8dffe304efb">
+						<Properties>
+							<Name>СуммаКомиссии</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c6cdd5d1-1804-9d88-d9b9-2c672b86ca7b">
+						<Properties>
+							<Name>ПроцентМаржи</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cddc1d42-621f-551e-6019-be99df73c3ba">
+						<Properties>
+							<Name>ЦенаИтогРуб</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="094b83c6-bd21-2911-54b7-17348baf4c87">
+						<Properties>
+							<Name>ИтоговаяСуммаРуб</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f32c095c-1cdd-b274-a7f1-069386ffa35a">
+						<Properties>
+							<Name>ЦенаПродажиООО</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="99214ce8-0308-fd3c-c475-501562ca0d7c">
+						<Properties>
+							<Name>ЦенаПродажиИП13</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d22e488c-5811-2ef4-9b80-165e48d3eb0d">
+						<Properties>
+							<Name>ЦенаПродажиИП7</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="46263a8a-af72-f89f-6235-03e94f35736d">
+						<Properties>
+							<Name>ЦенаПродажиИП6</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="dcf3db91-ceff-25b8-1e40-c70eb5b31b1a">
+						<Properties>
+							<Name>РыночнаяЦена</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b61eb291-1f14-2074-cb89-46ba197916d1">
+						<Properties>
+							<Name>ПрибыльНаЕдиницу</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="dffc9a25-6310-08c4-c4a1-4ac2a0553cbe">
+						<Properties>
+							<Name>ПрибыльСумма</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="31278a99-4f5a-65db-170e-00bdba6475d7">
+						<Properties>
+							<Name>ПроцСопутствующихРасходов</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ece81991-9758-df2c-df85-68879afd506c">
+						<Properties>
+							<Name>Комментарий</Name>
+							<Synonym/>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>150</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<FillChecking>DontCheck</FillChecking>
+
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

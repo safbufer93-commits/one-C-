@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="e8a73e89-b841-471d-b545-e0d49b470047">
+	<mdclass:n>ТипДоставки</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип доставки</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="54d8a2c6-c87f-4e71-9676-00758ffbfec0">
+		<mdclass:n>АвтоT1</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>АвтоT1</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="5dbc3fe5-84d8-49a1-9712-81b6ff58950c">
+		<mdclass:n>Карго63Авиа</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Карго63Авиа</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="26ab0cca-0a4d-46c5-83f5-a79b678151c4">
+		<mdclass:n>КаргоРиммеил7дней</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>КаргоРиммеил7дней</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="eac0cb67-12a3-4088-b771-e6fe0aa1a32c">
+		<mdclass:n>КаргоРиммеил5дней</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>КаргоРиммеил5дней</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="e0a43a02-b675-44e9-96d2-2ce4cd72241b">
+		<mdclass:n>КаргоРиммеилЭкспресс</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>КаргоРиммеилЭкспресс</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="d8e7e402-e343-4b78-a29f-3ffaca312568">
+		<mdclass:n>ОАЭАвиаСТаможней</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ОАЭАвиаСТаможней</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="0a565442-4355-44b3-af05-bdf0ae0ad19b">
+		<mdclass:n>ОАЭАвиаБезТаможни</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ОАЭАвиаБезТаможни</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="b44fce99-803b-4781-8c5e-4b7609f0efbf">
+		<mdclass:n>ТурцияАвиаСТаможней</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ТурцияАвиаСТаможней</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="507772f6-eb7c-4005-88f3-3cac66963065">
+		<mdclass:n>ТурцияСборный20дней</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ТурцияСборный20дней</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="123e43a9-0871-4ee6-b1bb-750070e1e2ac">
+		<mdclass:n>Польша3дня</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Польша3дня</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="1d94b8c3-1a34-4b02-8fea-189a8ae0ada1">
+		<mdclass:n>ТурцияДЛМорской</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ТурцияДЛМорской</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

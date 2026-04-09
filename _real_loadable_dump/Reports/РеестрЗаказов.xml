@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Report uuid="a434df32-7723-837e-ef4f-ad8fe1ecae1a">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.РеестрЗаказов" category="Object">
+				<xr:TypeId>2bd61ab3-9f30-08c5-6216-c9b7daeae174</xr:TypeId>
+				<xr:ValueId>64387d78-111d-499d-1c43-b004abd75023</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.РеестрЗаказов" category="Manager">
+				<xr:TypeId>c4002ad9-e6ba-9782-18e6-c4c2c4aa1db8</xr:TypeId>
+				<xr:ValueId>ec1d8b97-a2f2-de98-360a-913909d8c9db</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РеестрЗаказов</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

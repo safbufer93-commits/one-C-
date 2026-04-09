@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Catalog" uuid="ef0b54a9-2bea-4e14-96a4-bd86c9476f10">
+	<mdclass:n>Перевозчики</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Перевозчики</core:content></core:item></mdclass:Synonym>
+	<mdclass:Hierarchical>false</mdclass:Hierarchical>
+	<mdclass:CodeLength>9</mdclass:CodeLength>
+	<mdclass:DescriptionLength>150</mdclass:DescriptionLength>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+		<mdclass:Attribute uuid="b087efd6-bf16-4006-bd70-b1750810512b">
+			<mdclass:n>ИНН</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ИНН</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>12</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="8fafe5bd-dcb3-4d9c-b2dd-3ae2e97e0ef1">
+			<mdclass:n>Телефон</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Телефон</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>20</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="5ddfb541-200b-4990-95f3-769a4ced8ba0">
+			<mdclass:n>Email</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Email</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>100</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+</mdclass:Catalog>

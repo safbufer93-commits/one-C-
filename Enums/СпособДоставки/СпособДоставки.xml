@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="85e4bd87-c00f-46f2-b478-f8060afa2087">
+	<mdclass:n>СпособДоставки</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Способ доставки</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="5d65fbe0-02e3-4a91-a476-334b178122a1">
+		<mdclass:n>Самовывоз</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Самовывоз</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="b7daf9cd-7c61-435c-843c-bf0f286966c8">
+		<mdclass:n>ДоТК</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ДоТК</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="3ec6a2f1-7986-4cef-8038-1c82ddd1c6fe">
+		<mdclass:n>ДоставкаДоДвери</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ДоставкаДоДвери</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

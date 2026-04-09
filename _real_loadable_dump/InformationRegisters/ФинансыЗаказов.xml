@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a6e68884-19a7-fbf9-69f6-52d9ced7a0f6">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ФинансыЗаказов" category="Record">
+				<xr:TypeId>66d9b8f7-f695-47bc-8c9b-924b3575874e</xr:TypeId>
+				<xr:ValueId>1e307c96-c435-6029-d09f-07d745f09d4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ФинансыЗаказов" category="Manager">
+				<xr:TypeId>6486cfac-6c37-8755-3ee6-edcb4f4e6a08</xr:TypeId>
+				<xr:ValueId>02c17cb3-17b7-6330-d6ab-cf61e81783ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ФинансыЗаказов" category="Selection">
+				<xr:TypeId>ad4c02d9-4081-3b0b-bbc6-8441c882d88f</xr:TypeId>
+				<xr:ValueId>7c6d2bb9-bbaa-e845-a3f0-76027c32bb49</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ФинансыЗаказов" category="List">
+				<xr:TypeId>bafb9da9-4363-7735-6b8c-bf1fb5bec889</xr:TypeId>
+				<xr:ValueId>6f540230-aa94-f632-b35d-503f836590c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ФинансыЗаказов" category="RecordSet">
+				<xr:TypeId>2696920c-464b-b409-c083-27e8ca700388</xr:TypeId>
+				<xr:ValueId>9bc8af7a-adae-892f-7246-be33d5802e3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ФинансыЗаказов" category="RecordKey">
+				<xr:TypeId>32abd439-6735-3719-40ec-581cf0ba0af9</xr:TypeId>
+				<xr:ValueId>2063638f-af74-6afd-a6bf-93dbfdea6694</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ФинансыЗаказов" category="RecordManager">
+				<xr:TypeId>2f143dab-c9d7-b33b-7abe-19a15c5c1482</xr:TypeId>
+				<xr:ValueId>89917985-d31f-0256-ddec-6c57f3742e56</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФинансыЗаказов</Name>
+			<Synonym/>
+			<Comment/>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+		<Dimension uuid="b5365804-4a27-d3fa-51e3-6746e5cd08bb">
+			<Properties>
+				<Name>Заказ</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Заказ</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="cc826e94-c27f-7e0b-5b75-a9df3fe92aa9">
+			<Properties>
+				<Name>ВидОплаты</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.ВидОплаты</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Resource uuid="aaf7e22c-d002-0963-54c9-40092e1057e3">
+			<Properties>
+				<Name>Сумма</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Resource uuid="70ddfc64-907b-3553-067e-9921a50a2c93">
+			<Properties>
+				<Name>СуммаРуб</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Attribute uuid="c5482776-0b74-a5c5-abb5-246876b17221">
+			<Properties>
+				<Name>СтатусОплаты</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="c56e0bf7-16f8-ad56-a3cc-0a60e9e36623">
+			<Properties>
+				<Name>КонтрагентЗаказчик</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Заказчики</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="17c083ad-7e99-615e-ae83-638c6f9380e6">
+			<Properties>
+				<Name>Валюта</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>3</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="980a8cc7-6103-5654-eafd-346fa71b6b85">
+			<Properties>
+				<Name>ДатаПлан</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="bcb9d948-534b-9c9b-4444-2fd79323af35">
+			<Properties>
+				<Name>ДатаФакт</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="bde523cd-8859-7f91-56d8-b0e4a920bc02">
+			<Properties>
+				<Name>ДокументОплаты</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.ОплатаЗаказа</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

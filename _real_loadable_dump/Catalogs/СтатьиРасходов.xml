@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="01ebcfb6-538a-04e9-81b6-445e95e4133d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиРасходов" category="Object">
+				<xr:TypeId>a0e61702-2964-9938-c67c-036be28b5b23</xr:TypeId>
+				<xr:ValueId>e106a0fd-dfd9-19ed-ad5b-dbb6b0a4bec9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиРасходов" category="Ref">
+				<xr:TypeId>5b30e5cf-f8cc-1b55-5db9-4a40c5ae6821</xr:TypeId>
+				<xr:ValueId>b52c0257-d713-8864-3dd6-1645457c2b8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиРасходов" category="Selection">
+				<xr:TypeId>b7d679e4-a11e-f0c2-a9d4-47273cfa77d3</xr:TypeId>
+				<xr:ValueId>5cae2f29-c21f-6ab0-61ef-a59b15515523</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиРасходов" category="List">
+				<xr:TypeId>7409a8ab-6400-dd4b-7cdd-ff3bcc34ae4f</xr:TypeId>
+				<xr:ValueId>646b4a4f-db22-e443-d623-22978a626cc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиРасходов" category="Manager">
+				<xr:TypeId>872a5caf-6166-5edf-4fe4-edc5d0d3cce1</xr:TypeId>
+				<xr:ValueId>498d3f8f-5174-e693-c26b-06dd9f8dc95f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатьиРасходов</Name>
+			<Synonym/>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Catalog.СтатьиРасходов.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultListForm>Catalog.СтатьиРасходов.Form.ФормаСписка</DefaultListForm>
+		</Properties>
+		<ChildObjects>
+
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

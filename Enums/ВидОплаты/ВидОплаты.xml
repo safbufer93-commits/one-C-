@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="9bf9cc74-4a3d-4237-89f9-ebaa9be79c02">
+	<mdclass:n>ВидОплаты</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Вид оплаты</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="321358ef-8cfc-45c0-a979-08dc75a6861f">
+		<mdclass:n>ОтЗаказчика</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ОтЗаказчика</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="33069f66-72ea-4e61-a1ac-76668ab3959e">
+		<mdclass:n>Поставщику</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Поставщику</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="2ad5440c-221b-4ad4-899c-7647b2640e9f">
+		<mdclass:n>Перевозчику</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Перевозчику</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="aa8fabbf-b559-4e34-9027-e4a450c39df8">
+		<mdclass:n>Прочее</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Прочее</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

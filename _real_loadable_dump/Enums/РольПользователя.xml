@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="7a01c50c-1940-8133-a177-a0ed815b73ea">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РольПользователя" category="Ref">
+				<xr:TypeId>ecbb5aa5-b7d0-4cf8-c109-611f23f63652</xr:TypeId>
+				<xr:ValueId>7d6d52b8-1c53-59a9-7c92-4f8c4572e346</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РольПользователя" category="Manager">
+				<xr:TypeId>9f9e9a80-0d2e-d940-77cb-54fdaf4c2404</xr:TypeId>
+				<xr:ValueId>2f9ab37e-7dbb-2031-f834-449c9b5e6eba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РольПользователя" category="List">
+				<xr:TypeId>128d3ff7-044a-6cf7-ebeb-f3ee18528fc0</xr:TypeId>
+				<xr:ValueId>b1a46f99-e68c-562c-fb50-41f520cf463d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РольПользователя</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c34a834a-4b40-961e-1eb8-325037e156de">
+				<Properties>
+					<Name>Менеджер</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="01e13a60-60ae-63ff-ad78-7a341b590e3c">
+				<Properties>
+					<Name>Логист</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="66c93a73-7973-9f60-0515-e0d8fe7ff57d">
+				<Properties>
+					<Name>Финансист</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7499d810-5826-8d14-cfc1-cbb0d3c2f78f">
+				<Properties>
+					<Name>Руководитель</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6501dad4-b67e-80c8-f97c-d83036be0c8d">
+				<Properties>
+					<Name>Администратор</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

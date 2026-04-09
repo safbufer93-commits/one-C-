@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Subsystem" uuid="767f8c42-9bfb-4634-8328-146c40a01001">
+	<mdclass:n>НСИ</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>НСИ</core:content></core:item></mdclass:Synonym>
+	<mdclass:Comment>Справочники и классификаторы системы.</mdclass:Comment>
+</mdclass:Subsystem>

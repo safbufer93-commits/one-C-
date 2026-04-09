@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Role" uuid="6d82b0d0-6f44-4280-be35-f95adad1387a">
+	<mdclass:n>Администратор</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Администратор</core:content></core:item></mdclass:Synonym>
+</mdclass:Role>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="fe9cbcb9-71a0-d93d-0a31-ce9d7892f4da">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипДоставки" category="Ref">
+				<xr:TypeId>d4134554-4109-d183-f017-93a3b15f28e1</xr:TypeId>
+				<xr:ValueId>972d69b1-bb9f-ae8f-873a-d5e1c9a85331</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипДоставки" category="Manager">
+				<xr:TypeId>921354d2-09e3-6da4-5b9c-bbb701070ccd</xr:TypeId>
+				<xr:ValueId>f442df8b-364e-8bce-04bf-893ac4d69d8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипДоставки" category="List">
+				<xr:TypeId>70de30de-8259-8c5e-7ad0-c48fecfb0d50</xr:TypeId>
+				<xr:ValueId>9429db5b-2569-a65e-2518-a96c3c19af59</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипДоставки</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="87e961fa-1063-9792-ed56-fe71beba7d30">
+				<Properties>
+					<Name>АвтоT1</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c3480597-99d1-4a5d-91d5-da36695c98bc">
+				<Properties>
+					<Name>Карго63Авиа</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c83f9e7e-254b-5f39-2402-0d93d39c1cfc">
+				<Properties>
+					<Name>КаргоРиммеил7дней</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="07d2a7ea-0641-c148-d0a9-06329459d9cc">
+				<Properties>
+					<Name>КаргоРиммеил5дней</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c678f04b-169e-e6ee-cbeb-b87afaf4e9d3">
+				<Properties>
+					<Name>КаргоРиммеилЭкспресс</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0b399f01-6044-1ccb-5d00-c7f0cb6f6257">
+				<Properties>
+					<Name>ОАЭАвиаСТаможней</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d1c5c2f3-b3f8-b5b1-6250-bfe65e731c67">
+				<Properties>
+					<Name>ОАЭАвиаБезТаможни</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="64640766-5ebd-ef6a-fff9-3ba7b50e1074">
+				<Properties>
+					<Name>ТурцияАвиаСТаможней</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="553d21db-1ed9-4edf-c23b-8bd866f095e5">
+				<Properties>
+					<Name>ТурцияСборный20дней</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e5b4638c-50b7-89e9-b36c-3ccf3f50efd9">
+				<Properties>
+					<Name>Польша3дня</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d374dfb2-9d7e-c1cf-a63c-090f2d732b0b">
+				<Properties>
+					<Name>ТурцияДЛМорской</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

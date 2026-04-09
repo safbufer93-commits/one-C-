@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="16bb3b9a-a7d1-0262-3bef-4fbedd0b4ade">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.Уведомления" category="Record">
+				<xr:TypeId>091bf45f-fe71-bf50-60dc-9027d3612b61</xr:TypeId>
+				<xr:ValueId>75a12dc8-2294-6c56-9150-b16e13c2de0b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.Уведомления" category="Manager">
+				<xr:TypeId>7875e559-d088-aaf1-4242-652a9160bc6b</xr:TypeId>
+				<xr:ValueId>50e32985-e389-ff54-5bc6-65b46a371213</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.Уведомления" category="Selection">
+				<xr:TypeId>04bd2c64-5ffc-1775-a3aa-08a3bc02c6f5</xr:TypeId>
+				<xr:ValueId>a0bbcfd9-0ff0-560c-f44c-36c21d05bd75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.Уведомления" category="List">
+				<xr:TypeId>69fefabc-660a-9ca1-4dd7-0157e0bf71d5</xr:TypeId>
+				<xr:ValueId>be06332b-2193-6f90-77a5-c3542b48f1c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.Уведомления" category="RecordSet">
+				<xr:TypeId>771216c4-2338-48bc-d0fd-73a34dedd7b5</xr:TypeId>
+				<xr:ValueId>3a7b3ed2-9634-9613-6c22-846a1428b07b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.Уведомления" category="RecordKey">
+				<xr:TypeId>67b6f2a0-3656-8156-89ec-9427092287c5</xr:TypeId>
+				<xr:ValueId>c2369380-6037-406c-a994-7000d1ba84a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.Уведомления" category="RecordManager">
+				<xr:TypeId>ba1d4991-4de7-640d-0a21-d974d990d030</xr:TypeId>
+				<xr:ValueId>0f32b836-27af-bc68-cc08-867ab7e9653d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Уведомления</Name>
+			<Synonym/>
+			<Comment/>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+		<Dimension uuid="7639175d-931b-efd1-fc41-5a6f46df3070">
+			<Properties>
+				<Name>Получатель</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="335060d4-b174-deba-0d00-6875d76aa065">
+			<Properties>
+				<Name>Тип</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>50</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Resource uuid="b50daa99-aed8-ad6f-1c85-78701994c0b4">
+			<Properties>
+				<Name>Текст</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>500</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Resource uuid="5c1d309c-e10e-5ccb-db18-ee06cb231178">
+			<Properties>
+				<Name>Прочитано</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Attribute uuid="06364b65-c8b0-250f-c741-92b5dfa90bab">
+			<Properties>
+				<Name>Заказ</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Заказ</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="01e49734-bcea-9ea0-4c5c-47ff9030e8f8">
+			<Properties>
+				<Name>Отправка</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Отправка</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="a5ef5de1-657f-8507-444c-4dafb22a3bfe">
+			<Properties>
+				<Name>ДатаПрочтения</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

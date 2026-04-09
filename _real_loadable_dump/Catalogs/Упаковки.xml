@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="42c419cc-7c4b-498e-fea6-bcbe77f93bde">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Упаковки" category="Object">
+				<xr:TypeId>49a8e75d-5492-29b0-e842-d6697e39d767</xr:TypeId>
+				<xr:ValueId>4a3ed4f5-67a4-49bb-edf1-ed8771147244</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Упаковки" category="Ref">
+				<xr:TypeId>59c8b099-3816-35dc-d5d5-3ba941201f23</xr:TypeId>
+				<xr:ValueId>f90b73f6-2543-d5c4-9b3e-d331763a43cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Упаковки" category="Selection">
+				<xr:TypeId>5ad6182c-b412-0b49-0ab4-0f5ab321942d</xr:TypeId>
+				<xr:ValueId>794496e2-fa42-5ae6-51a1-a83b991a4f87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Упаковки" category="List">
+				<xr:TypeId>f095bcb0-f94f-c507-3d5e-df3969394cc2</xr:TypeId>
+				<xr:ValueId>3f061364-ae24-12b1-2977-1b7e6284e42f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Упаковки" category="Manager">
+				<xr:TypeId>06ef0ebc-6e3b-b020-4d0a-4a1f12297830</xr:TypeId>
+				<xr:ValueId>d0871050-3c80-7319-1e1c-5357238bb67c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Упаковки</Name>
+			<Synonym/>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Catalog.Упаковки.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultListForm>Catalog.Упаковки.Form.ФормаСписка</DefaultListForm>
+		</Properties>
+		<ChildObjects>
+		<Attribute uuid="1f6fcf0b-feb2-cba9-c07f-0da7bc0a2fc4">
+			<Properties>
+				<Name>ТипУпаковки</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>100</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="d6075732-bb84-d708-c288-37f7e02db6e5">
+			<Properties>
+				<Name>КоличествоМест</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>10</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="1f53857b-adf0-0dfd-0b8b-baed2d1fe116">
+			<Properties>
+				<Name>ВесФакт</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="bc06f079-fb44-d3dc-75dc-b1ddc5ccd965">
+			<Properties>
+				<Name>Объем</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>3</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="120a94bf-b13d-5827-b0c7-b01d3da75a0f">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

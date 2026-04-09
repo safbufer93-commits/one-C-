@@ -1,0 +1,3425 @@
+{
+  "path": "C:\\Users\\Admin\\Desktop\\Под антона\\Новая папка\\фИНАЛ\\ERP вроде финал.html",
+  "label_count": 263,
+  "labels": [
+    {
+      "id": "21",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Reference_Контрагенты",
+      "geometry": {
+        "x": "19.5",
+        "y": "0.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "22",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "RefContr",
+      "geometry": {
+        "x": "67",
+        "y": "9.2",
+        "width": "38.4",
+        "height": "12"
+      }
+    },
+    {
+      "id": "23",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "24",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "154",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "25",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Code : nvarchar(11)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "108",
+        "height": "13"
+      }
+    },
+    {
+      "id": "26",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Description : nvarchar(150)",
+      "geometry": {
+        "x": "5",
+        "y": "68.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "27",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ИНН : nvarchar(12)",
+      "geometry": {
+        "x": "5",
+        "y": "108.15",
+        "width": "124.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "28",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Телефон : nvarchar(20)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "29",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Email : nvarchar(100)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "30",
+      "parent": "2",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ФормаОплаты : smallint",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "58",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Document_ЗаказКлиента",
+      "geometry": {
+        "x": "50.5",
+        "y": "0.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "59",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "DOrder",
+      "geometry": {
+        "x": "104.5",
+        "y": "9.2",
+        "width": "28.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "60",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "61",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "223",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "62",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Number : nvarchar(11)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "63",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Date_Time : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "68.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "64",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Posted : bit",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "70.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "65",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_КонтрагентRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "66",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "223",
+        "y": "128.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "67",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_МенеджерRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "162",
+        "height": "13"
+      }
+    },
+    {
+      "id": "68",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "223",
+        "y": "148.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "69",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_НомерЗаказаЗаказчика : nvarchar(20)",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "216",
+        "height": "13"
+      }
+    },
+    {
+      "id": "70",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СтатусОплатыRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "71",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "223",
+        "y": "188.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "72",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_МестоДоставки : nvarchar(100)",
+      "geometry": {
+        "x": "5",
+        "y": "208.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "73",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СпособДоставки : smallint",
+      "geometry": {
+        "x": "5",
+        "y": "228.15",
+        "width": "162",
+        "height": "13"
+      }
+    },
+    {
+      "id": "74",
+      "parent": "31",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Примечание : nvarchar(500)",
+      "geometry": {
+        "x": "5",
+        "y": "248.15",
+        "width": "167.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "100",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Reference_Номенклатура",
+      "geometry": {
+        "x": "31.5",
+        "y": "0.15",
+        "width": "124.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "101",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "RefNom",
+      "geometry": {
+        "x": "84",
+        "y": "9.2",
+        "width": "28.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "102",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "103",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "184",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "104",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Code : nvarchar(11)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "108",
+        "height": "13"
+      }
+    },
+    {
+      "id": "105",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Description : nvarchar(150)",
+      "geometry": {
+        "x": "5",
+        "y": "68.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "106",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Артикул : nvarchar(30)",
+      "geometry": {
+        "x": "5",
+        "y": "108.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "107",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Производитель : nvarchar(60)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "178.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "108",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВесФакт : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "109",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Длина : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "110",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Ширина : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "111",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Высота : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "208.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "112",
+      "parent": "75",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВесОбъемный : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "228.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "152",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Document_ЗаказКлиента_T_Товары",
+      "geometry": {
+        "x": "38",
+        "y": "0.15",
+        "width": "167.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "153",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "DOrderLines",
+      "geometry": {
+        "x": "109",
+        "y": "9.2",
+        "width": "52.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "154",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "155",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK, FK",
+      "geometry": {
+        "x": "237",
+        "y": "28.7",
+        "width": "28.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "156",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _LineNo : int",
+      "geometry": {
+        "x": "5",
+        "y": "47.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "157",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "237",
+        "y": "48.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "158",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_НоменклатураRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "159",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "237",
+        "y": "88.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "160",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Количество : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "108.15",
+        "width": "167.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "161",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ПоставщикRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "167.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "162",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "237",
+        "y": "128.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "163",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ЦенаВалюта : numeric(15,2)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "167.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "164",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_VAT5 : bit",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "165",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Валюта : nvarchar(10)",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "166",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВесФакт : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "208.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "167",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Длина : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "228.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "168",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Ширина : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "248.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "169",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Высота : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "268.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "170",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВесОбъемный : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "288.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "171",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ПланДатаДоставки : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "308.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "172",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СпособДоставкиПлан : smallint",
+      "geometry": {
+        "x": "5",
+        "y": "328.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "173",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СтоимостьДоставкиПлан : numeric(15,2)",
+      "geometry": {
+        "x": "5",
+        "y": "348.15",
+        "width": "226.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "174",
+      "parent": "113",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СтоимостьДоставкиФакт : numeric(15,2)",
+      "geometry": {
+        "x": "5",
+        "y": "368.15",
+        "width": "226.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "190",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Document_ЗаказПоставщику_T_Товары",
+      "geometry": {
+        "x": "5",
+        "y": "0.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "191",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "DSupOrderLines",
+      "geometry": {
+        "x": "78.5",
+        "y": "9.2",
+        "width": "67.2",
+        "height": "12"
+      }
+    },
+    {
+      "id": "192",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "193",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK, FK",
+      "geometry": {
+        "x": "191",
+        "y": "28.7",
+        "width": "28.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "194",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _LineNo : int",
+      "geometry": {
+        "x": "5",
+        "y": "47.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "195",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "191",
+        "y": "48.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "196",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_НоменклатураRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "197",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "191",
+        "y": "88.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "198",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Количество : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "108.15",
+        "width": "167.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "199",
+      "parent": "175",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Цена : numeric(15,2)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "135",
+        "height": "13"
+      }
+    },
+    {
+      "id": "221",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Document_ЗаказНаПеревозку_T_Позиции",
+      "geometry": {
+        "x": "5",
+        "y": "0.15",
+        "width": "194.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "222",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "DShipPos",
+      "geometry": {
+        "x": "99.5",
+        "y": "9.2",
+        "width": "38.4",
+        "height": "12"
+      }
+    },
+    {
+      "id": "223",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "224",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK, FK",
+      "geometry": {
+        "x": "197",
+        "y": "28.7",
+        "width": "28.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "225",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _LineNo : int",
+      "geometry": {
+        "x": "5",
+        "y": "47.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "226",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "197",
+        "y": "48.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "227",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ЗаказКлиентаRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "228",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "197",
+        "y": "88.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "229",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СтрокаЗаказа : int",
+      "geometry": {
+        "x": "5",
+        "y": "108.15",
+        "width": "124.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "230",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_НоменклатураRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "231",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "197",
+        "y": "128.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "232",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Количество : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "167.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "233",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВесФакт : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "234",
+      "parent": "200",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВесОбъемный : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "250",
+      "parent": "235",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Reference_Статусы",
+      "geometry": {
+        "x": "31",
+        "y": "0.15",
+        "width": "97.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "251",
+      "parent": "235",
+      "edge": null,
+      "vertex": "1",
+      "value": "RefStatus",
+      "geometry": {
+        "x": "64.5",
+        "y": "9.2",
+        "width": "43.2",
+        "height": "12"
+      }
+    },
+    {
+      "id": "252",
+      "parent": "235",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "253",
+      "parent": "235",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "151",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "254",
+      "parent": "235",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Description : nvarchar(100)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "255",
+      "parent": "235",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Категория : smallint",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "135",
+        "height": "13"
+      }
+    },
+    {
+      "id": "256",
+      "parent": "235",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Порядок : int",
+      "geometry": {
+        "x": "5",
+        "y": "108.15",
+        "width": "97.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "257",
+      "parent": "235",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Финальный : bit",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "108",
+        "height": "13"
+      }
+    },
+    {
+      "id": "287",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Document_ЗаказНаПеревозку",
+      "geometry": {
+        "x": "25.5",
+        "y": "0.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "288",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "DShip",
+      "geometry": {
+        "x": "95.5",
+        "y": "9.2",
+        "width": "24",
+        "height": "12"
+      }
+    },
+    {
+      "id": "289",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "290",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "199",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "291",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Number : nvarchar(11)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "292",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Date_Time : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "68.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "293",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Posted : bit",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "70.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "294",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ПеревозчикRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "295",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "199",
+        "y": "128.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "296",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ТрекНомер : nvarchar(50)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "156.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "297",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_МаршрутRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "156.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "298",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "199",
+        "y": "168.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "299",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ПланДатаОтправки : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "300",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ФактДатаОтправки : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "208.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "301",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ПланДатаПрибытия : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "228.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "302",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ФактДатаПрибытия : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "248.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "303",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СтатусДоставкиRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "268.15",
+        "width": "194.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "304",
+      "parent": "258",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "199",
+        "y": "268.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "332",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "_InfoRg_ФинансыЗаказов",
+      "geometry": {
+        "x": "35.5",
+        "y": "0.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "333",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "IFin",
+      "geometry": {
+        "x": "95.5",
+        "y": "9.2",
+        "width": "19.2",
+        "height": "12"
+      }
+    },
+    {
+      "id": "334",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _Period : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "108",
+        "height": "13"
+      }
+    },
+    {
+      "id": "335",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "190",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "336",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "47.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "337",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "190",
+        "y": "48.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "338",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderTRef : int",
+      "geometry": {
+        "x": "5",
+        "y": "67.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "339",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "190",
+        "y": "68.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "340",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _LineNo : int",
+      "geometry": {
+        "x": "5",
+        "y": "87.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "341",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "190",
+        "y": "88.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "342",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ЗаказКлиентаRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "343",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "190",
+        "y": "128.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "344",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВидОплаты : smallint",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "135",
+        "height": "13"
+      }
+    },
+    {
+      "id": "345",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СтатусОплатыRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "346",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "190",
+        "y": "168.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "347",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Сумма : numeric(15,2)",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "348",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СуммаРуб : numeric(15,2)",
+      "geometry": {
+        "x": "5",
+        "y": "208.15",
+        "width": "156.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "349",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ДатаПлан : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "228.15",
+        "width": "129.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "350",
+      "parent": "305",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ДатаФакт : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "248.15",
+        "width": "129.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "362",
+      "parent": "351",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Reference_Перевозчики",
+      "geometry": {
+        "x": "17.5",
+        "y": "0.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "363",
+      "parent": "351",
+      "edge": null,
+      "vertex": "1",
+      "value": "RefCarrier",
+      "geometry": {
+        "x": "62.5",
+        "y": "9.2",
+        "width": "48",
+        "height": "12"
+      }
+    },
+    {
+      "id": "364",
+      "parent": "351",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "365",
+      "parent": "351",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "151",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "366",
+      "parent": "351",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Description : nvarchar(150)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "367",
+      "parent": "351",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Телефон : nvarchar(20)",
+      "geometry": {
+        "x": "5",
+        "y": "68.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "368",
+      "parent": "351",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Email : nvarchar(100)",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "386",
+      "parent": "369",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Reference_МаршрутыДоставки",
+      "geometry": {
+        "x": "28.5",
+        "y": "0.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "387",
+      "parent": "369",
+      "edge": null,
+      "vertex": "1",
+      "value": "RefRoute",
+      "geometry": {
+        "x": "94.5",
+        "y": "9.2",
+        "width": "38.4",
+        "height": "12"
+      }
+    },
+    {
+      "id": "388",
+      "parent": "369",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "389",
+      "parent": "369",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "209",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "390",
+      "parent": "369",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Description : nvarchar(150)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "391",
+      "parent": "369",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ТипПеревозки : smallint",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "392",
+      "parent": "369",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СтранаОтправления : nvarchar(60)",
+      "geometry": {
+        "x": "5",
+        "y": "108.15",
+        "width": "199.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "393",
+      "parent": "369",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СтранаНазначения : nvarchar(60)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "194.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "394",
+      "parent": "369",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Комментарий : nvarchar(200)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "404",
+      "parent": "395",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Reference_ВидыЭтаповДоставки",
+      "geometry": {
+        "x": "5",
+        "y": "0.15",
+        "width": "156.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "405",
+      "parent": "395",
+      "edge": null,
+      "vertex": "1",
+      "value": "RefStageKind",
+      "geometry": {
+        "x": "66.5",
+        "y": "9.2",
+        "width": "57.6",
+        "height": "12"
+      }
+    },
+    {
+      "id": "406",
+      "parent": "395",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "407",
+      "parent": "395",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "161",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "408",
+      "parent": "395",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Description : nvarchar(100)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "409",
+      "parent": "395",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Порядок : int",
+      "geometry": {
+        "x": "5",
+        "y": "68.15",
+        "width": "97.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "433",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "_InfoRg_ЭтапыДоставки",
+      "geometry": {
+        "x": "42.5",
+        "y": "0.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "434",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "IStages",
+      "geometry": {
+        "x": "92",
+        "y": "9.2",
+        "width": "33.6",
+        "height": "12"
+      }
+    },
+    {
+      "id": "435",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _Period : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "108",
+        "height": "13"
+      }
+    },
+    {
+      "id": "436",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "181",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "437",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "47.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "438",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK, FK",
+      "geometry": {
+        "x": "181",
+        "y": "48.7",
+        "width": "28.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "439",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderTRef : int",
+      "geometry": {
+        "x": "5",
+        "y": "67.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "440",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "181",
+        "y": "68.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "441",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _LineNo : int",
+      "geometry": {
+        "x": "5",
+        "y": "87.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "442",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "181",
+        "y": "88.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "443",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВидЭтапаRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "162",
+        "height": "13"
+      }
+    },
+    {
+      "id": "444",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "181",
+        "y": "128.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "445",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ПланДата : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "129.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "446",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ФактДата : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "129.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "447",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Статус : nvarchar(30)",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "448",
+      "parent": "410",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Комментарий : nvarchar(200)",
+      "geometry": {
+        "x": "5",
+        "y": "208.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "458",
+      "parent": "449",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Reference_Упаковки",
+      "geometry": {
+        "x": "58.5",
+        "y": "0.15",
+        "width": "102.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "459",
+      "parent": "449",
+      "edge": null,
+      "vertex": "1",
+      "value": "RefPackKind",
+      "geometry": {
+        "x": "89.5",
+        "y": "9.2",
+        "width": "52.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "460",
+      "parent": "449",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "461",
+      "parent": "449",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "214",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "462",
+      "parent": "449",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Description : nvarchar(100)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "463",
+      "parent": "449",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_КоэфОбъемногоВеса : numeric(10,3)",
+      "geometry": {
+        "x": "5",
+        "y": "68.15",
+        "width": "205.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "487",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Document_ЗаказНаПеревозку_T_Грузоместа",
+      "geometry": {
+        "x": "5",
+        "y": "0.15",
+        "width": "210.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "488",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "DShipPackages",
+      "geometry": {
+        "x": "94.5",
+        "y": "9.2",
+        "width": "62.4",
+        "height": "12"
+      }
+    },
+    {
+      "id": "489",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "490",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK, FK",
+      "geometry": {
+        "x": "201",
+        "y": "28.7",
+        "width": "28.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "491",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _LineNo : int",
+      "geometry": {
+        "x": "5",
+        "y": "47.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "492",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "201",
+        "y": "48.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "493",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ТипУпаковкиRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "178.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "494",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "201",
+        "y": "88.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "495",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_НомерМеста : nvarchar(20)",
+      "geometry": {
+        "x": "5",
+        "y": "108.15",
+        "width": "162",
+        "height": "13"
+      }
+    },
+    {
+      "id": "496",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВесФакт : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "497",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Длина : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "498",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Ширина : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "499",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Высота : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "500",
+      "parent": "464",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВесОбъемный : numeric(15,3)",
+      "geometry": {
+        "x": "5",
+        "y": "208.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "512",
+      "parent": "501",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Reference_Пользователи",
+      "geometry": {
+        "x": "16",
+        "y": "0.15",
+        "width": "124.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "513",
+      "parent": "501",
+      "edge": null,
+      "vertex": "1",
+      "value": "RefUsers",
+      "geometry": {
+        "x": "65.5",
+        "y": "9.2",
+        "width": "38.4",
+        "height": "12"
+      }
+    },
+    {
+      "id": "514",
+      "parent": "501",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "515",
+      "parent": "501",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "151",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "516",
+      "parent": "501",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Description : nvarchar(150)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "517",
+      "parent": "501",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Login : nvarchar(50)",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "135",
+        "height": "13"
+      }
+    },
+    {
+      "id": "543",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "_InfoRg_ПрисоединенныеФайлы",
+      "geometry": {
+        "x": "5.5",
+        "y": "0.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "544",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "IAttach",
+      "geometry": {
+        "x": "76.5",
+        "y": "9.2",
+        "width": "33.6",
+        "height": "12"
+      }
+    },
+    {
+      "id": "545",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _Period : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "108",
+        "height": "13"
+      }
+    },
+    {
+      "id": "546",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "166",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "547",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "47.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "548",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "166",
+        "y": "48.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "549",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderTRef : int",
+      "geometry": {
+        "x": "5",
+        "y": "67.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "550",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "166",
+        "y": "68.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "551",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _LineNo : int",
+      "geometry": {
+        "x": "5",
+        "y": "87.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "552",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "166",
+        "y": "88.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "553",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВладелецRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "162",
+        "height": "13"
+      }
+    },
+    {
+      "id": "554",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВладелецTRef : int",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "124.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "555",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ФайлRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "556",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "166",
+        "y": "168.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "557",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ВидДокумента : smallint",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "558",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Описание : nvarchar(200)",
+      "geometry": {
+        "x": "5",
+        "y": "208.15",
+        "width": "156.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "559",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_АвторRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "228.15",
+        "width": "145.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "560",
+      "parent": "518",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "166",
+        "y": "228.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "578",
+      "parent": "561",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Reference_Файлы",
+      "geometry": {
+        "x": "44.5",
+        "y": "0.15",
+        "width": "86.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "579",
+      "parent": "561",
+      "edge": null,
+      "vertex": "1",
+      "value": "RefFiles",
+      "geometry": {
+        "x": "77",
+        "y": "9.2",
+        "width": "38.4",
+        "height": "12"
+      }
+    },
+    {
+      "id": "580",
+      "parent": "561",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "581",
+      "parent": "561",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "169",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "582",
+      "parent": "561",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Description : nvarchar(150)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "583",
+      "parent": "561",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ИмяФайла : nvarchar(255)",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "156.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "584",
+      "parent": "561",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Расширение : nvarchar(10)",
+      "geometry": {
+        "x": "5",
+        "y": "108.15",
+        "width": "162",
+        "height": "13"
+      }
+    },
+    {
+      "id": "585",
+      "parent": "561",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Размер : bigint",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "108",
+        "height": "13"
+      }
+    },
+    {
+      "id": "586",
+      "parent": "561",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Данные : varbinary(max)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "608",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "_AccumRg_ДвижениеДенежныхСредств",
+      "geometry": {
+        "x": "5",
+        "y": "0.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "609",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "ACF",
+      "geometry": {
+        "x": "101.5",
+        "y": "9.2",
+        "width": "14.4",
+        "height": "12"
+      }
+    },
+    {
+      "id": "610",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _Period : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "108",
+        "height": "13"
+      }
+    },
+    {
+      "id": "611",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "195",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "612",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "47.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "613",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "195",
+        "y": "48.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "614",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderTRef : int",
+      "geometry": {
+        "x": "5",
+        "y": "67.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "615",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "195",
+        "y": "68.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "616",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _LineNo : int",
+      "geometry": {
+        "x": "5",
+        "y": "87.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "617",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "195",
+        "y": "88.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "618",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "_RecordKind : tinyint",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "619",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ЗаказКлиентаRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "183.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "620",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "195",
+        "y": "148.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "621",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СтатьяДДС : nvarchar(80)",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "156.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "622",
+      "parent": "587",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Сумма : numeric(15,2)",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "140.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "640",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Document_ЗаказПоставщику",
+      "geometry": {
+        "x": "16",
+        "y": "0.15",
+        "width": "135",
+        "height": "13"
+      }
+    },
+    {
+      "id": "641",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "DSupOrder",
+      "geometry": {
+        "x": "72.5",
+        "y": "9.2",
+        "width": "43.2",
+        "height": "12"
+      }
+    },
+    {
+      "id": "642",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _IDRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "643",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "175",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "644",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Number : nvarchar(11)",
+      "geometry": {
+        "x": "5",
+        "y": "48.15",
+        "width": "118.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "645",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Date_Time : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "68.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "646",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Posted : bit",
+      "geometry": {
+        "x": "5",
+        "y": "88.15",
+        "width": "70.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "647",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_КонтрагентRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "172.8",
+        "height": "13"
+      }
+    },
+    {
+      "id": "648",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "175",
+        "y": "128.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "649",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ОснованиеRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "167.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "650",
+      "parent": "623",
+      "edge": null,
+      "vertex": "1",
+      "value": "FK",
+      "geometry": {
+        "x": "175",
+        "y": "148.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "672",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "_InfoRg_СобытияТрекинга",
+      "geometry": {
+        "x": "33",
+        "y": "0.15",
+        "width": "124.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "673",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "ITrack",
+      "geometry": {
+        "x": "91",
+        "y": "9.2",
+        "width": "28.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "674",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _Period : datetime",
+      "geometry": {
+        "x": "5",
+        "y": "27.15",
+        "width": "108",
+        "height": "13"
+      }
+    },
+    {
+      "id": "675",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "175",
+        "y": "28.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "676",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderRRef : binary(16)",
+      "geometry": {
+        "x": "5",
+        "y": "47.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "677",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK, FK",
+      "geometry": {
+        "x": "175",
+        "y": "48.7",
+        "width": "28.8",
+        "height": "12"
+      }
+    },
+    {
+      "id": "678",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _RecorderTRef : int",
+      "geometry": {
+        "x": "5",
+        "y": "67.15",
+        "width": "113.4",
+        "height": "13"
+      }
+    },
+    {
+      "id": "679",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "175",
+        "y": "68.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "680",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "* _LineNo : int",
+      "geometry": {
+        "x": "5",
+        "y": "87.15",
+        "width": "81",
+        "height": "13"
+      }
+    },
+    {
+      "id": "681",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "PK",
+      "geometry": {
+        "x": "175",
+        "y": "88.7",
+        "width": "10",
+        "height": "12"
+      }
+    },
+    {
+      "id": "682",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_ТрекНомер : nvarchar(50)",
+      "geometry": {
+        "x": "5",
+        "y": "128.15",
+        "width": "156.6",
+        "height": "13"
+      }
+    },
+    {
+      "id": "683",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Локация : nvarchar(100)",
+      "geometry": {
+        "x": "5",
+        "y": "148.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "684",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_Событие : nvarchar(150)",
+      "geometry": {
+        "x": "5",
+        "y": "168.15",
+        "width": "151.2",
+        "height": "13"
+      }
+    },
+    {
+      "id": "685",
+      "parent": "651",
+      "edge": null,
+      "vertex": "1",
+      "value": "_Fld_СыройТекст : nvarchar(500)",
+      "geometry": {
+        "x": "5",
+        "y": "188.15",
+        "width": "167.4",
+        "height": "13"
+      }
+    }
+  ]
+}

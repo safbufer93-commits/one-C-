@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:InformationRegister" uuid="6adf5a41-1f8e-42de-9d3f-7d59c4d1b8b5">
+	<mdclass:n>ИсторияРасчетовПозицииЗаказа</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>История расчетов позиции заказа</core:content></core:item></mdclass:Synonym>
+	<mdclass:Periodicity>Second</mdclass:Periodicity>
+	<mdclass:WriteMode>Independent</mdclass:WriteMode>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Dimension uuid="b0bcaaf0-18c3-4eda-9a6f-bbb28a92fdaa">
+		<mdclass:n>Заказ</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказ</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>DocumentRef.Заказ</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="c55764e3-e4a2-4cb6-82d6-e883d89db71d">
+		<mdclass:n>НомерПозиции</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Номер позиции</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>0</mdclass:FractionDigits></mdclass:NumberQualifiers>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="e4dc7ac7-4684-4cd6-bb44-c00ec9713414">
+		<mdclass:n>ИдентификаторРасчета</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Идентификатор расчета</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>36</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="7a4df0c9-6ef2-47f6-b4a4-856d51bec715">
+		<mdclass:n>Товар</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Товар</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>CatalogRef.Товары</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="1858eacf-27be-4cc1-8ea9-f5d6b7800df8">
+		<mdclass:n>Поставщик</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Поставщик</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>CatalogRef.Поставщики</mdclass:Type>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="6314c217-363c-44f3-957c-dd76345150d8">
+		<mdclass:n>ТипДоставки</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип доставки</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>EnumRef.ТипДоставки</mdclass:Type>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="03ef01e7-21a6-470b-993c-558053b956d8">
+		<mdclass:n>ФормаОплаты</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Форма оплаты</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>EnumRef.ФормаОплаты</mdclass:Type>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Resource uuid="1c2eb550-ee34-46c0-821c-21d931b1f944"><mdclass:n>Количество</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Количество</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="2a4d5d9e-b455-4bf8-bfda-adc3e65cd24e"><mdclass:n>ЦенаДилераВалюта</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Цена дилера валюта</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="8a74b4c1-6771-4ebf-90e6-67f24f392129"><mdclass:n>СуммаVAT5</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>VAT 5% сумма</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="a7c27215-c41a-4533-b549-2899652d8256"><mdclass:n>КурсВалюты</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Курс валюты</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>6</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="81e136d4-6a22-4e31-8551-359d29a87576"><mdclass:n>ЗакупкаРубВсего</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Закупка руб всего</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="5dfdb88d-819b-4909-88b9-bdc3d3bf75e7"><mdclass:n>ВесФакт</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Вес факт</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="890e1ccd-9037-49d8-94d8-d7cfb8d0438d"><mdclass:n>ВесОбъемный</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Вес объемный</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="69ec5400-6ef4-4a70-a989-1a2789c2f65c"><mdclass:n>РасчетныйВес</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Расчетный вес</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="f0ce2bbd-7952-4a66-a70a-98655e72f2cf"><mdclass:n>ДоставкаВалюта</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Доставка валюта</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="e3b13e81-73d4-4b67-86e1-7b02f9fdf0b2"><mdclass:n>ДоставкаРуб</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Доставка руб</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="c5a1ea03-8f7c-4d80-9c46-318c3889e9d0"><mdclass:n>СтавкаПошлины</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Ставка пошлины</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>5</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="859636af-5780-4c75-b86d-8efe1156c606"><mdclass:n>СуммаПошлины</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма пошлины</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="627fe4e8-108e-4626-aad5-7af9934de5f9"><mdclass:n>СтавкаНДСВвоз</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Ставка НДС ввоз</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>5</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="5ab14a50-a3c6-4067-8124-390d3b676b5e"><mdclass:n>СуммаНДСВвоз</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма НДС ввоз</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="0d692af8-45c5-42e9-9878-a0e5d3cf7afa"><mdclass:n>КомиссияОплатыПроцент</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Комиссия оплаты %</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>5</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="1ec9ef11-f851-4820-98b1-012fd7490486"><mdclass:n>СуммаКомиссии</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма комиссии</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="13470db9-6ce0-43b8-8a58-c64d8a3419c6"><mdclass:n>ПроцентСопутствующихРасходов</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сопутствующие %</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>5</mdclass:Digits><mdclass:FractionDigits>4</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="debb94d6-2327-4f39-9327-2f80ce47f560"><mdclass:n>СуммаСопутствующихРасходов</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма сопутствующих</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="9a6fa7dc-f4e1-4112-9d3f-d7192af1f8f6"><mdclass:n>СебестоимостьЕдБезНДС</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Себестоимость ед без НДС</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="a12cb628-f6c2-409c-b2fa-985792529f4d"><mdclass:n>СебестоимостьЕдСНДС</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Себестоимость ед с НДС</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="fd188a4f-aa2d-4976-a948-5ae9d5ba0703"><mdclass:n>ЦенаПродажиООО</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Цена продажи ООО</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="0520bd2a-e08b-4de6-814b-c6b86206bd84"><mdclass:n>ЦенаПродажиИП13</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Цена продажи ИП 13</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="e3c468f0-f5f0-4d2a-b0df-5be3f6bba593"><mdclass:n>ЦенаПродажиИП7</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Цена продажи ИП 7</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="ac349445-f454-492e-85b8-676bec323377"><mdclass:n>ЦенаПродажиИП6</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Цена продажи ИП 6</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="16674f41-d9a8-46e4-bab7-52c8d0be5905"><mdclass:n>ЦенаПродажиНаличными</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Цена продажи наличными</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="038d6a0b-b6cd-40ee-a75c-8315d2ac0986"><mdclass:n>ПрибыльНаЕдиницу</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Прибыль на единицу</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="c6481f04-7d68-449c-b498-5475623e454e"><mdclass:n>ПрибыльСумма</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Прибыль сумма</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="02ffb5ec-9173-446c-af8f-c2e46f09964b"><mdclass:n>НДСПродажиЕд</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>НДС продажи ед</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="a3b1e018-510b-491a-91e3-65fdc9277568"><mdclass:n>НДСКУплатеВсего</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>НДС к уплате всего</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Resource uuid="f7fdd448-fd9f-4aa3-a68a-7e85d9fa9b77"><mdclass:n>НалогНаПрибыльВсего</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Налог на прибыль всего</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers></mdclass:Resource>
+	<mdclass:Attribute uuid="cded7091-216f-4098-a8d1-f22056323f6e"><mdclass:n>ИспользованВЗаказе</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Использован в заказе</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:boolean</mdclass:Type><mdclass:FillRequired>false</mdclass:FillRequired><mdclass:Indexing>Index</mdclass:Indexing></mdclass:Attribute>
+	<mdclass:Attribute uuid="a539583d-63c0-40b7-a015-8cf6041d11a9"><mdclass:n>АвторРасчета</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Автор расчета</core:content></core:item></mdclass:Synonym><mdclass:Type>CatalogRef.Сотрудники</mdclass:Type><mdclass:FillRequired>false</mdclass:FillRequired><mdclass:Indexing>Index</mdclass:Indexing></mdclass:Attribute>
+	<mdclass:Attribute uuid="22090164-0be3-4130-9c3c-e4e53f6651aa"><mdclass:n>Комментарий</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Комментарий</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>250</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers><mdclass:FillRequired>false</mdclass:FillRequired></mdclass:Attribute>
+</mdclass:InformationRegister>

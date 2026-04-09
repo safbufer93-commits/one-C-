@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:InformationRegister" uuid="0c350bd2-8937-4eda-8927-948cee2f69ea">
+	<mdclass:n>РаспределениеРасходовПоПозициям</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Распределение расходов по позициям</core:content></core:item></mdclass:Synonym>
+	<mdclass:Periodicity>Second</mdclass:Periodicity>
+	<mdclass:WriteMode>Independent</mdclass:WriteMode>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Dimension uuid="8b732847-5ec3-407b-9742-5768e10893ca">
+		<mdclass:n>Заказ</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказ</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>DocumentRef.Заказ</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="198ec57d-6654-4ad6-9825-35b50f0fea8a">
+		<mdclass:n>НомерСтроки</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Номер строки</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>0</mdclass:FractionDigits></mdclass:NumberQualifiers>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="0c43704a-dfe8-48bd-a3da-fe7df2f0ceed">
+		<mdclass:n>СтатьяРасходов</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Статья расходов</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>CatalogRef.СтатьиРасходов</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Resource uuid="e6efd5ad-defd-410d-bbe9-5d161292f86f">
+		<mdclass:n>СуммаРуб</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма руб</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers>
+	</mdclass:Resource>
+</mdclass:InformationRegister>

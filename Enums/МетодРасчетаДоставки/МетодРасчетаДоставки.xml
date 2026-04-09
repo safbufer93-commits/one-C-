@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="bde451ff-fb1b-43f4-ad87-cf34ba794fc3">
+	<mdclass:n>МетодРасчетаДоставки</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Метод расчёта</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="34153e86-4f9f-4ad3-9d4f-a27a469a4dc3">
+		<mdclass:n>ФактКг</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ФактКг</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="370b70cf-158a-4007-9320-8d436103c77b">
+		<mdclass:n>ФактКгПлюсФикс</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ФактКгПлюсФикс</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="20e20b58-4ae5-4ead-9c12-819c08fd73b6">
+		<mdclass:n>МиксФактИОбъем</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>МиксФактИОбъем</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="00df62b4-fb11-430e-8a6f-db5d61d355b5">
+		<mdclass:n>ChargeableКг</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ChargeableКг</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="6bc2aad5-f777-44bb-9ccd-1eafec8865ff">
+		<mdclass:n>ФрахтПаллетаРаспределение</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ФрахтПаллетаРаспределение</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

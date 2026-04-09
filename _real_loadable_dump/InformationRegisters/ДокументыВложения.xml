@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="0e99d6bd-0f2a-9cea-c00d-40942bae3bc7">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДокументыВложения" category="Record">
+				<xr:TypeId>749dbdfb-907d-c98c-d150-cc9c29075fe2</xr:TypeId>
+				<xr:ValueId>d0a4071e-a316-cda9-294f-aaf66bba84b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДокументыВложения" category="Manager">
+				<xr:TypeId>9638ec2e-cb87-67d7-91a8-fa8a2d22f163</xr:TypeId>
+				<xr:ValueId>bf0864a3-cb79-2c8a-4251-69788f510b8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДокументыВложения" category="Selection">
+				<xr:TypeId>12e7f47e-ee3f-660d-127c-6fe34bd023e9</xr:TypeId>
+				<xr:ValueId>83893df3-4906-bcc8-fb54-32b56fc39f2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДокументыВложения" category="List">
+				<xr:TypeId>15a49dc1-2957-cfd5-74cd-868dccdc43ca</xr:TypeId>
+				<xr:ValueId>d6d85a21-2c27-8647-5b8d-d942f53195c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДокументыВложения" category="RecordSet">
+				<xr:TypeId>7804e28f-97ec-9ba0-43db-11a491d5ec34</xr:TypeId>
+				<xr:ValueId>e0550d56-18b9-8819-6624-1112657033f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДокументыВложения" category="RecordKey">
+				<xr:TypeId>46cd8d6f-efc6-3eae-b42a-e509eec44bc1</xr:TypeId>
+				<xr:ValueId>03c5db9b-d6ae-5080-a7bf-3af834eb75e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДокументыВложения" category="RecordManager">
+				<xr:TypeId>30523efc-c372-b222-542d-1093e9d4f803</xr:TypeId>
+				<xr:ValueId>67e61a18-485a-b91e-1d83-cd46e96d17ab</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДокументыВложения</Name>
+			<Synonym/>
+			<Comment/>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+		<Dimension uuid="a8e0e327-83af-12f2-189d-e373d0c4c591">
+			<Properties>
+				<Name>ТипДокумента</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.ТипДокументаВложения</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="efb0d091-b1c5-cdd7-96cd-51da4d2ae825">
+			<Properties>
+				<Name>Заказ</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Заказ</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="f00273ab-0d37-fb61-b367-cfda216449ae">
+			<Properties>
+				<Name>Отправка</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Отправка</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Resource uuid="a5044b20-81a4-46e1-8a04-d84c5b7b5908">
+			<Properties>
+				<Name>НомерДокумента</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>50</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Attribute uuid="30f6667e-671c-5176-1516-cbf8b7227b71">
+			<Properties>
+				<Name>ДатаДокумента</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="4e9b3e70-0677-c956-a822-0781e3113876">
+			<Properties>
+				<Name>URL</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="12ac8bc9-d5c0-2a82-5ca3-65164a078878">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="32fea049-f81d-00e3-af28-16532eb45c80">
+			<Properties>
+				<Name>Автор</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="835a1abe-16e4-60ba-b254-eba0e307f361">
+			<Properties>
+				<Name>ДокументРегистрации</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.РегистрацияДокумента</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

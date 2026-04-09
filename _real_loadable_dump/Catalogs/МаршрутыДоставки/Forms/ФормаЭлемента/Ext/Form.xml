@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Перевозчик" id="7">
+			<DataPath>Объект.Перевозчик</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПеревозчикКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПеревозчикРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="СтранаОтправления" id="10">
+			<DataPath>Объект.СтранаОтправления</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СтранаОтправленияКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СтранаОтправленияРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="СтранаНазначения" id="13">
+			<DataPath>Объект.СтранаНазначения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СтранаНазначенияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="СтранаНазначенияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="НормативДней" id="16">
+			<DataPath>Объект.НормативДней</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НормативДнейКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="НормативДнейРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Комментарий" id="19">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<Table name="Точки" id="22">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Точки</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТочкиКонтекстноеМеню" id="23"/>
+			<AutoCommandBar name="ТочкиКоманднаяПанель" id="24"/>
+			<ExtendedTooltip name="ТочкиРасширеннаяПодсказка" id="25"/>
+			<ChildItems>
+			<LabelField name="ТочкиНомерСтроки" id="26">
+				<DataPath>Объект.Точки.LineNumber</DataPath>
+				<ContextMenu name="ТочкиНомерСтрокиКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ТочкиНомерСтрокиРасширеннаяПодсказка" id="28"/>
+			</LabelField>
+			<InputField name="ТочкиПорядок" id="29">
+				<DataPath>Объект.Точки.Порядок</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ТочкиПорядокКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="ТочкиПорядокРасширеннаяПодсказка" id="31"/>
+			</InputField>
+			<InputField name="ТочкиТочкаМаршрута" id="32">
+				<DataPath>Объект.Точки.ТочкаМаршрута</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ТочкиТочкаМаршрутаКонтекстноеМеню" id="33"/>
+				<ExtendedTooltip name="ТочкиТочкаМаршрутаРасширеннаяПодсказка" id="34"/>
+			</InputField>
+			<InputField name="ТочкиПланДней" id="35">
+				<DataPath>Объект.Точки.ПланДней</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ТочкиПланДнейКонтекстноеМеню" id="36"/>
+				<ExtendedTooltip name="ТочкиПланДнейРасширеннаяПодсказка" id="37"/>
+			</InputField>
+			<InputField name="ТочкиКомментарийТочки" id="38">
+				<DataPath>Объект.Точки.КомментарийТочки</DataPath>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="ТочкиКомментарийТочкиКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="ТочкиКомментарийТочкиРасширеннаяПодсказка" id="40"/>
+			</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.МаршрутыДоставки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:InformationRegister" uuid="54b2c62e-3e24-4770-a1cc-84b703516630">
+	<mdclass:n>ДокументыВложения</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Документы вложения</core:content></core:item></mdclass:Synonym>
+	<mdclass:Periodicity>Second</mdclass:Periodicity>
+	<mdclass:WriteMode>Independent</mdclass:WriteMode>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Dimension uuid="adcfdda3-489b-4a68-831d-c993bc5a00e9">
+		<mdclass:n>ТипДокумента</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип документа</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>EnumRef.ТипДокументаВложения</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="1bfa569d-605c-49c0-9422-1c4c389c5549">
+		<mdclass:n>Заказ</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказ</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>DocumentRef.Заказ</mdclass:Type>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="49d88756-411b-4d58-8662-9d7924a913e2">
+		<mdclass:n>Отправка</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Отправка</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>DocumentRef.Отправка</mdclass:Type>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Resource uuid="8f83cd3d-1d8b-4bd9-b9e7-6cb6b6c2531e">
+		<mdclass:n>НомерДокумента</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Номер документа</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>50</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+	</mdclass:Resource>
+		<mdclass:Attribute uuid="badaedaf-4476-4aca-87b8-5dd43eac0eab">
+			<mdclass:n>ДатаДокумента</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Дата документа</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:date</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="bc584a12-50a4-4748-805f-85aaa87f0d80">
+			<mdclass:n>URL</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>URL</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>250</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="2194b86c-642d-42f9-a5ae-d818ad4215e4">
+			<mdclass:n>Комментарий</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Комментарий</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>250</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="6e3e3f34-4a2d-4f84-8e85-35a7b68f1882">
+			<mdclass:n>Автор</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Автор</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>CatalogRef.Сотрудники</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="42533a49-8d81-4fa7-bfce-15f0fef444a5">
+			<mdclass:n>ДокументРегистрации</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Документ регистрации</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>DocumentRef.РегистрацияДокумента</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+</mdclass:InformationRegister>

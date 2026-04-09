@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:InformationRegister" uuid="5ad746c7-c014-4dd7-b79d-a54271028ee9">
+	<mdclass:n>ИсторияСтатусов</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>История статусов</core:content></core:item></mdclass:Synonym>
+	<mdclass:Periodicity>Second</mdclass:Periodicity>
+	<mdclass:WriteMode>Independent</mdclass:WriteMode>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Dimension uuid="f6c4b96d-0d04-460e-aee8-58ab38593c49">
+		<mdclass:n>Заказ</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказ</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>DocumentRef.Заказ</mdclass:Type>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="725873bd-049d-40d1-bcdc-0d1d0e9d1903">
+		<mdclass:n>Отправка</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Отправка</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>DocumentRef.Отправка</mdclass:Type>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="377f7b69-9d19-4e53-b741-d3f6b919d1d0">
+		<mdclass:n>Категория</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Категория</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>EnumRef.КатегорияСтатуса</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Resource uuid="ce30cf52-3630-45ab-b3f3-c49e701847f8">
+		<mdclass:n>Статус</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Статус</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>CatalogRef.Статусы</mdclass:Type>
+	</mdclass:Resource>
+	<mdclass:Resource uuid="83a2ec9a-b2f2-47a4-9e7d-6f9c0ce4f331">
+		<mdclass:n>СтарыйСтатус</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Старый статус</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>CatalogRef.Статусы</mdclass:Type>
+	</mdclass:Resource>
+	<mdclass:Resource uuid="f332885f-d3f8-4a53-94f8-e2d25d48d5a4">
+		<mdclass:n>НовыйСтатус</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Новый статус</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>CatalogRef.Статусы</mdclass:Type>
+	</mdclass:Resource>
+		<mdclass:Attribute uuid="f6ec4d48-4989-4bf4-b382-6e05bff026ae">
+			<mdclass:n>Автор</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Автор</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>CatalogRef.Сотрудники</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="d91d5ea3-88af-4bff-b0ed-ee4ab4683486">
+			<mdclass:n>Комментарий</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Комментарий</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>250</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+</mdclass:InformationRegister>

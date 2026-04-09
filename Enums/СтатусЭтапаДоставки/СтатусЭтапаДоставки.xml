@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="26847212-bb7f-4cd6-931a-76037d426be2">
+	<mdclass:n>СтатусЭтапаДоставки</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Статус этапа</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="d76fc7be-67eb-4522-80c0-8a4a803923a9">
+		<mdclass:n>План</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>План</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="63cc8294-88ce-4a66-a9b4-33354b326fef">
+		<mdclass:n>ВРаботе</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ВРаботе</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="13125624-7761-4370-95af-7b6313a3395d">
+		<mdclass:n>Задержка</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Задержка</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="d4b9e4f5-566e-4ebf-bdae-5ef07fcf4da6">
+		<mdclass:n>Завершен</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Завершен</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="3960ab47-e595-409a-ae3f-7670103c5287">
+		<mdclass:n>Отменен</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Отменен</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

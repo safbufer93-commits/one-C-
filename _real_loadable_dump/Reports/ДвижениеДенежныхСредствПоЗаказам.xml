@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Report uuid="0f676095-df47-cffe-e2cf-367d20d56ba9">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.ДвижениеДенежныхСредствПоЗаказам" category="Object">
+				<xr:TypeId>896fb370-84c5-e065-931e-76002e84e5bf</xr:TypeId>
+				<xr:ValueId>036cf066-9940-5ab9-ed94-cef632ac0442</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.ДвижениеДенежныхСредствПоЗаказам" category="Manager">
+				<xr:TypeId>0f0c67c7-01cc-0c3a-2539-f1d22cdb3853</xr:TypeId>
+				<xr:ValueId>c4c20b30-368e-e11d-8701-e6f298b3ed17</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДвижениеДенежныхСредствПоЗаказам</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

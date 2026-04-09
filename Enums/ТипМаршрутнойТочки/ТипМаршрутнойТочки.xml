@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="6759d8ca-499c-4d51-9928-4a51199d6d13">
+	<mdclass:n>ТипМаршрутнойТочки</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип маршрутной точки</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="84afc202-5fba-4615-bda2-b40c0f6586b4">
+		<mdclass:n>Поставщик</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Поставщик</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="c9cf1213-03be-4311-b654-00cf1d69de21">
+		<mdclass:n>Склад</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Склад</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="0c10efc4-8e6d-44c5-a5c5-c1cb9cc1e5f0">
+		<mdclass:n>Таможня</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Таможня</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="8492c311-c2a4-42e5-828b-eaa5f844538f">
+		<mdclass:n>ТранспортнаяКомпания</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Транспортная компания</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="73264902-3ff2-45d7-a281-2def6e84edc8">
+		<mdclass:n>Клиент</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Клиент</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

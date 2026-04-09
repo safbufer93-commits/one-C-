@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="9b135e02-9bf3-1a82-8756-b3a9fb97ecf3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СопутствующийРасход" category="Object">
+				<xr:TypeId>7797fd1e-409a-403a-2863-901da22edb20</xr:TypeId>
+				<xr:ValueId>4c1af33c-d910-f94e-e278-6337c26f33d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СопутствующийРасход" category="Ref">
+				<xr:TypeId>19cf47fa-7bf4-e930-4d9d-b0a3625ef790</xr:TypeId>
+				<xr:ValueId>9966aa85-d978-fa11-10b6-16d3ba0cfecf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СопутствующийРасход" category="Selection">
+				<xr:TypeId>8f344d62-e316-8ef4-f270-523dcf86bc7e</xr:TypeId>
+				<xr:ValueId>5566a9ff-3e8b-2d12-8d2d-041ad9453994</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СопутствующийРасход" category="List">
+				<xr:TypeId>167409e5-0980-f26d-7a69-b9b059a1143e</xr:TypeId>
+				<xr:ValueId>531433c9-59dd-dd91-985e-2a3fa674ac4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СопутствующийРасход" category="Manager">
+				<xr:TypeId>5a645482-915e-51ed-af3e-19fbcc242de2</xr:TypeId>
+				<xr:ValueId>0ed8af87-5b81-5aa8-aa64-af15be52bf9f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СопутствующийРасход</Name>
+			<Synonym/>
+			<Comment/>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberPeriodicity>Year</NumberPeriodicity>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Document.СопутствующийРасход.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultListForm>Document.СопутствующийРасход.Form.ФормаСписка</DefaultListForm>
+			<Posting>Allow</Posting>
+			<RealTimePosting>Allow</RealTimePosting>
+			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
+			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+		<Attribute uuid="c9180dd3-350c-c663-e122-b85240439f8e">
+			<Properties>
+				<Name>Заказ</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Заказ</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="d95f7ea8-36df-a001-5f72-03a72854e7a9">
+			<Properties>
+				<Name>Отправка</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Отправка</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="325d072e-b7f6-2772-6a75-0951836a5a21">
+			<Properties>
+				<Name>СтатьяРасходов</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.СтатьиРасходов</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="85d4b736-5bed-3824-21c7-b9258c1065bc">
+			<Properties>
+				<Name>СпособРаспределения</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.СпособРаспределения</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="a85bc8df-f788-8499-a73e-c026e6debe73">
+			<Properties>
+				<Name>Валюта</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>3</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="7f21276d-06b3-616c-ab29-e7b5e75224e3">
+			<Properties>
+				<Name>Сумма</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="2821d6d1-416e-d036-6622-7eed907eaad7">
+			<Properties>
+				<Name>СуммаРуб</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="0486e164-aaf8-e075-bd4c-ef1ae0a82954">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

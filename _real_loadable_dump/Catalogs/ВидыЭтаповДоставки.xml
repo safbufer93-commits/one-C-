@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="12ba5820-149f-1492-6605-becc1b367de9">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыЭтаповДоставки" category="Object">
+				<xr:TypeId>28d21fae-e3b4-888e-8add-9f25ff17b620</xr:TypeId>
+				<xr:ValueId>53c9acef-183b-1591-57f6-a2b58102ef66</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыЭтаповДоставки" category="Ref">
+				<xr:TypeId>be9b56c5-6da9-0a9f-eddd-fe1dd06d8bbe</xr:TypeId>
+				<xr:ValueId>e9182086-687a-0fdf-d888-e12f52212c19</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыЭтаповДоставки" category="Selection">
+				<xr:TypeId>af3fd81e-04a9-539a-d672-8b819832e933</xr:TypeId>
+				<xr:ValueId>4dccb8ec-73cb-dd3f-eb7c-27f038ec3392</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыЭтаповДоставки" category="List">
+				<xr:TypeId>b779d36f-0c22-b4ee-6256-ae78fbae09f5</xr:TypeId>
+				<xr:ValueId>9cf42320-b453-67c3-3ec1-20333efe3d08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыЭтаповДоставки" category="Manager">
+				<xr:TypeId>70912fa3-c6ae-5df5-80d9-9f75b1c1b9fe</xr:TypeId>
+				<xr:ValueId>d5e9c63a-763b-66d5-d2b6-b43ce1bb857b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыЭтаповДоставки</Name>
+			<Synonym/>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Catalog.ВидыЭтаповДоставки.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultListForm>Catalog.ВидыЭтаповДоставки.Form.ФормаСписка</DefaultListForm>
+		</Properties>
+		<ChildObjects>
+		<Attribute uuid="e8cb950b-83a5-f9bf-3284-8a5e59f86356">
+			<Properties>
+				<Name>Порядок</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>10</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="ff24aa26-a784-73b3-ee6e-f86fc2429ed7">
+			<Properties>
+				<Name>ЭтапДоставки</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.ЭтапДоставки</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="f6909472-c424-73b0-3f23-4a43f279e22e">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

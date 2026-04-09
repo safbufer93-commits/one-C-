@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="43879106-067e-8d0d-0513-3e4a1be2ec16">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СопутствующиеРасходы" category="Record">
+				<xr:TypeId>6a061921-17f6-5ecc-9ea6-5fddb5d168f2</xr:TypeId>
+				<xr:ValueId>9da1258f-4f35-7db8-5320-1f5a465d345f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СопутствующиеРасходы" category="Manager">
+				<xr:TypeId>718bec0f-b172-5e86-172b-690dc77b70f9</xr:TypeId>
+				<xr:ValueId>62cf3bfd-1d7a-ed48-16b4-87c76faacb00</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СопутствующиеРасходы" category="Selection">
+				<xr:TypeId>cf1d7e13-2570-675b-7286-b2c06f8d2999</xr:TypeId>
+				<xr:ValueId>f473b1eb-99ee-dfb0-8537-59de7d3e8afb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СопутствующиеРасходы" category="List">
+				<xr:TypeId>c3bc1b11-fe80-ab83-18e7-7e41b42c0ead</xr:TypeId>
+				<xr:ValueId>8f7f4e6f-009a-12f4-8e96-6fb418510e8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СопутствующиеРасходы" category="RecordSet">
+				<xr:TypeId>10514083-27ed-bfd5-9e0c-4a76bae38425</xr:TypeId>
+				<xr:ValueId>4936d038-6cf9-d5cb-e7fc-a427b7f8da0e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СопутствующиеРасходы" category="RecordKey">
+				<xr:TypeId>fbe9aef8-5d01-14a6-6b20-12a7c7b252ba</xr:TypeId>
+				<xr:ValueId>f4fd4646-3b20-6c8a-164e-ac6886d362c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СопутствующиеРасходы" category="RecordManager">
+				<xr:TypeId>9454dc15-65a1-8e68-92bf-d8d253a128bd</xr:TypeId>
+				<xr:ValueId>b975a9b1-8436-65f0-c2a7-85ab91ace4ff</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СопутствующиеРасходы</Name>
+			<Synonym/>
+			<Comment/>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+		<Dimension uuid="e494cf9d-bcd5-e3a0-96d2-c9b2175e919d">
+			<Properties>
+				<Name>Заказ</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Заказ</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="8f2b67a2-7379-e55a-715b-06e32b76c988">
+			<Properties>
+				<Name>СтатьяРасходов</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.СтатьиРасходов</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Resource uuid="126cff02-e150-537c-a58c-08e55899af7f">
+			<Properties>
+				<Name>Сумма</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Resource uuid="1c3ce3d8-0e33-6a2a-5758-8dfb8438fd1a">
+			<Properties>
+				<Name>СуммаРуб</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Attribute uuid="c5761825-197c-8cbd-6a1c-099f4f1f40bf">
+			<Properties>
+				<Name>СпособРаспределения</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.СпособРаспределения</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="8bf1dba8-dabb-da87-8664-874d69e1ebdf">
+			<Properties>
+				<Name>Валюта</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>3</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

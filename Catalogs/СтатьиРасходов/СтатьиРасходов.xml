@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Catalog" uuid="629f22fa-9e56-4e45-9acb-b49d6f10b0b7">
+	<mdclass:n>СтатьиРасходов</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Статьи сопутствующих расходов</core:content></core:item></mdclass:Synonym>
+	<mdclass:Hierarchical>false</mdclass:Hierarchical>
+	<mdclass:CodeLength>9</mdclass:CodeLength>
+	<mdclass:DescriptionLength>100</mdclass:DescriptionLength>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+</mdclass:Catalog>

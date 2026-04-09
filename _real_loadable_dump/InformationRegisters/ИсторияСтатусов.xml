@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="8c637182-b0f0-8438-fa12-2bf78f6575ca">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ИсторияСтатусов" category="Record">
+				<xr:TypeId>7d164d48-081c-1e66-b790-e4f1e8ff324a</xr:TypeId>
+				<xr:ValueId>a78bd4b7-29da-3eb5-a37b-5c1238d198c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ИсторияСтатусов" category="Manager">
+				<xr:TypeId>0d1dc1ce-5441-2438-8c0b-da47ce3f72a5</xr:TypeId>
+				<xr:ValueId>02bd0c55-dfd5-8412-65a8-ebaf62fbda9e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ИсторияСтатусов" category="Selection">
+				<xr:TypeId>44900b5c-a186-c625-d23b-3ad9f1b044b4</xr:TypeId>
+				<xr:ValueId>fe5a34df-1519-da30-44e9-57d84012ed09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ИсторияСтатусов" category="List">
+				<xr:TypeId>4d6279b7-3259-66e5-8832-dde7419c2926</xr:TypeId>
+				<xr:ValueId>0b72df68-a607-7d48-3897-0dc207698c24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ИсторияСтатусов" category="RecordSet">
+				<xr:TypeId>f0d9fe57-c72f-5039-f477-b70d4359477d</xr:TypeId>
+				<xr:ValueId>99c644da-2b8d-5ff0-3213-cbc7304b312c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ИсторияСтатусов" category="RecordKey">
+				<xr:TypeId>d3eddd88-f39e-6998-cb58-ea672e90adf2</xr:TypeId>
+				<xr:ValueId>a2505d30-95d8-d428-3843-82c7deedea7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ИсторияСтатусов" category="RecordManager">
+				<xr:TypeId>ea0b9528-c2aa-a66f-9838-be1dd38d1726</xr:TypeId>
+				<xr:ValueId>e274b1da-fb28-42ba-1a01-52eb89c69782</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсторияСтатусов</Name>
+			<Synonym/>
+			<Comment/>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+		<Dimension uuid="9dc0433b-5616-aec7-4922-6f491d817422">
+			<Properties>
+				<Name>Заказ</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Заказ</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="13dc26fc-d20a-9651-02e4-cbb5d6289e4a">
+			<Properties>
+				<Name>Отправка</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Отправка</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="16dbcb07-e41b-89bf-9892-d165befa755f">
+			<Properties>
+				<Name>Категория</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.КатегорияСтатуса</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Resource uuid="9408a03d-7d31-baa9-49ed-53e86672976b">
+			<Properties>
+				<Name>Статус</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Resource uuid="a27b1706-da39-539e-e428-c4d4f3215dc7">
+			<Properties>
+				<Name>СтарыйСтатус</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Resource uuid="4320524f-e9dc-0f83-5547-0996e686c34f">
+			<Properties>
+				<Name>НовыйСтатус</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Attribute uuid="b7f5d85b-bb03-399d-307f-f5c63b7b44bd">
+			<Properties>
+				<Name>Автор</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="838ebd73-62d0-b273-88a7-81c770de35e6">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

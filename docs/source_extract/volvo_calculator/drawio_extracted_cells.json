@@ -1,0 +1,1142 @@
+[
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-36",
+    "vertex": true,
+    "edge": false,
+    "x": 142.5,
+    "y": -2500.0,
+    "text": "7М",
+    "style": "shape=or;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "wwn2oWomlsWY15Cx0ud6-25",
+    "vertex": true,
+    "edge": false,
+    "x": 940.0,
+    "y": -2490.0,
+    "text": "Руководство/Финансы",
+    "style": "rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-34",
+    "vertex": true,
+    "edge": false,
+    "x": -230.0,
+    "y": -2410.0,
+    "text": "Пояснение к п.1 \"Заказчик\":, библиотека поставщиков:1. № Заказчик\n2. Заказчик\n3. Контактный телефон",
+    "style": "rounded=0;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-13",
+    "vertex": true,
+    "edge": false,
+    "x": 6080.0,
+    "y": -2400.0,
+    "text": "Присвоение трек номера",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-10",
+    "vertex": true,
+    "edge": false,
+    "x": 5810.0,
+    "y": -2370.0,
+    "text": "Модуль «Отслеживание грузов»",
+    "style": "shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-12",
+    "vertex": true,
+    "edge": false,
+    "x": 6080.0,
+    "y": -2360.0,
+    "text": "Возможность ручного обновления статуса",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-11",
+    "vertex": true,
+    "edge": false,
+    "x": 6080.0,
+    "y": -2320.0,
+    "text": "Этапы доставки \\(отгрузка — склад — граница — доставка\\)",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-32",
+    "vertex": true,
+    "edge": false,
+    "x": 1390.0,
+    "y": -2260.0,
+    "text": "6М",
+    "style": "shape=or;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "wwn2oWomlsWY15Cx0ud6-21",
+    "vertex": true,
+    "edge": false,
+    "x": 958.0,
+    "y": -2200.0,
+    "text": "Получает информацию от смежных отделов информацию:\n1. \"№ Заказчика-номер заказа\" \\(000000-0000\\) \\(Показывает и информацию по нему, если нужно то можно открыть полную карточку заказа\\)2. \"Итоговая сумма по заказу р.\" \\(Сумма с учётом всех налогов + маржи\\)\n3. \"Маржа\" \\(% и в денежном эквиваленте\\)\n4. \"Оплата Заказчика\" \\(Оплачено/не оплачено\\) \\(Статус проставит менеджер КОСТЫЛЬ, увести в функции менеджера\\)\n5. \"Оплата поставщику\" \\(Указывается сумма к оплате\\)\n6. \"Статус оплаты поставщику\" \\(Оплачено/Не оплачено/ Долг\\)\n7. Сумма остатка оплаты поставщику \\(Если частично оплачено или не оплачено\\)\n8. \"Планируемая дата оплаты поставщику\" \\(Ставиться планируемая дата если есть такая возможность отложенного платежа\\)\n9.\"Дата оплаты поставщику\"\nСУММА ОПЛАТЫ ДОЛЖНА БРАТЬСЯ ОТ ЛОГИСТИЧЕСКОГО БЛОКА, Т.К. ЛОГИСТ РАССЧИТЫВАЕТ ОКОНЧАТЕЛЬНУЮ СУММУ К ОПЛАТЕ, ПУТЁМ ТОГО ЧТО ПРАВИЛЬНО МОЖЕТ ПЕРЕПАКОВАТЬ ТОВАР\n10. \"Сумма оплаты перевозчику \" \\(Указывается сумма к оплате\\)\n11. \"Статус оплаты поставщику\" \\(Оплачено/Не оплачено/ Долг\\)\n12. Сумма остатка оплаты поставщику \\(Если частично оплачено или не оплачено\\)\n13. \"Планируемая дата оплаты поставщику\" \\(Ставиться планируемая дата если есть такая возможность отложенного платежа\\)\n14.\"Дата оплаты поставщику\"\n15.\"Форма оплаты\" \\(ООО, ИП с НДС, ИПУСН с НДС, ИПУСН, Наличка\\)\n16. \"Статус заказа\" \\(Не заказан/Заказан/Не отправлен/В пути/ Получен нет подписанной УПД/Завершен\\)\nДАННЫЕ УХОДЯТ В \"Библиотека товара\" под каждый заказ и позицию\nТакже необходимо привязать бухгалтерский блок",
+    "style": "whiteSpace=wrap;html=1;rounded=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-15",
+    "vertex": true,
+    "edge": false,
+    "x": 6090.0,
+    "y": -2180.0,
+    "text": "Push/SMS/email при изменении статуса",
+    "style": "text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-14",
+    "vertex": true,
+    "edge": false,
+    "x": 5820.0,
+    "y": -2170.0,
+    "text": "Модуль «Уведомления»",
+    "style": "shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-16",
+    "vertex": true,
+    "edge": false,
+    "x": 6090.0,
+    "y": -2140.0,
+    "text": "Уведомления о задержках, простоях, отклонении от маршрута",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-18",
+    "vertex": true,
+    "edge": false,
+    "x": 6090.0,
+    "y": -2060.0,
+    "text": "Загрузка и хранение накладных, ТТН, таможенных деклараций",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-17",
+    "vertex": true,
+    "edge": false,
+    "x": 5820.0,
+    "y": -2050.0,
+    "text": "Модуль «Документы»",
+    "style": "shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-19",
+    "vertex": true,
+    "edge": false,
+    "x": 6090.0,
+    "y": -2020.0,
+    "text": "Возможное включение автоматической проверки сроков действия документов",
+    "style": "text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-6",
+    "vertex": true,
+    "edge": false,
+    "x": 1970.0,
+    "y": -1980.0,
+    "text": "Логист",
+    "style": "rounded=1;whiteSpace=wrap;html=1;arcSize=0;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-20",
+    "vertex": true,
+    "edge": false,
+    "x": 5830.0,
+    "y": -1950.0,
+    "text": "Модуль «Финансы»",
+    "style": "shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-21",
+    "vertex": true,
+    "edge": false,
+    "x": 6120.0,
+    "y": -1950.0,
+    "text": "Учёт стоимости перевозок \\(стоимость остави, пошлины\\)",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-18",
+    "vertex": true,
+    "edge": false,
+    "x": -1240.0,
+    "y": -1920.0,
+    "text": "Где-то тут склад",
+    "style": "rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-22",
+    "vertex": true,
+    "edge": false,
+    "x": 6120.0,
+    "y": -1910.0,
+    "text": "План/факт сравнение",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "wwn2oWomlsWY15Cx0ud6-31",
+    "vertex": true,
+    "edge": false,
+    "x": 1500.0,
+    "y": -1900.0,
+    "text": "Формирование справки \"Движение средств\"В справке учитываются все расходы, логистика, НДС, Таможня и т.д.",
+    "style": "whiteSpace=wrap;html=1;align=left;rounded=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-17",
+    "vertex": true,
+    "edge": false,
+    "x": 1757.88,
+    "y": -1900.0,
+    "text": "Дробление Заказа на этапе поставки, т.е. разные позиции из заказа, могут быть направлены, разными перевозчиками, их надо дробить, если раздробили заказ, необходимо уведомление",
+    "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=60;position=0.32;position2=0.2;base=19;fillColor=#dae8fc;strokeColor=#6c8ebf;"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-5",
+    "vertex": true,
+    "edge": false,
+    "x": 3460.0,
+    "y": -1890.0,
+    "text": "Модуль «Документы»",
+    "style": "shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-2",
+    "vertex": true,
+    "edge": false,
+    "x": 202.5,
+    "y": -1850.0,
+    "text": "Менеджер",
+    "style": "rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-24",
+    "vertex": true,
+    "edge": false,
+    "x": 6120.0,
+    "y": -1820.0,
+    "text": "Время доставки по маршрутам",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-9",
+    "vertex": true,
+    "edge": false,
+    "x": 5320.0,
+    "y": -1815.0,
+    "text": "Система отслеживания товаров",
+    "style": "shape=ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-85",
+    "vertex": true,
+    "edge": false,
+    "x": 3720.0,
+    "y": -1807.5,
+    "text": "Отправка по электронному документообороту",
+    "style": "whiteSpace=wrap;html=1;rounded=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-76",
+    "vertex": true,
+    "edge": false,
+    "x": 3050.0,
+    "y": -1805.0,
+    "text": "1. Формирование документов\nа\\) \"Счёт\" \\(Формирование счёта происходит на после пройденного этапа \"Создание логистической карточки\"\\)б\\) \"ТТН \\(ТОРГ-12\\)\" \\(Формирование происходит после формирования \"Счёт\", после чего направляется получателю груза",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-84",
+    "vertex": true,
+    "edge": false,
+    "x": 2560.0,
+    "y": -1800.0,
+    "text": "Бухгалтер/Помощник \\(Роль не определена до конца\\)Этап сразу наступает после нажатия \"ок\" на операции\nЭтап \"ТТН \\(ТОРГ-12\\)\" наступает, срзу после статуса \"Получен\" 10п.",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-23",
+    "vertex": true,
+    "edge": false,
+    "x": 5830.0,
+    "y": -1800.0,
+    "text": "Модуль «Аналитика и отчёты»",
+    "style": "shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-1",
+    "vertex": true,
+    "edge": false,
+    "x": 4220.0,
+    "y": -1790.0,
+    "text": "Загрузка подписанных закрывающих документов",
+    "style": "whiteSpace=wrap;html=1;rounded=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-25",
+    "vertex": true,
+    "edge": false,
+    "x": 6120.0,
+    "y": -1790.0,
+    "text": "Потери, возвраты, недостачи",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-26",
+    "vertex": true,
+    "edge": false,
+    "x": 6120.0,
+    "y": -1760.0,
+    "text": "Интерактивные дашборды",
+    "style": "text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-3",
+    "vertex": true,
+    "edge": false,
+    "x": 1810.0,
+    "y": -1670.0,
+    "text": "Формирование логистической карточки:1. \"Трек номер\" \\(присваиваемый номер по логистической компании\\)\nВ данный номер входит N количество заказов в готовившихся к отправке\n2.\"Контрагент\"\n3. \"Общий вес\"\n4. \"Общий объёмный вес\" \\(Упакованного товара, если необходимо\\)\n5. \"Стоимость\"\n6. \"Плановый срок\"\n7. \"Место доставки\"\n8. \"Дата фактическая поступления Заказчику\"\n9. \"Сведения о задержке\"\n10. \"Способ доставки\" \\(Ави, авто, морской\\)\n11. \"Документ на перевозку\" \\(перевозчика\\)\n12. \"Статус\" \\(Не отправлен/В пути/ Получен нет подписанной УПД/Завершен\\)\n13. \"Счёт перевозчика\" \\(обработка счёта, чья функция, определяем переходим в блок финансы\\)\n14. \"Номер накладной ТК\" \\(Транспортная компания\\)\n15. \"Примечание\"\nКалькуляция вариантов доставки \\(авиа/авто/ЖД/море\\)\nВыбор оптимального варианта \\(сравнение план/факт\\)",
+    "style": "shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-24",
+    "vertex": true,
+    "edge": false,
+    "x": 225.0,
+    "y": -1620.0,
+    "text": "Карточка заказа",
+    "style": "rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-20",
+    "vertex": true,
+    "edge": false,
+    "x": 570.0,
+    "y": -1610.0,
+    "text": "1М",
+    "style": "shape=or;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-27",
+    "vertex": true,
+    "edge": false,
+    "x": 5820.0,
+    "y": -1590.0,
+    "text": "Модуль «Прогнозирование»",
+    "style": "shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-9",
+    "vertex": true,
+    "edge": false,
+    "x": 43.75,
+    "y": -1570.0,
+    "text": "Фиксация заказа",
+    "style": "text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;rotation=-90;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-28",
+    "vertex": true,
+    "edge": false,
+    "x": 6090.0,
+    "y": -1570.0,
+    "text": "ETA \\(ожидаемое время прибытия\\) на основе статистики",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-59",
+    "vertex": true,
+    "edge": false,
+    "x": 4450.0,
+    "y": -1530.0,
+    "text": "Отдел продаж → 1С\n\\(данные заказа\\)",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-3",
+    "vertex": true,
+    "edge": false,
+    "x": 90.0,
+    "y": -1470.0,
+    "text": "Вносит следующее:\n1. \"Заказчик\" \\(Вводит пользователь \\(Выпадающий список из библиотеки Заказчиков выпадающим списком, если отсутствует добавляет\\)\n2. Номер заказа\" \\(Проставляется автоматически в последовательности\\)\n3. \"№ Заказчика-номер заказа\" \\(000000-0000\\)\n4. \"Дата размещения заказа\" \\(проставляется автоматически в день вноса информации\\)\n5. \"Статус оплаты по счёту\" \\(Статус выставляется в данном блоке, в блоке \"Финансы\" отображается как статус \\(Заказ оплачен/Заказ не оплачен\\)\\)\n6. \"Фиксация менеджера по заказу\" \\(по логину вошедшему в систему\\)\n7. \"Место доставки\" \\(Проставляется локация, город и т.д.\\)\n8. \"Способ доставки\" \\(Самовызов, доставка до ТК\\)\n9. \"Статус заказа\" \\(Заказано, не заказано\\) у поставщика \\(ЗАКАЗЫВАТЬ МОЖНО ТОЛЬКО ПОСЛЕ ОПЛАТЫ ПУНКТ % ДЛЯ ОПРЕДЁННЫХ ПОЛЬЗОВАТЕЛЬ ДЕЛАТЬ ИСКЛЮЧЕНИЕ\\)\n10. \"Дата заказа \\(отображается когда проставляется статус в \"Статус заказа\" столбце статус заказа ставиться на з\"Заказан\"\\)\n11. \"Форма оплаты\"\n12. \"Примечание\" \\(вносится в ручную, поле для заметок по заказу\\)",
+    "style": "whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-42",
+    "vertex": true,
+    "edge": false,
+    "x": -620.0,
+    "y": -1460.0,
+    "text": "Подача информации должна быть от другой роли",
+    "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.88;base=11;size=30;position=0.83;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-37",
+    "vertex": true,
+    "edge": false,
+    "x": 6120.0,
+    "y": -1435.0,
+    "text": "Роли и права доступа",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-36",
+    "vertex": true,
+    "edge": false,
+    "x": 5820.0,
+    "y": -1430.0,
+    "text": "Модуль «Администрирование»",
+    "style": "shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-60",
+    "vertex": true,
+    "edge": false,
+    "x": 4450.0,
+    "y": -1410.0,
+    "text": "Создание логистической карточки\n\\(объединение заказов\\)",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-38",
+    "vertex": true,
+    "edge": false,
+    "x": 6120.0,
+    "y": -1405.0,
+    "text": "Логи действий пользователей",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "wwn2oWomlsWY15Cx0ud6-14",
+    "vertex": true,
+    "edge": false,
+    "x": 730.0,
+    "y": -1400.0,
+    "text": "Поступает информация о создании карточки заказа о подтвержденных позициях",
+    "style": "text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-8",
+    "vertex": true,
+    "edge": false,
+    "x": 6100.0,
+    "y": -1340.0,
+    "text": "Предоставление прав",
+    "style": "whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-61",
+    "vertex": true,
+    "edge": false,
+    "x": 4450.0,
+    "y": -1290.0,
+    "text": "Калькуляция вариантов доставки\n\\(авиа/авто/ЖД/море\\)",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-29",
+    "vertex": true,
+    "edge": false,
+    "x": -315.0,
+    "y": -1270.0,
+    "text": "Фиксация должна идти из блока проведённой оплаты!!!! На данный момент костыль",
+    "style": "rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-7",
+    "vertex": true,
+    "edge": false,
+    "x": 5640.0,
+    "y": -1250.0,
+    "text": "Для сайта интернет и личного кабинета Заказчика",
+    "style": "rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-70",
+    "vertex": true,
+    "edge": false,
+    "x": 1005.0,
+    "y": -1220.0,
+    "text": "Отдел продаж → 1С\n\\(данные заказа\\)",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-23",
+    "vertex": true,
+    "edge": false,
+    "x": 3800.0,
+    "y": -1200.0,
+    "text": "Библиотека доставок\\(Сохраняет все данные по поставкам ценам и т.д.\\)\nТакже в процентах и в стоимости, определяем стоимость фактической доставки каждого элемента, а именно:\nА%= вес товара / общий вес товара * 100\nГде:\nА - % от общего веса\nB = Общая сумма * А%\nГде:\nB - сумма на одну единицу товара",
+    "style": "whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-62",
+    "vertex": true,
+    "edge": false,
+    "x": 4450.0,
+    "y": -1170.0,
+    "text": "Выбор оптимального варианта\n\\(сравнение план/факт\\)",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-31",
+    "vertex": true,
+    "edge": false,
+    "x": 6120.0,
+    "y": -1140.0,
+    "text": "Для клиента: трек-номер, история заказов",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-30",
+    "vertex": true,
+    "edge": false,
+    "x": 5820.0,
+    "y": -1130.0,
+    "text": "Модуль «Пользовательский кабинет»",
+    "style": "shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-31",
+    "vertex": true,
+    "edge": false,
+    "x": 2595.75,
+    "y": -1110.0,
+    "text": "5М",
+    "style": "shape=or;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-32",
+    "vertex": true,
+    "edge": false,
+    "x": 6120.0,
+    "y": -1110.0,
+    "text": "Для склада: приём/выдача, контроль остатков",
+    "style": "text;html=1;strokeColor=none;fillColor=none;align=left"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-63",
+    "vertex": true,
+    "edge": false,
+    "x": 4450.0,
+    "y": -1050.0,
+    "text": "Формирование документов\n\\(ТТН, счёт\\)",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-15",
+    "vertex": true,
+    "edge": false,
+    "x": 2320.0,
+    "y": -989.9999999999999,
+    "text": "ОСТАТКИ ДЛЯ ИНФЫ \\(НЕ В РАБОТУ\\)\n1. \"Дата поступления товара поставщику фактическая\n2. \"Перевозчик фактический\"\n3. \"Дата передачи в логистику перевозчикам фактическая\"\n4. \"Дата фактическая поступления на слад\"\n5. \"Цена доставки фактическая\" \\(ВОЗМОЖНО В ДАННОМ БЛОКЕ СТОИТ РАССМОТРЕТЬ И РЕАЛЬНУЮ ПЕРЕПАКОВКУ, Т.К. МОГУТ ЗАПАКОВАТЬ \"ПО ТУПОМУ\", МНОГО ОБЪЁМНОГО ВЕСА СВОБОДНОГО\\)\n6. \"Дата передачи товара\" \\(СДЕК, курьер, Заказчик\\)\n7. \"Трек номер товара\" \\(Если отправили ТК\\)\n8. \"Статус получения заказа Заказчику\" \\(Не отправлен/В пути/ Получен заказчиком\n9. \"Закрывающий документ\" \\(ТОРГ-12, УПД, Накладная\\) \\(ОТ КАКОГО БЛОКА ПРИДЁТ ИНФОРМАЦИЯ МЕНЕДЖЕР?\\)\n10. \"Скан подписанного закрывающего документа\"\n11. \"Примечание\"\nГДЕ ЧТО УПАКОВАНО ОТСЛЕЖИВАТЬ",
+    "style": "whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-8",
+    "vertex": true,
+    "edge": false,
+    "x": 960.0,
+    "y": -970.0,
+    "text": "Библиотека товаров",
+    "style": "ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-64",
+    "vertex": true,
+    "edge": false,
+    "x": -3410.0,
+    "y": -940.0,
+    "text": "Формирование итоговой стоимости",
+    "style": "rhombus;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-4",
+    "vertex": true,
+    "edge": false,
+    "x": 2775.0,
+    "y": -930.0,
+    "text": "ОСТАТКИ ДЛЯ ИНФЫ \\(НЕ В РАБОТУ\nМожет входить нгесколько заказкаов 000000-0000\nДальнейший расчёт произвести по фактическому весу, каждая деталь делиться по весу на всю сумму \\(точнее общий вес это 100% всё остальное \\)",
+    "style": "whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-64",
+    "vertex": true,
+    "edge": false,
+    "x": 4450.0,
+    "y": -930.0,
+    "text": "Контроль и отчётность\n\\(статусы, план/факт, отчёты\\)",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-37",
+    "vertex": true,
+    "edge": false,
+    "x": 450.0,
+    "y": -920.0,
+    "text": "Фиксация данных в библиотеке",
+    "style": "text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-41",
+    "vertex": true,
+    "edge": false,
+    "x": 460.0,
+    "y": -860.0,
+    "text": "При единичных заказах рассмотреть возможность укомплектования нескольких заказов,",
+    "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-28",
+    "vertex": true,
+    "edge": false,
+    "x": 41.0,
+    "y": -827.0,
+    "text": "2М",
+    "style": "shape=or;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-51",
+    "vertex": true,
+    "edge": false,
+    "x": 210.0,
+    "y": -827.0,
+    "text": "Карточка товара",
+    "style": "rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-74",
+    "vertex": true,
+    "edge": false,
+    "x": -3505.0,
+    "y": -797.0,
+    "text": "Последовательность операций вычесления",
+    "style": "text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-75",
+    "vertex": true,
+    "edge": false,
+    "x": -3190.0,
+    "y": -780.0,
+    "text": "1. Формирование стоимости",
+    "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-29",
+    "vertex": true,
+    "edge": false,
+    "x": 1310.0,
+    "y": -780.0,
+    "text": "3М",
+    "style": "shape=or;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-15",
+    "vertex": true,
+    "edge": false,
+    "x": 41.0,
+    "y": -740.0,
+    "text": "После фиксации происходит расчёт стоимости запчасти \\(вопрос в том что уже расценено было ранее, куда идёт и как отображать менеджеру, может поменяться от куда везут, кто везёт, сроки, курс и т.д.\\):\nПо внесённому заказу отображается сразу следующее в формате таблицы:\n1. \"№ Заказчика-номер заказа\"\n2. \"Наименование товара\"\n3. \"Производитель\"\n4. \"Артикул\" Номер запчасти\n5. \"Кросс номера\"\n6. \"Количество\"\nПосле чего происходит расценка товара, вноситься следующее:\n7. \"Поставщик\" \\(Формируется библиотека поставщиков \\(Поставщик наименование; Страна поставщика; Валюта; \"НДС\" заложенная поставщиком при вводе поставщиков указывается есть или нет, если есть то процент проставляется сразу;\\)\n8. Страна поставки \\(зависит от выбранного поставщика берется из библиотеки поставщиков\\)\n9. \"Цена товара в валюте\" \\(Вводиться пользователем\\) \\(необходимо добавить следующее считать с VAT 5%, если ставиться галочка, добавляется 5% к цене, если не ставит то не добавляет\\)\n10. Проставляется валюта \\(Доллар США, Дирхам \\(дирхам\\), Польская крона, Евро, рубль \\(выпадающий список изначально сразу проставляется валюта по стране\\)\\)\n11. \"Вес товара\" \\(Сохраняется в библиотеке товара по артикул и наименованию\\)\n12. \"Объёмный вес товара\" \\(выпадающее окно где задаются габариты \"L - длина\", \"W - ширина\", \"H - высота\", итоговая цифра считается по формуле \\(L x Hx W / 6000\\)\\)\n13. \"Планируемая дата доставки согласованная с Заказчиком\"\n14. \"Способ доставки плановый\" \\(на основании его выбирается калькулятор расчёта\\)\n15. \"Стоимость доставки плановая \" \\(Расчёт ведётся от веса ОБЪЁМНОГО либо ФАКТИЧЕСКОГО, берётся максимальный вес из двух представленных, далее расчёт за вес а именно с калькуляторов\n16. \"Маржа\" \\(Чистая прибыль в калькуляторе интересна\\)\\(Закладывается в проценте от стоимости товара пользователем а именно: произведение \\(цена товара переведённая в рубли+НДС заложенный в товаре местный турция, ОАЭ, Польша+комиссия за перевод 3%+ просчитаный процент маржи\\) /ЕСТЬ ЛИ НЕОБХОДИМОСТЬ СЧИТАТЬ НА МОРЖУ НДС/\\)\n17. \"Итоговая цена\" \\(Цена сложилась из произведения \\(цена товара переведённая в рубли+\\(VAT\\) НДС заложенный в товаре местный турция, ОАЭ, Польша+комиссия за перевод 3%+цена доставки+НДС+пошлина+Маржа\\)\n18. \"Рыночная цена\" \\(Вводит пользователь основываясь на цены конкурентов в РФ\\)\nКнопка для кросс номера\n10. \"Цена\" \\(Выводиться цена в рублях \\(количество умноженное на цену в валюте и умноженная на курс валюты центрального банка россии\\) + если товар из ОАЭ \\(дирхам\\) это цена деленная на 100 и умноженная на 5\\)\\) также необходимо для данного пункта учитывать, как покупается товар \\(нал, безнал, сер, с НДС\\)\n11. \"Комиссия банка\" \\(Задаётся комиссия за услуги банка, единица в процентах, задаёт пользователь, т.ж. комиссию можно выключить принудительно пользователем\\)\n12. \"Итоговая цена\" \\(Выводиться итоговая сумма, произведение Цены и комиссии \\(столбец 8+9\\)\\)\n15.\n16.\n17.\n18.\n1хх. Расчётный срок доставки \\(по максимальному, если 10-15 дней, то ставиться 15\\)",
+    "style": "whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-68",
+    "vertex": true,
+    "edge": false,
+    "x": -3505.0,
+    "y": -700.0,
+    "text": "Формирование стоимости в рублях:1. Дирхам - введённая сумма в п. 9. \"Стоимость товара в валюте\" умноженная на курс дирхамы по ЦБ \\(VAT учитывается после введения значения в 9 пункте при проставленной галочке VAT\\)\n2. Доллар - в п. 9. \"Стоимость товара в валюте\" умноженная на курс доллара ЦБ\nА+B+C= сумма платежа в рублях\nГде:\n1. \"А\" - сумма платежа в долларах \\(Переводим $ в рубли по курсу ЦБ на момент даты расчёта\\)\n2. \"B\" - процент добавочной стоимости к курсу ЦБ - 3% от \"А\"\n3. \"C\" - комиссия агента \\(если до 10000$, то 3% от \"А\" \\(\\(А/100\\)*3\\); если свыше 10000 то 1% от \"А\" \\(\\(А/100\\)*1\\)\n3. Рубль - рубль статичен, ничего не меняется от введенной суммы",
+    "style": "whiteSpace=wrap;html=1;align=left;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-12",
+    "vertex": true,
+    "edge": false,
+    "x": 850.0,
+    "y": -690.0,
+    "text": "В данном блоке образуется информация о товаре, собранных данных, на момент закупа также хочется уточнить что сумма фиксируется за единицу товара:1. \"Дата\" \\(дата внесения данных, рассчитывается на момент внесения заявки\\) учитывая курсы валют и закупочной стоимости\\)\n2. \"№ Заказчика-номер заказа\"\n3. \"Заказчик\"\n4. \"Авто\" \\(нигде не вноситься ДО\\)\n5. \"Наименование товара\"\n6. \"Кросс номер\"\n7. \"Производитель\"\n8. \"Вес товара\"\n9. \"Объёмный вес\"\n10. \"Поставщик\"\n11. \"Страна поставщика\"\n12. \"Цена товара в валюте\"\n13. \"Закуп\"\n14. \"Наличные\"\n15. \"Безналичные\"\n16. \"Цена с НДС\"\n17. \"Маржа\"\n18. \"Прибыль\" \\(Фиксированная прибыль от сделки\\)\n19. \"Рыночная цена\"\n20. \"Курс\"\n21. \"Сумма комисии\"\n22. \"Пошлина %\"\n23. \"Сумма пошлины\"\n24. \"Сумма НДС\"\n25. \"Сопутствующий расход\" \\(на единицу товара, пока не знаю от куда брать и как брать данные \\(возможно как то располовинить на всё, в зависимости от сделок\\)\\)\n26. \"Стоимость доставки плановая\" \\(В стоимость доставки не включим\\)\n27. \"Стоимость доставки фактическая\"\n28. \"Дата доставки\"\n29.",
+    "style": "whiteSpace=wrap;html=1;aspect=fixed;align=left;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-16",
+    "vertex": true,
+    "edge": false,
+    "x": -740.0,
+    "y": -670.0,
+    "text": "Цена более объёмный блок, необходимо дополнительно рассмотреть, а именно на предмет как правильно считать цену, ввиду того что по разным принципам закупам, формируется различная цена, в полне возможно что необходим конкретный индикатор с переходом на конкретную формулу расчёта",
+    "style": "text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-13",
+    "vertex": true,
+    "edge": false,
+    "x": 2040.0,
+    "y": -563.0,
+    "text": "Логист получает N число заказов, формируя их по стране поставщика, за N дней должен привезти N позиций, на основании дат поставки и загруженности выбирает объединение пакетов заказа, либо же индивидуальная доставка",
+    "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-76",
+    "vertex": true,
+    "edge": false,
+    "x": -3205.0,
+    "y": -490.0,
+    "text": "2. Комиссия банка за перевод",
+    "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-73",
+    "vertex": true,
+    "edge": false,
+    "x": 1960.0,
+    "y": -420.0,
+    "text": "Создание логистической карточки\n\\(объединение заказов\\)",
+    "style": "shape=rectangle;rounded=1;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-72",
+    "vertex": true,
+    "edge": false,
+    "x": -3505.0,
+    "y": -410.0,
+    "text": "Формирование комиссии банка за перевод:1. ОАЭ Дирхам - в расчёте вычисление берем комиссию банка статичной равной 7 процентам от суммы получаемой в пункте \"1.Формирование стоимости\"\nВыводим стоимость сформирована в 1п. и складываем с полученным процентом\n2.Доллар - комиссия банка включена называется \"комиссия агента\"\n3. рубль - статичная единица \\(комиссии нет\\)",
+    "style": "whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-61",
+    "vertex": true,
+    "edge": false,
+    "x": -950.0,
+    "y": -310.0,
+    "text": "К пункту 14 стоимость доставки",
+    "style": "text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-30",
+    "vertex": true,
+    "edge": false,
+    "x": 2930.0,
+    "y": -275.37,
+    "text": "4М",
+    "style": "shape=or;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "wwn2oWomlsWY15Cx0ud6-16",
+    "vertex": true,
+    "edge": false,
+    "x": 2410.0,
+    "y": -216.5000000000001,
+    "text": "Данные переданные с отдела продаж отображаются следующие:\n1. \"№ Заказчика-номер заказа\" \\(000000-0000\\)\n2. \"Наименование товара\"\n3. \"Производитель\"\n4. \"Артикул\" Номер запчасти\n5. \"Поставщик\"\n6. \"Место доставки\" \\(Проставляется локация, город и т.д.\\)\n7. \"Способ доставки\" \\(Самовывоз, доставка до ТК\\)\n8. \"Вес товара\"\n9. \"Объёмный вес товара\"\n10. \"Планируемая дата доставки согласованная с Заказчиком\"\n11. \"Способ доставки плановый\" \\(на основании его выбирается калькулятор расчёта\\)\n12. \"Стоимость доставки плановая \" \\(Расчёт ведётся от веса ОБЪЁМНОГО либо ФАКТИЧЕСКОГО, берётся максимальный вес из двух представленных, далее расчёт за вес а именно с калькуляторов ВОЗМОЖНО В ДАННОМ БЛОКЕ СТОИТ РАССМОТРЕТЬ И РЕАЛЬНУЮ ПЕРЕПАКОВКУ, Т.К. МОГУТ ЗАПАКОВАТЬ \"ПО ТУПОМУ\", МНОГО ОБЪЁМНОГО ВЕСА СВОБОДНОГО",
+    "style": "rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-79",
+    "vertex": true,
+    "edge": false,
+    "x": -3230.0,
+    "y": -210.75,
+    "text": "3. Таможня РФ",
+    "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=#b85450;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-77",
+    "vertex": true,
+    "edge": false,
+    "x": -3500.0,
+    "y": -130.75,
+    "text": "Формирование таможенного платежа:1. ОАЭ пошлина считается \\(\\(стоимость товара из п.1 + стоимость доставки из калькулятора ОАЭ п2.\\)/100\\)*x \\(x процент пошлины \\(задаётся при открытии\\)\n2. Турция - пошлина считается \\(\\(стоимость товара из п.1 + стоимость доставки из калькулятора Турция \"Карго 63\"\\)/100\\)*х \\(x процент пошлины \\(задаётся при открытии\\)\n3. Рубль - не считается\nТАМОЖЕННЫЙ ПЛАТЁЖ ПЕРЕДЕЛАТЬ\nВООБЩЕ КАК ДЕЛАТЬ ЕГО\n1. Таможенный платёж вводить по факту, выплывающее окно, в котором ты к каждой детали прописываешь % таможенной пошлины, считается \\(\\(стоимость товара из п.1 + стоимость доставки из калькулятора ОАЭ п2.\\)/100\\)*% таможенной пошлины\\)",
+    "style": "whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-83",
+    "vertex": true,
+    "edge": false,
+    "x": -2950.0,
+    "y": -90.0,
+    "text": "Отсылка к калькулятору",
+    "style": "text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-22",
+    "vertex": true,
+    "edge": false,
+    "x": -260.0,
+    "y": 10.0,
+    "text": "Финальные цифры расчёта по цене, ндс, доставке, ценам без НДС \\(включающая только налог на прибыль\\), цене , 3% заложить комиссию на перевод\nПредоставить формулу расчёта для НДС",
+    "style": "text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-40",
+    "vertex": true,
+    "edge": false,
+    "x": 140.0,
+    "y": 60.0,
+    "text": "Необходимо фиксировать сопуствующие расходы на заказ товара",
+    "style": "text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-38",
+    "vertex": true,
+    "edge": false,
+    "x": 190.0,
+    "y": 240.0,
+    "text": "Фиксация сопутствующих расходов на зааказ",
+    "style": "shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;"
+  },
+  {
+    "page": "Page-1",
+    "id": "wwn2oWomlsWY15Cx0ud6-33",
+    "vertex": true,
+    "edge": false,
+    "x": -3190.0,
+    "y": 250.0,
+    "text": "4. Сопутствующие расходы",
+    "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;"
+  },
+  {
+    "page": "Page-1",
+    "id": "wwn2oWomlsWY15Cx0ud6-1",
+    "vertex": true,
+    "edge": false,
+    "x": -3500.0,
+    "y": 330.0,
+    "text": "Сопутствующие расходы \\(Выбирается по стране доставке, при выборе поставщика\\)",
+    "style": "rounded=0;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "wwn2oWomlsWY15Cx0ud6-6",
+    "vertex": true,
+    "edge": false,
+    "x": -3060.0,
+    "y": 410.0,
+    "text": "ТурцияНЕПОНЯТНО КАКИЕ БУДУТ, ПРИ БЕЛОМ импорте такие же как и ОАЭ",
+    "style": "whiteSpace=wrap;html=1;rounded=0;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-90",
+    "vertex": true,
+    "edge": false,
+    "x": -3970.0,
+    "y": 420.0,
+    "text": "ОАЭ\n1. Агентское вознаграждение - 400 дирхам - статичная единица \\(400 х курс ЦБ на момент размещения\\) = сумма в рублях2. Валютный контроль - 2767р.\n3. Стоимость доставки из калькулятора ОАЭ п2\n4.Оформление экспортных документов - 555 доллар - статичная единица \\(400 х курс ЦБ на момент размещения\\) = сумма в рублях\n5. Таможенное оформление РФ - не статичная сумма, предлагаю взять постоянной равной 10000р \\(возможна корректировка\\)\n6.Вывоз с СВХ - не статично - предлагаю взять 5000р. на все заказы\n7. Рустем услуги - не статично - предлагаю взять 5000р. на все заказы\n8. Доп. расход\nСОПУТСВУЮЩИЕ РАСХОДЫ ДЕЛЯТЬСЯ НА ВЕСЬ ЗАКАЗ КРОМЕ ТАМОЖНИ",
+    "style": "whiteSpace=wrap;html=1;align=left;"
+  },
+  {
+    "page": "Page-1",
+    "id": "hoTm0ZFFSuWWbOi-TXR0-6",
+    "vertex": true,
+    "edge": false,
+    "x": 345.0,
+    "y": 450.0,
+    "text": "Таблица упущенных заказов ведёт менеджер также \\(по простому то что спрашивли но они не купили",
+    "style": "whiteSpace=wrap;html=1;aspect=fixed;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-35",
+    "vertex": true,
+    "edge": false,
+    "x": -1435.0,
+    "y": 640.0,
+    "text": "Калькулятор доставки\\(Выбираем нужный калькулятор зависит от\nстраны поставщика\nЕсли выбран поставщик ОАЭ то калькулятор предлагается ОАЭ\nЕсли Турция то турецкие\nЕсли Польша то польские",
+    "style": "rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;"
+  },
+  {
+    "page": "Page-1",
+    "id": "P1v9Knj4-V9O7zub6xK4-20",
+    "vertex": true,
+    "edge": false,
+    "x": 3650.0,
+    "y": 700.0,
+    "text": "Общая библиотека",
+    "style": "whiteSpace=wrap;html=1;align=center;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-94",
+    "vertex": true,
+    "edge": false,
+    "x": -3497.5,
+    "y": 750.0,
+    "text": "Сформированная себестоимость",
+    "style": "whiteSpace=wrap;html=1;align=center;"
+  },
+  {
+    "page": "Page-1",
+    "id": "wwn2oWomlsWY15Cx0ud6-29",
+    "vertex": true,
+    "edge": false,
+    "x": 1150.0,
+    "y": 890.0,
+    "text": "На основании библиотечных данных, формирование справки",
+    "style": "whiteSpace=wrap;html=1;align=left;"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-1",
+    "vertex": true,
+    "edge": false,
+    "x": -5980.0,
+    "y": 936.0,
+    "text": "Калькулятор цены — режим:\nПо марже / По чистой прибыли\nИнструкция: выберите режим счёта. В режиме 'По\nмарже' введите целевую маржу \\(B11\\). В режиме 'По чистой прибыли' введите\nцелевую чистую прибыль \\(B12\\). Поля в столбце C содержат подсказки.\nПараметр Значение \\(ввод\n/ выбор\\) Метаданные/формула Примечание /\nподсказка\nСебестоимость \\(без НДС\\) 100\n000,00 Вводимая\nединица Ввод:\nсумма без НДС \\(валюта\\)\nСтавка НДС \\(доля\\) 20,00% Вводимые\n% Дробное\nзначение: 0.20 = 20%\nСтавка налога на прибыль \\(доля\\) 15,00% Вводимые\n% Дробное\nзначение: 0.15 = 15%\nВходящий НДС возмещается? Да Выберите\n'Да' если входной НДС можно принять к вычету\nТип маржи \\(база\\) От\nцены без НДС Выберите:\n'От цены без НДС' или 'От цены с НДС'\nРежим расчёта По\nмарже Выберите:\n'По марже' \\(цель — маржа\\) или 'По чистой прибыли' \\(цель — чистая прибыль\\)\nВвод: Желаемая маржа \\(доля\\) 12,00% Вводимая\nединица Если\nрежим 'По марже' — укажите целевую маржу \\(например 0.12 = 12%\\). Интерпретация\nзависит от 'Типа маржи' \\(B9\\).\nВвод: Желаемая чистая прибыль \\(доля от цены без НДС\\) 12,14% Вводимая\nединица Если\nрежим 'По чистой прибыли' — укажите долю чистой прибыли \\(net profit / price\nбез НДС\\). Например 0.10 = 10%.\nРезультаты / Промежуточные\nРасчетная\nцена без НДС \\(цена продажи\\) 113 636,36 /=ЕСЛИ\\($B$10=\"По\nмарже\";ЕСЛИ\\($B$11=\"\";\"\";ЕСЛИ\\($B$9=\"От цены без\nНДС\";ЕСЛИ\\(1-$B$11 Цена без НДС,\nрассчитывается в зависимости от режима \\(см. B10\\)\nЦена с НДС \\(выручка с НДС\\) 136\n363,64 /=ЕСЛИ\\($B$15=\"\";\"\";$B$15*\\(1+$B$6\\)\\) Цена\nс НДС = цена без НДС * \\(1+ставка НДС\\)\nСебестоимость с НДС 120\n000,00 /=ЕСЛИ\\($B$5=\"\";\"\";$B$5*\\(1+$B$6\\)\\) Себестоимость\n\\(без НДС\\) * \\(1+НДС\\)\nВаловая прибыль до налога \\(EBT\\) 13\n636,36 /=ЕСЛИ\\($B$15=\"\";\"\";$B$15\n- ЕСЛИ\\($B$8=\"Да\";$B$5;$B$17\\)\\) EBT\n= цена без НДС - себестоимость \\(в зависимости от вычета НДС\\)\nЧистая прибыль после налога 11\n590,91 /=ЕСЛИ\\($B$18=\"\";\"\";$B$18\n- $B$23\\) Чистая\nприбыль = EBT - налог\nНДС необходимый уплатить с завоза 20\n000,00 /=B5*B6\nНДС полный 22\n727,27 /=\\(B16*20\\)/120\nНалог на\nприбыль \\(если EBT>0\\) 2 045,45 /=ЕСЛИ\\($B$18>0;$B$18*$B$7;0\\) Налог = EBT *\nставка налога \\(если EBT положителен\\)\nНДС к уплате 2\n727,27 /=B21-B20\nИспользуемая\nмаржа \\(доля\\) 12,00% /=ЕСЛИ\\($B$10=\"По\nмарже\";$B$11;ЕСЛИ\\($B$10=\"По чистой прибыли\";ЕСЛИ\\($B$9=\"От\nцены без НДС\";ЕСЛИ\\($B$15=\"\";\"\";\\($B$15 -\nЕСЛИ\\($B$8=\"Да\";$B$5;$B$17\\)\\)/$B$15\\);ЕСЛИ\\($B$15=\"\";\"\";\\($B$16\n- ЕСЛИ\\($B$8=\"Да\";$B$5;$B$17\\)\\)/$B$16\\)\\);\"\"\\)\\) Если режим 'По\nмарже' — показывается вводимая маржа. Иначе — вычисленная маржа.\nИспользуемая чистая прибыль \\(доля от цены без НДС\\) 10,20% /=ЕСЛИ\\($B$10=\"По\nчистой прибыли\";$B$12;ЕСЛИ\\($B$10=\"По\nмарже\";ЕСЛИ\\($B$15=\"\";\"\";$B$19/$B$15\\);\"\"\\)\\) Если\nрежим 'По чистой прибыли' — показывается вводимое значение. Иначе —\nвычисленная чистая прибыль/цена \\(net profit margin\\).",
+    "style": "text;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-47",
+    "vertex": true,
+    "edge": false,
+    "x": -1520.0,
+    "y": 1010.0,
+    "text": "Калькулятор доставки Турция:1. Карго 63:\nа\\) Авиадоставка\nСрок: 7-8 дней до Москвы\nУсловие: вес одного товара не может превышать 50кг\nРасчёт доставки: \\(6,5$ х \"Фактический вес\"\\)+10$+ 300р. \\(фиксированная сумма заложенная на сопутствующие расходы\\) = итоговая стоимость 1 позиции\nб\\) Авто \\(T1\\)\nСрок: 14 дней до Москвы\nСтоимость: 4,5$ x \"Фактический вес\" +10$+300р.\\(фиксированная сумма заложенная на сопутствующие расходы\\) = итоговая стоимость доставки по всем позициям заказа\nРасчёт для стоимости перевода долларов в рубли для \"Карго 63\" считается по формуле:\nА+B+C= сумма платежа в рублях\nГде:\n1. \"А\" - сумма платежа в долларах \\(Переводим $ в рубли по курсу ЦБ на момент даты расчёта\\)\n2. \"B\" - процент добавочной стоимости к курсу ЦБ - 3% от \"А\"\n3. \"C\" - комиссия агента \\(если до 10000$, то 3% от \"А\" \\(\\(А/100\\)*3\\); если свыше 10000 то 1% от \"А\" \\(\\(А/100\\)*1\\)\n2. Карго Риммеил \\(Азреы\\):\nа\\) Экспресс 2-3 дня\nСрок: 2-3 дня\nСтоимость; 10$ х \"Фактический вес\"+300р\nб\\) Трехдневка 3-5 дней\nСрок: 3-5 дней\nСтоимость: 9,5$ x \"Фактический вес\"+300р\nв\\) Семидневка 5-7 дней\nСрок: 5-7 дней\nСтоимость: 8,5$ x \"Фактический вес\"+300р\nРасчёт для стоимости перевода долларов в рубли для \"Карго Риммеил\" считается по формуле:\nА+4 = сумма платежа в рублях\nГде:\n1. \"А\" - сумма платежа в долларах \\(Переводим $ в рубли по курсу ЦБ на момент даты расчёта\\)\nСопутствующие расходы:\nКарго 63\n1. Входной контроль при необходимости - 500-1000р\n2. Фасовка товара 1000р\nКарго Риммеил \\(Азеры\\)\n1. Рустем от 1000 до 5000\n2. Амминжон кладовщик на \"Садоводе\" от 500 до 3000 тысяч\n300р. дозакладывается на товар, но если себестоимость товара ниже 4000р. то 300р. не закладывается\n3. Карго 2 \\(новая\\)\n4$ кг \\(до МСК 15-20 дней срок доставки\\) +10 за каждую позицию считаем изначально, по факту выбираем сколько позиций",
+    "style": "whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-86",
+    "vertex": true,
+    "edge": false,
+    "x": -3180.0,
+    "y": 1122.0,
+    "text": "4. НДС + НАЛОГ НА ПРИБЫЛЬ",
+    "style": "shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=40;position=0.04;position2=0;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-84",
+    "vertex": true,
+    "edge": false,
+    "x": -3500.0,
+    "y": 1202.0,
+    "text": "НДС считается на 1 единицу товара, считается по формулам",
+    "style": "whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-45",
+    "vertex": true,
+    "edge": false,
+    "x": -2220.0,
+    "y": 1250.0,
+    "text": "Калькулятор доставки ОАЭ:Стоимость $\nФактический вес - 10$ за кг \\(Фактический вес проставляет менеджер в блоке \"Карточка товара\"\\)\nОбъёмный вес - 5$ за кг \\(Фактический вес проставляет менеджер в блоке \"Карточка товара\"\\)\n1. ОАЭ без таможенный:\n\"объёмный вес\" х 5$ = \"цена за объёмный вес\"\n\"фактический вес\" х 10$ = \"цена за фактический вес\"\n\"цена за объёмный вес\"+\"цена за фактический вес\" = стоимость доставки\n2. ОАЭ с таможней:\n1. Из \"объёмный вес\" и \"фактический вес\" выбираем наибольшее \\(если в карточке товара несколько позиций суммируем их и выбираем наибольшее\\)\nДалее считаем:\nЕсли объёмного больше считаем \\(\"объёмный вес\" х 5$ = \"цена за объёмный вес\"\\)\nЕсли фактического больше считаем \\(\"фактический вес\" х 10$ = \"цена за фактический вес\"\\)\nЕсли не одно условие не соотвествует то считаем как 45кг по ставке \\(4,5 $ за кг\\)\n2. \"Условие если сумма объёмного или фактического веса менее 45к по всем позициям \"Карточки товара\" , то цена доставки рассчитывается за 45 кг \\(выдать предупреждение перед этим \"ВОЗМОЖНО ДОУКОМПЛЕКТОВАНИЕ С ДРУГИМИ ЗАКАЗАМИ\" предложить другие заказы которые не ушли в отправленные, иначе добавить\\)\nВАЖНО ПРОСМОТРЕТЬ КАЛЬКУЛЯТОР РАСЧЁТА ЦЕНЫ В ПОЛНОМ ОБЪЁМЕ",
+    "style": "whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-49",
+    "vertex": true,
+    "edge": false,
+    "x": -900.0,
+    "y": 1250.0,
+    "text": "Калькулятор доставки Польша:1. 15$ за единицу \\( в ручную можно поменять, т.к. происходит по личной договоренности с поставщиком\\)",
+    "style": "whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-100",
+    "vertex": true,
+    "edge": false,
+    "x": -3510.0,
+    "y": 1470.0,
+    "text": "1. Калькулятор \"ООО с НДС\" \\(25% налог на прибыль, 20 % НДС\\):2. Калькулятор \"ИП с НДС\" \\(18% налог на прибыль, 20 % НДС\\)\n3. Калькулятор \"ИПУСН с НДС\" \\(6% налог на прибыль, 20 % НДС платиться в любом случае\\)\n4. Калькулятор \"ИПУСН без НДС\" \\(6% налог на прибыль, 0 % НДС\\)\n5. Калькулятор \"Наличные без налога на прибыль без НДС\" \\(0% налог на прибыль, 0 % НДС\\)",
+    "style": "whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-14",
+    "vertex": true,
+    "edge": false,
+    "x": -4260.0,
+    "y": 1540.0,
+    "text": "Калькулятор рассписанный",
+    "style": "rounded=0;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "PyLQcGEJ5zVv0vYb-gJY-56",
+    "vertex": true,
+    "edge": false,
+    "x": -2140.0,
+    "y": 1990.0,
+    "text": "Добавить статус \"отправлен\", БЛОК ЛОГИСТИКА",
+    "style": "ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-6",
+    "vertex": true,
+    "edge": false,
+    "x": -4370.0,
+    "y": 2080.0,
+    "text": "Пояснения\nк калькулятору маржи\nЧто делает калькулятор: На основе введённой\nсебестоимости \\(без НДС\\), ставки НДС и ставки налога на прибыль, а также\nжелаемого % маржи, калькулятор вычисляет цену продажи, включающую НДС,\nнеобходимую для достижения этой маржи. Можно выбирать, измеряется ли маржа\nотносительно цены без НДС или с НДС, а также учитывать, возмещается ли\nвходящий НДС.\nКлючевые обозначения\n\\(обозначим\\): C — себестоимость без НДС\n\\(ячейка B9 в листе 'Калькулятор'\\).\nv — ставка НДС \\(B10\\).\nt — ставка налога на прибыль \\(B11\\).\nm — желаемая маржа \\(B13\\).\nМатематические выводы\n\\(случай A — входящий НДС возмещается\\): 1\\) Если маржа задана\nотносительно цены без НДС \\(m = net_profit / price_ex\\):\nnet_profit = \\(price_ex - C\\) * \\(1 -\nt\\)\nm = \\(price_ex - C\\) * \\(1 - t\\) /\nprice_ex\n=> price_ex = C * \\(1 - t\\) / \\(1\n- t - m\\)\n2\\) Если маржа задана относительно цены с НДС \\(m = net_profit /\nprice_inc\\):\nprice_inc = price_ex * \\(1 +\nv\\)\nnet_profit = \\(price_ex - C\\) * \\(1 -\nt\\)\nm = net_profit / price_inc =\n\\(price_ex - C\\) * \\(1 - t\\) / \\(price_ex*\\(1+v\\)\\)\n=> price_ex = C * \\(1 - t\\) / \\(1\n- t - \\(1+v\\)*m\\)\nМатематические выводы \\(случай\nB — входящий НДС не возмещается\\): Здесь себестоимость для целей\nприбыли становится C*\\(1+v\\).\n1\\) Маржа от цены без НДС:\nprice_ex = C*\\(1+v\\) * \\(1 - t\\) / \\(1\n- t - m\\)\n2\\) Маржа от цены с НДС:\nprice_ex = C*\\(1+v\\) * \\(1 - t\\) / \\(1\n- t - \\(1+v\\)*m\\)\nОграничения и предупреждения: Чтобы формулы давали смысл и не\nприводили к делению на ноль/отрицательному знаменателю, требуется:\n- Для вариантов, где маржа от цены\nбез НДС: m - Для вариантов, где маржа от цены с\nНДС: m\nПримеры использования: 1\\) Если себестоимость 100000,\nНДС 20%, налог прибыли 15% и вы хотите маржу 10% от цены без НДС —\nкалькулятор рассчитает необходимую цену с НДС автоматически.\n2\\) Если вы не имеете права на вычет входящего НДС — выберите 'Нет' в\nсоответствующем поле, и калькулятор учтёт НДС в себестоимости.\nГде смотреть результаты: Лист 'Калькулятор' — основные\nвводы слева, а справа — вычисленные значения: цена без НДС, цена с НДС,\nваловая прибыль, налог на прибыль, чистая прибыль и реальные маржи. Также\nотображается чистый НДС к уплате \\(если применимо\\) и предупреждение при\nнедостижимой марже.",
+    "style": "text;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Page-1",
+    "id": "t5Qeiz5YgGpD-yB01DVS-19",
+    "vertex": true,
+    "edge": false,
+    "x": -5200.0,
+    "y": 2670.0,
+    "text": "Описание работы АНТОН",
+    "style": "rounded=0;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Страница — 2",
+    "id": "oVECNtxVXtUkWbZWemqN-2",
+    "vertex": true,
+    "edge": false,
+    "x": null,
+    "y": 20.0,
+    "text": "Код",
+    "style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Страница — 2",
+    "id": "oVECNtxVXtUkWbZWemqN-3",
+    "vertex": true,
+    "edge": false,
+    "x": null,
+    "y": 40.0,
+    "text": "Заказчик",
+    "style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Страница — 2",
+    "id": "oVECNtxVXtUkWbZWemqN-4",
+    "vertex": true,
+    "edge": false,
+    "x": null,
+    "y": 70.0,
+    "text": "Номер заказа",
+    "style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Страница — 2",
+    "id": "112sWbD4myiqkPoYCslt-1",
+    "vertex": true,
+    "edge": false,
+    "x": null,
+    "y": 90.0,
+    "text": "№ Заказчика-номер заказа",
+    "style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Страница — 2",
+    "id": "112sWbD4myiqkPoYCslt-2",
+    "vertex": true,
+    "edge": false,
+    "x": null,
+    "y": 110.0,
+    "text": "....",
+    "style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;"
+  },
+  {
+    "page": "Страница — 2",
+    "id": "oVECNtxVXtUkWbZWemqN-1",
+    "vertex": true,
+    "edge": false,
+    "x": 390.0,
+    "y": 250.0,
+    "text": "Карточка заказа",
+    "style": "swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;"
+  }
+]

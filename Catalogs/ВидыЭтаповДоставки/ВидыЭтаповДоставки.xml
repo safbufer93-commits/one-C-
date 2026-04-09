@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Catalog" uuid="81c309a4-e2de-4da7-b9d0-7c2d99f2e101">
+	<mdclass:n>ВидыЭтаповДоставки</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Виды этапов доставки</core:content></core:item></mdclass:Synonym>
+	<mdclass:Hierarchical>false</mdclass:Hierarchical>
+	<mdclass:CodeLength>9</mdclass:CodeLength>
+	<mdclass:DescriptionLength>150</mdclass:DescriptionLength>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Attribute uuid="81c309a4-e2de-4da7-b9d0-7c2d99f2e102">
+		<mdclass:n>Порядок</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Порядок</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>0</mdclass:FractionDigits></mdclass:NumberQualifiers>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="81c309a4-e2de-4da7-b9d0-7c2d99f2e103">
+		<mdclass:n>ЭтапДоставки</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Этап доставки</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>EnumRef.ЭтапДоставки</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="81c309a4-e2de-4da7-b9d0-7c2d99f2e104">
+		<mdclass:n>Комментарий</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Комментарий</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>250</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+	</mdclass:Attribute>
+</mdclass:Catalog>

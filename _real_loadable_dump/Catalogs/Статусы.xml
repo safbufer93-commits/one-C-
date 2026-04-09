@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c7b70a87-24ae-df45-ffe9-47c73113cdff">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Статусы" category="Object">
+				<xr:TypeId>e5f77741-1656-8b76-8b02-93fd50e97db9</xr:TypeId>
+				<xr:ValueId>71e8b279-a9d9-e372-9465-ad7eb1b296b3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Статусы" category="Ref">
+				<xr:TypeId>1020e9c6-c6ff-8a9a-c0c1-7fb10da6972a</xr:TypeId>
+				<xr:ValueId>5f298095-9835-9eaf-67ca-60692de381f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Статусы" category="Selection">
+				<xr:TypeId>9662a652-bb67-64d0-a765-4abd25935ed9</xr:TypeId>
+				<xr:ValueId>e8b95c88-8ef7-724b-a399-2c6678d35aed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Статусы" category="List">
+				<xr:TypeId>42b85978-214e-2487-9dd0-10f295ea2044</xr:TypeId>
+				<xr:ValueId>3e480826-e5b9-12b3-46fc-743c65e4d911</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Статусы" category="Manager">
+				<xr:TypeId>e9326ccf-8927-dc21-25c9-a5418217c56c</xr:TypeId>
+				<xr:ValueId>02c5c4ba-ec03-84b1-109a-1338fe66bb6b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Статусы</Name>
+			<Synonym/>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>80</DescriptionLength>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Catalog.Статусы.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultListForm>Catalog.Статусы.Form.ФормаСписка</DefaultListForm>
+		</Properties>
+		<ChildObjects>
+		<Attribute uuid="a9b0641d-d774-b7e4-59cd-6f34b8c5d13b">
+			<Properties>
+				<Name>Категория</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.КатегорияСтатуса</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="15916f76-915c-8db4-9918-a148cc338040">
+			<Properties>
+				<Name>Порядок</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>10</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="1e31e5b1-b541-c1a1-b898-68c9ddc0c373">
+			<Properties>
+				<Name>Финальный</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

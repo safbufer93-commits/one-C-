@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Catalog" uuid="3eaad776-323a-47d7-96be-af04f316c94c">
+	<mdclass:n>Упаковки</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Упаковки</core:content></core:item></mdclass:Synonym>
+	<mdclass:Hierarchical>false</mdclass:Hierarchical>
+	<mdclass:CodeLength>9</mdclass:CodeLength>
+	<mdclass:DescriptionLength>150</mdclass:DescriptionLength>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Attribute uuid="f25a735b-967d-43a1-9921-5694de2e81ea">
+		<mdclass:n>ТипУпаковки</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип упаковки</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>100</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="4e9dc2aa-c8d7-4a66-a1e8-d6e9078e0050">
+		<mdclass:n>КоличествоМест</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Количество мест</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>0</mdclass:FractionDigits></mdclass:NumberQualifiers>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="4913120e-e3a5-4365-af1e-0d3ccf10413a">
+		<mdclass:n>ВесФакт</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Вес факт кг</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="120bc290-cd6c-484c-a7cd-5cf5bc6c40af">
+		<mdclass:n>Объем</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Объем м3</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>3</mdclass:FractionDigits></mdclass:NumberQualifiers>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+	</mdclass:Attribute>
+	<mdclass:Attribute uuid="f1f06838-a000-44fc-8a89-9b0b4fe268ad">
+		<mdclass:n>Комментарий</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Комментарий</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>250</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+		<mdclass:FillRequired>false</mdclass:FillRequired>
+	</mdclass:Attribute>
+</mdclass:Catalog>

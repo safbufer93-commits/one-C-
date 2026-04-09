@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e684e223-6098-d64e-dd56-69ea27d43e51">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипУведомления" category="Ref">
+				<xr:TypeId>823c9eb0-4c44-6cd6-f5ab-1193bb0f79dc</xr:TypeId>
+				<xr:ValueId>92d4bbd1-6cf4-2673-38f1-5cbc31870083</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипУведомления" category="Manager">
+				<xr:TypeId>cfe5cb25-4359-47c2-1c51-6ddc56bdb28a</xr:TypeId>
+				<xr:ValueId>74748ba5-f66c-b05b-18a0-b09baa8587ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипУведомления" category="List">
+				<xr:TypeId>3875a759-f4b9-e26d-e486-b449315ff600</xr:TypeId>
+				<xr:ValueId>8fb6d34f-fa42-1aa1-eaf1-c7bfca047ec3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипУведомления</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="f8f9b7b4-2b8a-68ab-e7f2-4e1c3878c9b5">
+				<Properties>
+					<Name>ИзменениеСтатуса</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="12280799-c217-4711-0db5-44c5d91fd195">
+				<Properties>
+					<Name>ПросрочкаОплаты</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a652c048-8156-07af-fe21-8455c0ae8a98">
+				<Properties>
+					<Name>ЗадержкаДоставки</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f8d4ea50-5dc8-98c4-0f57-283e47197421">
+				<Properties>
+					<Name>НетДокумента</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

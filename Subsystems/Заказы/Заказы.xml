@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Subsystem" uuid="ad35766d-d8c3-4718-ac77-2d1f31771001">
+	<mdclass:n>Заказы</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказы</core:content></core:item></mdclass:Synonym>
+	<mdclass:Comment>Контур оформления и сопровождения заказов клиентов.</mdclass:Comment>
+</mdclass:Subsystem>

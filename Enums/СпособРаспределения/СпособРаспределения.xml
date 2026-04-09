@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="68f02b77-ac10-4553-89d2-f7cf2e16a14f">
+	<mdclass:n>СпособРаспределения</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Способ распределения</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="4a35a626-6e40-4ec5-8a58-6183d5a2881b">
+		<mdclass:n>ПоВесу</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ПоВесу</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="792d013e-01d9-480b-8a2f-54d07a69ebc5">
+		<mdclass:n>ПоСумме</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ПоСумме</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="1a11b5fd-be85-4830-9099-dcf6481c4f9f">
+		<mdclass:n>Поровну</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Поровну</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

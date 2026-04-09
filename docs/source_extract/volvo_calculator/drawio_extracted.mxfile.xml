@@ -1,0 +1,826 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 \(Windows NT 10.0; Win64; x64\) AppleWebKit/537.36 \(KHTML, like Gecko\) Chrome/144.0.0.0 YaBrowser/26.3.0.0 Safari/537.36" version="29.6.4" pages="2">
+  <diagram name="Page-1" id="b520641d-4fe3-3701-9064-5fc419738815">
+    <mxGraphModel dx="33180" dy="20920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="16000" pageHeight="9000" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Для сайта интернет и личного кабинета Заказчика&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="860" x="5640" y="-1250" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="290" width="1590" x="2960" y="-1940" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1340" width="1540" x="-6130" y="986" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1460" width="900" x="-4480" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-7" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PyLQcGEJ5zVv0vYb-gJY-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="-1490" />
+              <mxPoint x="285" y="-1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-22" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wwn2oWomlsWY15Cx0ud6-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="-2050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;h1&gt;Менеджер&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="60" width="165" x="202.5" y="-1850" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="-280" as="sourcePoint" />
+            <mxPoint x="210" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;Вносит следующее:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. &quot;Заказчик&quot; \(Вводит пользователь \(Выпадающий список из библиотеки Заказчиков выпадающим списком, если отсутствует добавляет\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Номер заказа&quot; \(Проставляется автоматически в последовательности\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. &quot;&lt;span style=&quot;background-color: transparent;&quot;&gt;№ Заказчика-номер заказа&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;\(000000-0000\)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. &quot;Дата размещения заказа&quot; \(проставляется автоматически в день вноса информации\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 51, 51\);&quot;&gt;5. &quot;Статус оплаты по счёту&quot; \(Статус выставляется в данном блоке, в блоке &quot;Финансы&quot; отображается как статус \(Заказ оплачен/Заказ не оплачен\)\)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6. &quot;Фиксация менеджера по заказу&quot; \(по логину вошедшему в систему\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7. &quot;Место доставки&quot; \(Проставляется локация, город и т.д.\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;8. &quot;Способ доставки&quot; \(Самовызов, доставка до ТК\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(51, 51, 255\);&quot;&gt;9. &quot;Статус заказа&quot; \(Заказано, не заказано\) у поставщика \(ЗАКАЗЫВАТЬ МОЖНО ТОЛЬКО ПОСЛЕ ОПЛАТЫ ПУНКТ % ДЛЯ ОПРЕДЁННЫХ ПОЛЬЗОВАТЕЛЬ ДЕЛАТЬ ИСКЛЮЧЕНИЕ\)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(51, 51, 255\);&quot;&gt;10. &quot;Дата заказа&amp;nbsp; \(отображается когда проставляется статус в &quot;Статус заказа&quot; столбце статус заказа ставиться на з&quot;Заказан&quot;\)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(51, 51, 255\);&quot;&gt;11. &quot;Форма оплаты&quot;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;12. &quot;Примечание&quot; \(вносится в ручную, поле для заметок по заказу\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="410" width="410" x="90" y="-1470" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="-1060" />
+              <mxPoint x="270" y="-880" />
+            </Array>
+            <mxPoint x="270" y="-1060" as="sourcePoint" />
+            <mxPoint x="910" y="-880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.852;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="hoTm0ZFFSuWWbOi-TXR0-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840.000000000001" y="-4180" as="sourcePoint" />
+            <mxPoint x="2279.953333333334" y="-1971.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-24" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.995;entryY=0.378;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="wwn2oWomlsWY15Cx0ud6-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1970" y="-1950" as="sourcePoint" />
+            <mxPoint x="1390" y="-1933" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-11" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="-694.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Библиотека товаров&lt;/font&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="960" y="-970" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-26" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.529;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="-1552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-9" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;rotation=-90;" value="&lt;h3 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Фиксация заказа&lt;/font&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="40" width="112.5" x="43.75" y="-1570" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-30" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wwn2oWomlsWY15Cx0ud6-29" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1135" y="245" />
+              <mxPoint x="1370" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-21" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P1v9Knj4-V9O7zub6xK4-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="-270" />
+              <mxPoint x="1480" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-12" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" value="В данном блоке образуется информация о товаре, собранных данных, на момент закупа также хочется уточнить что сумма фиксируется за единицу товара:&lt;div&gt;1. &quot;Дата&quot; \(дата внесения данных, рассчитывается на момент внесения заявки\) учитывая курсы валют и закупочной стоимости\)&lt;/div&gt;&lt;div&gt;2. &quot;№ Заказчика-номер заказа&quot;&lt;/div&gt;&lt;div&gt;3. &quot;Заказчик&quot;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark\(rgb\(244, 6, 6\), rgb\(237, 237, 237\)\);&quot;&gt;4. &quot;Авто&quot; \(нигде не вноситься ДО\)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;5.&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&quot;Наименование товара&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;6. &quot;Кросс номер&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;7. &quot;Производитель&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;8. &quot;Вес товара&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;9. &quot;Объёмный вес&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;10. &quot;Поставщик&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;11. &quot;Страна поставщика&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;12. &quot;Цена товара в валюте&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;13. &quot;Закуп&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;14. &quot;Наличные&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;15. &quot;Безналичные&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;16. &quot;Цена с НДС&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;17. &quot;Маржа&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;18. &quot;Прибыль&quot; &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb\(204, 0, 102\);&quot;&gt;\(Фиксированная прибыль от сделки\)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;19. &quot;Рыночная цена&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;20. &quot;Курс&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;21. &quot;Сумма комисии&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;22. &quot;Пошлина %&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;23. &quot;Сумма пошлины&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;24. &quot;Сумма НДС&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;25. &quot;Сопутствующий расход&quot; &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(255, 0, 128\), rgb\(255, 255, 255\)\);&quot;&gt;\(на единицу товара, пока не знаю от куда брать и как брать данные \(возможно как то располовинить на всё, в зависимости от сделок\)\)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;26. &quot;Стоимость доставки плановая&quot; \(В стоимость доставки не включим\)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;27. &quot;Стоимость доставки фактическая&quot;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;28. &quot;Дата доставки&quot;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;29.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="570" width="570" x="850" y="-690" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-13" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-51" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="-910" as="sourcePoint" />
+            <mxPoint x="270" y="-740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-7" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoTm0ZFFSuWWbOi-TXR0-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-15" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;text-align: left;&quot;&gt;После фиксации происходит расчёт стоимости запчасти&lt;font style=&quot;color: rgb\(103, 171, 159\);&quot;&gt; &lt;/font&gt;&lt;font&gt;&lt;font style=&quot;color: rgb\(103, 171, 159\);&quot;&gt;\(&lt;font&gt;вопрос в том что уже расценено было ранее, куда идёт и как отображать менеджеру, может поменяться от куда везут, кто везёт, сроки, курс и т.д.\)&lt;/font&gt;:&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;По внесённому заказу отображается сразу следующее в формате таблицы:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;1. &quot;&lt;span style=&quot;background-color: transparent;&quot;&gt;№ Заказчика-номер заказа&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;2. &quot;Наименование товара&quot;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. &quot;Производитель&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&quot;Артикул&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;Номер запчасти&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;5. &quot;Кросс номера&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6. &quot;Количество&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;После чего происходит расценка товара, вноситься следующее:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;7. &quot;Поставщик&quot; \(Формируется библиотека поставщиков \(Поставщик наименование; Страна поставщика; Валюта; &quot;НДС&quot; заложенная поставщиком при вводе поставщиков указывается есть или нет, если есть то процент проставляется сразу;\)&lt;/div&gt;&lt;div&gt;8. Страна поставки \(зависит от выбранного поставщика берется из библиотеки поставщиков\)&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;9. &quot;Цена товара в валюте&quot; \(Вводиться пользователем\) \(необходимо добавить следующее считать с VAT 5%, если ставиться галочка, добавляется 5% к цене, если не ставит то не добавляет\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;10. Проставляется валюта \(Доллар США, Дирхам \(дирхам\), Польская крона, Евро, рубль \(выпадающий список изначально сразу проставляется валюта по стране\)\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;11. &quot;Вес товара&quot; \(Сохраняется в библиотеке товара по артикул и наименованию\)&lt;/div&gt;&lt;div&gt;12. &quot;Объёмный вес товара&quot; \(выпадающее окно где задаются габариты &quot;L - длина&quot;, &quot;W - ширина&quot;, &quot;H - высота&quot;, итоговая цифра считается по формуле&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;\(L x Hx W / 6000\)\)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;13. &quot;Планируемая дата доставки согласованная с Заказчиком&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;14. &quot;Способ доставки плановый&quot; \(на основании его выбирается калькулятор расчёта\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;15. &quot;Стоимость доставки плановая &quot; \(Расчёт ведётся от веса ОБЪЁМНОГО либо ФАКТИЧЕСКОГО, берётся максимальный вес из двух представленных, далее расчёт за вес а именно с калькуляторов&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(0, 153, 77\), rgb\(255, 255, 255\)\);&quot;&gt;6. &quot;Маржа&quot;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp;\(Чистая прибыль в калькуляторе интересна\)\(Закладывается в проценте от стоимости товара пользователем а именно: произведение \(цена товара переведённая в рубли+НДС&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;заложенный в товаре местный турция, ОАЭ, Польша+комиссия за перевод 3%+ просчитаный процент маржи\)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(255, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;/ЕСТЬ ЛИ НЕОБХОДИМОСТЬ СЧИТАТЬ НА МОРЖУ НДС/\)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;17. &quot;Итоговая цена&quot; \(Цена сложилась из произведения \(цена товара переведённая в рубли+\(VAT\) НДС заложенный в товаре местный турция, ОАЭ, Польша+комиссия за перевод 3%+цена доставки+НДС+пошлина+Маржа\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;18. &quot;Рыночная цена&quot; \(Вводит пользователь основываясь на цены конкурентов в РФ\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(103, 171, 159\);&quot;&gt;Кнопка для кросс номера&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 128\);&quot;&gt;10. &quot;Цена&quot; \(Выводиться цена в рублях \(количество умноженное на цену в валюте и умноженная на курс валюты центрального банка россии\) +&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;если товар из ОАЭ \(дирхам\) это цена деленная на 100 и умноженная на 5\)&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;\)&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot;&gt;также необходимо для данного пункта учитывать, как покупается товар \(нал, безнал, сер, с НДС\)&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;11. &quot;Комиссия банка&quot; \(Задаётся комиссия за услуги банка, единица в процентах, задаёт пользователь, т.ж. комиссию можно выключить принудительно пользователем\)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;12. &quot;Итоговая цена&quot; \(Выводиться итоговая сумма, произведение Цены и комиссии \(столбец 8+9\)\)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;15.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;16.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;17.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;18.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;1хх. Расчётный срок доставки \(по максимальному, если 10-15 дней, то ставиться 15\)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="700" width="700" x="41" y="-740" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-17" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.478;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-16" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Цена более объёмный блок, необходимо дополнительно рассмотреть, а именно на предмет как правильно считать цену, ввиду того что по разным принципам закупам, формируется различная цена, в полне возможно что необходим конкретный индикатор с переходом на конкретную формулу расчёта" vertex="1">
+          <mxGeometry height="60" width="490" x="-740" y="-670" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-22" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;Финальные цифры расчёта по цене, ндс, доставке, ценам без НДС \(включающая только налог на прибыль\), цене , 3% заложить комиссию на перевод&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;Предоставить формулу расчёта для НДС&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="-260" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-23" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-22" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="PyLQcGEJ5zVv0vYb-gJY-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="50" />
+              <mxPoint y="-215" />
+            </Array>
+            <mxPoint x="-170" y="-160" as="sourcePoint" />
+            <mxPoint x="210" y="-300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;h2&gt;Карточка заказа&lt;/h2&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="135" width="215" x="225" y="-1620" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Фиксация должна идти из блока проведённой оплаты!!!! На данный момент костыль" vertex="1">
+          <mxGeometry height="70" width="240" x="-315" y="-1270" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-200" y="-1130" as="sourcePoint" />
+            <mxPoint x="87" y="-1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.477;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-200" y="-1130" as="sourcePoint" />
+            <mxPoint x="-190" y="-1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-33" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-29" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.479;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-200" y="-1334" />
+            </Array>
+            <mxPoint x="-50" y="-1250" as="sourcePoint" />
+            <mxPoint y="-1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-34" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-3" style="endArrow=classic;html=1;rounded=0;exitX=0.995;exitY=0.864;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="wwn2oWomlsWY15Cx0ud6-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="-1115" />
+              <mxPoint x="1290" y="-1115" />
+              <mxPoint x="1290" y="-810" />
+              <mxPoint x="1590" y="-810" />
+              <mxPoint x="1590" y="-61" />
+            </Array>
+            <mxPoint x="1380" y="-970" as="sourcePoint" />
+            <mxPoint x="1790" y="-1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-46" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PyLQcGEJ5zVv0vYb-gJY-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-48" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.573;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-47" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1240" y="1006" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-50" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PyLQcGEJ5zVv0vYb-gJY-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-35" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Калькулятор доставки&lt;div&gt;\(Выбираем нужный калькулятор зависит от&amp;nbsp;&lt;/div&gt;&lt;div&gt;страны поставщика&lt;/div&gt;&lt;div&gt;Если выбран поставщик ОАЭ то калькулятор предлагается ОАЭ&lt;/div&gt;&lt;div&gt;Если Турция то турецкие&lt;/div&gt;&lt;div&gt;Если Польша то польские&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="390" x="-1435" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-36" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-61" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-30" y="-450" as="sourcePoint" />
+            <mxPoint x="40" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-37" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=3;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Фиксация данных в библиотеке&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="340" x="450" y="-920" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-38" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;h4&gt;Фиксация сопутствующих расходов на зааказ&lt;/h4&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="190" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-39" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-38" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.37;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="500" y="-270" as="sourcePoint" />
+            <mxPoint x="240" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-40" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" value="Необходимо фиксировать сопуствующие расходы на заказ товара" vertex="1">
+          <mxGeometry height="70" width="240" x="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-41" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="При единичных заказах рассмотреть возможность укомплектования нескольких заказов,&amp;nbsp;" vertex="1">
+          <mxGeometry height="120" width="210" x="460" y="-860" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-42" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.88;base=11;size=30;position=0.83;" value="Подача информации должна быть от другой роли" vertex="1">
+          <mxGeometry height="160" width="240" x="-620" y="-1460" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-43" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-42" style="endArrow=classic;html=1;rounded=0;entryX=0.006;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.882;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-410" y="-1300" as="sourcePoint" />
+            <mxPoint x="-20" y="-1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-55" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PyLQcGEJ5zVv0vYb-gJY-56" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-910" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-45" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;К&lt;font style=&quot;&quot;&gt;алькулятор доставки ОАЭ&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;:&lt;div&gt;Стоимость $&lt;/div&gt;&lt;div&gt;Фактический вес - 10$ за кг \(Фактический вес проставляет менеджер в блоке &quot;Карточка товара&quot;\)&lt;/div&gt;&lt;div&gt;Объёмный вес - 5$ за кг \(Фактический вес проставляет менеджер в блоке &quot;Карточка товара&quot;\)&lt;br&gt;&lt;div&gt;1. ОАЭ без таможенный:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&quot;объёмный вес&quot; х 5$ = &quot;цена за объёмный вес&quot;&lt;/div&gt;&lt;div&gt;&quot;фактический вес&quot; х 10$ = &quot;цена за фактический вес&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&quot;цена за объёмный вес&quot;+&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&quot;цена за фактический вес&quot; = стоимость доставки&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2. ОАЭ с таможней:&lt;/div&gt;&lt;div&gt;1. Из&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&quot;объёмный вес&quot; и&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&quot;фактический вес&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp;выбираем наибольшее \(если в карточке товара несколько позиций суммируем их и выбираем наибольшее\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;Далее считаем:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Если объёмного больше считаем \(&quot;объёмный вес&quot; х 5$ = &quot;цена за объёмный вес&quot;\)&lt;/div&gt;&lt;div&gt;Если фактического больше считаем \(&quot;фактический вес&quot; х 10$ = &quot;цена за фактический вес&quot;\)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Если не одно условие не соотвествует то считаем как 45кг по ставке \(4,5 $ за кг\)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. &quot;Условие если сумма объёмного или фактического веса менее 45к по всем позициям &quot;Карточки товара&quot; , то цена доставки рассчитывается за 45 кг \(выдать предупреждение перед этим &quot;ВОЗМОЖНО ДОУКОМПЛЕКТОВАНИЕ С ДРУГИМИ ЗАКАЗАМИ&quot; предложить другие заказы которые не ушли в отправленные, иначе добавить\)&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;h2&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(0, 204, 0\), rgb\(255, 255, 255\)\);&quot;&gt;ВАЖНО ПРОСМОТРЕТЬ КАЛЬКУЛЯТОР РАСЧЁТА ЦЕНЫ В ПОЛНОМ ОБЪЁМЕ&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="510" width="550" x="-2220" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-47" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" value="&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;Калькулятор доставки Турция:&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;1. Карго 63:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;а\) Авиадоставка&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;Срок: 7-8 дней до Москвы&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;Условие: вес одного товара не может превышать 50кг&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;Расчёт доставки: \(6,5$ х &quot;Фактический вес&quot;\)+10$+ &lt;/font&gt;&lt;font style=&quot;color: rgb\(0, 153, 77\);&quot;&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;300р.&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;\(фиксированная сумма заложенная на сопутствующие расходы\)&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(237, 237, 237\)\); background-color: transparent;&quot;&gt;= итоговая стоимость 1 позиции&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;б\) Авто \(T1\)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;Срок: 14 дней до Москвы&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Стоимость: 4,5$ x&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;&quot;Фактический вес&quot; +10$+300р.\(фиксированная сумма заложенная на сопутствующие расходы\) = итоговая стоимость доставки по всем позициям заказа&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;Расчёт для стоимости перевода долларов в рубли для &quot;Карго 63&quot; считается по формуле:&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;А+B+C= сумма платежа в рублях&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;Где:&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;1. &quot;А&quot; - сумма платежа в долларах&amp;nbsp; \(Переводим $ в рубли по курсу ЦБ на момент даты расчёта\)&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&quot;B&quot; - процент добавочной стоимости к курсу ЦБ - 3% от &quot;А&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&quot;C&quot; - комиссия агента&amp;nbsp; \(если до 10000$, то 3% от &quot;А&quot; \(\(А/100\)*3\); если свыше 10000 то 1% от &quot;А&quot; \(\(А/100\)*1\)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2. Карго Риммеил \(Азреы\):&lt;/div&gt;&lt;div&gt;а\) Экспресс 2-3 дня&lt;/div&gt;&lt;div&gt;Срок: 2-3 дня&lt;/div&gt;&lt;div&gt;Стоимость; 10$ х &quot;Фактический вес&quot;+&lt;font style=&quot;color: rgb\(0, 153, 77\);&quot;&gt;300р&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;б\) Трехдневка 3-5 дней&lt;/div&gt;&lt;div&gt;Срок: 3-5 дней&amp;nbsp;&lt;/div&gt;&lt;div&gt;Стоимость: 9,5$ x &quot;Фактический вес&quot;+&lt;font style=&quot;color: rgb\(0, 153, 77\);&quot;&gt;300р&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;в\) Семидневка 5-7 дней&lt;/div&gt;&lt;div&gt;Срок: 5-7 дней&amp;nbsp;&lt;/div&gt;&lt;div&gt;Стоимость: 8,5$ x &quot;Фактический вес&quot;+&lt;font style=&quot;color: rgb\(0, 153, 77\);&quot;&gt;300р&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Расчёт для стоимости перевода долларов в рубли для &quot;Карго Риммеил&quot; считается по формуле:&lt;/div&gt;&lt;div&gt;А+4 = сумма платежа в рублях&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Где:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;1. &quot;А&quot; - сумма платежа в долларах&amp;nbsp; \(Переводим $ в рубли по курсу ЦБ на момент даты расчёта\)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Сопутствующие расходы:&lt;/div&gt;&lt;div&gt;Карго 63&lt;/div&gt;&lt;div&gt;1. Входной контроль при необходимости - 500-1000р&lt;/div&gt;&lt;div&gt;2. Фасовка товара 1000р&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Карго Риммеил \(Азеры\)&lt;/div&gt;&lt;div&gt;1. Рустем от 1000 до 5000&lt;/div&gt;&lt;div&gt;2. Амминжон кладовщик на &quot;Садоводе&quot; от 500 до 3000 тысяч&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;300р. дозакладывается на товар, но если себестоимость товара ниже 4000р. то 300р. не закладывается&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;3. Карго 2 \(новая\)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;4$ кг \(до МСК 15-20 дней срок доставки\) +10 за каждую позицию считаем изначально, по факту выбираем сколько позиций&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1600" width="470" x="-1520" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-49" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Калькулятор доставки Польша:&lt;div&gt;1. 15$ за единицу \( в ручную можно поменять, т.к. происходит по личной договоренности с поставщиком\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="185" x="-900" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="PyLQcGEJ5zVv0vYb-gJY-51" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="-910" as="sourcePoint" />
+            <mxPoint x="270" y="-740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Карточка товара" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="-827" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-56" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Добавить статус &quot;отправлен&quot;, БЛОК ЛОГИСТИКА" vertex="1">
+          <mxGeometry height="135" width="390" x="-2140" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-60" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-64" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-320" y="-870" />
+            </Array>
+            <mxPoint x="-1070" y="-600" as="sourcePoint" />
+            <mxPoint x="40" y="-340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-69" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PyLQcGEJ5zVv0vYb-gJY-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-64" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Формирование итоговой стоимости" vertex="1">
+          <mxGeometry height="150" width="230" x="-3410" y="-940" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-65" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-35" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1040" y="-75" />
+              <mxPoint x="-310" y="-75" />
+              <mxPoint x="-310" y="-230" />
+            </Array>
+            <mxPoint x="-1045" y="765" as="sourcePoint" />
+            <mxPoint x="30" y="-230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-61" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontStyle=1" value="К пункту 14 стоимость доставки" vertex="1">
+          <mxGeometry height="30" width="470" x="-950" y="-310" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-73" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PyLQcGEJ5zVv0vYb-gJY-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-68" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="Формирование стоимости в рублях:&lt;div&gt;1. Дирхам - введённая сумма в п. 9. &quot;Стоимость товара в валюте&quot; умноженная на курс дирхамы по ЦБ \(VAT учитывается после введения значения в 9 пункте при проставленной галочке VAT\)&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Доллар - в п. 9. &quot;Стоимость товара в валюте&quot; умноженная на курс доллара&amp;nbsp;ЦБ&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;А+B+C= сумма платежа в рублях&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Где:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;1. &quot;А&quot; - сумма платежа в долларах&amp;nbsp; \(Переводим $ в рубли по курсу ЦБ на момент даты расчёта\)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&quot;B&quot; - процент добавочной стоимости к курсу ЦБ - 3% от &quot;А&quot;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(0, 0, 0\);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;3.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&quot;C&quot; - комиссия агента&amp;nbsp; \(если до 10000$, то 3% от &quot;А&quot; \(\(А/100\)*3\); если свыше 10000 то 1% от &quot;А&quot; \(\(А/100\)*1\)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;3. Рубль - рубль статичен, ничего не меняется от введенной суммы&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="420" x="-3505" y="-700" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-78" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PyLQcGEJ5zVv0vYb-gJY-77" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-72" parent="1" style="whiteSpace=wrap;html=1;" value="Формирование комиссии банка за перевод:&lt;div&gt;1. &lt;b&gt;ОАЭ&lt;/b&gt; Дирхам - в расчёте вычисление берем комиссию банка статичной равной 7 процентам от суммы получаемой в пункте &quot;1.Формирование стоимости&quot;&lt;/div&gt;&lt;div&gt;Выводим стоимость сформирована в 1п. и складываем с полученным процентом&lt;/div&gt;&lt;div&gt;2.Доллар - комиссия банка включена называется &quot;комиссия агента&quot;&lt;/div&gt;&lt;div&gt;3. рубль - статичная единица \(комиссии нет\)&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="185" width="420" x="-3505" y="-410" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-74" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" value="Последовательность операций вычесления" vertex="1">
+          <mxGeometry height="30" width="130" x="-3505" y="-797" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-75" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="1. Формирование стоимости" vertex="1">
+          <mxGeometry height="80" width="120" x="-3190" y="-780" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-76" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="2. Комиссия банка за перевод" vertex="1">
+          <mxGeometry height="80" width="120" x="-3205" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-82" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PyLQcGEJ5zVv0vYb-gJY-45" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2180" y="-655" />
+            </Array>
+            <mxPoint x="-2220" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-85" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PyLQcGEJ5zVv0vYb-gJY-84" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-77" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Формирование таможенного платежа:&lt;div&gt;1. &lt;b&gt;ОАЭ &lt;/b&gt;пошлина считается \(\(стоимость товара из п.1 + стоимость доставки из калькулятора ОАЭ п2.\)/100\)&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;*x \(x процент пошлины \(задаётся при открытии\)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(255, 0, 0\);&quot;&gt;2. Турция -&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;пошлина считается \(\(стоимость товара из п.1 + стоимость доставки из калькулятора Турция &quot;Карго 63&quot;\)/100\)*х \(&lt;/span&gt;x процент пошлины \(задаётся при открытии&lt;span style=&quot;background-color: transparent;&quot;&gt;\)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;3. Рубль - не считается&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ТАМОЖЕННЫЙ ПЛАТЁЖ ПЕРЕДЕЛАТЬ&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ВООБЩЕ КАК ДЕЛАТЬ ЕГО&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;1. Таможенный платёж вводить по факту, выплывающее окно, в котором ты к каждой детали прописываешь % таможенной пошлины, считается \(&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;\(стоимость товара из п.1 + стоимость доставки из калькулятора ОАЭ п2.\)/100\)&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;*% таможенной пошлины\)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="330.75" width="410" x="-3500" y="-130.75" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-79" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" value="3. Таможня РФ" vertex="1">
+          <mxGeometry height="80" width="120" x="-3230" y="-210.75" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-101" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="PyLQcGEJ5zVv0vYb-gJY-100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-84" parent="1" style="whiteSpace=wrap;html=1;" value="НДС считается на 1 единицу товара, считается по формулам" vertex="1">
+          <mxGeometry height="50" width="410" x="-3500" y="1202" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-86" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=40;position=0.04;position2=0;" value="4.&amp;nbsp;&amp;nbsp;НДС + НАЛОГ НА ПРИБЫЛЬ" vertex="1">
+          <mxGeometry height="80" width="125" x="-3180" y="1122" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-90" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;ОАЭ&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;1. Агентское вознаграждение - 400 дирхам - статичная единица \(400 х курс ЦБ на момент размещения\) = сумма в рублях&lt;div&gt;2. Валютный контроль - 2767р.&lt;/div&gt;&lt;div&gt;3. С&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;тоимость доставки из калькулятора ОАЭ п2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;4.Оформление экспортных документов - 555 доллар -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;статичная единица \(400 х курс ЦБ на момент размещения\) = сумма в рублях&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;5. Таможенное оформление РФ - не статичная сумма, предлагаю взять постоянной равной 10000р \(возможна корректировка\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;6.Вывоз с СВХ - не статично - предлагаю взять 5000р. на все заказы&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;7. Рустем услуги - не статично -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;предлагаю взять 5000р. на все заказы&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;8. Доп. расход&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;СОПУТСВУЮЩИЕ РАСХОДЫ ДЕЛЯТЬСЯ НА ВЕСЬ ЗАКАЗ КРОМЕ ТАМОЖНИ&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="410" x="-3970" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-28" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-77" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3030" y="-75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-83" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" value="Отсылка к калькулятору" vertex="1">
+          <mxGeometry height="30" width="220" x="-2950" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-94" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Сформированная себестоимость&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="150" width="410" x="-3497.5" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-13" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4570" y="1635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-100" parent="1" style="whiteSpace=wrap;html=1;" value="1. Калькулятор &quot;ООО с НДС&quot; \(25% налог на прибыль, 20 % НДС\):&lt;div&gt;2. Калькулятор &quot;ИП с НДС&quot; \(18&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;% налог на прибыль, 20 % НДС\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3. Калькулятор &quot;ИПУСН с НДС&quot; \(6% налог на прибыль, 20 % НДС платиться в любом случае\)&lt;/div&gt;&lt;div&gt;4. Калькулятор &quot;ИПУСН без НДС&quot; \(6% налог на прибыль, 0 % НДС\)&lt;/div&gt;&lt;div&gt;5. Калькулятор &quot;Наличные без налога на прибыль без НДС&quot; \(0% налог на прибыль, 0 % НДС\)&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="330" width="430" x="-3510" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-5" edge="1" parent="1" source="wwn2oWomlsWY15Cx0ud6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-90" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3580" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-7" edge="1" parent="1" source="wwn2oWomlsWY15Cx0ud6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wwn2oWomlsWY15Cx0ud6-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-4" edge="1" parent="1" source="wwn2oWomlsWY15Cx0ud6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3295" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Сопутствующие расходы \(Выбирается по стране доставке, при выборе поставщика\)" vertex="1">
+          <mxGeometry height="60" width="410" x="-3500" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-2" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-77" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-3290" y="120" as="sourcePoint" />
+            <mxPoint x="-3295" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;Турция&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;НЕПОНЯТНО КАКИЕ БУДУТ, ПРИ БЕЛОМ импорте такие же как и ОАЭ&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="450" x="-3060" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="427" />
+              <mxPoint x="1540" y="-317" />
+            </Array>
+            <mxPoint x="2504.25" y="427.2000000000007" as="sourcePoint" />
+            <mxPoint x="2117.875" y="-492.875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-14" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Поступает информация о создании карточки заказа о подтвержденных позициях&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="130" width="810" x="730" y="-1400" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;Данные переданные с отдела продаж отображаются следующие:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;№ Заказчика-номер заказа&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;\(000000-0000\)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp;&quot;Наименование товара&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. &quot;Производитель&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&quot;Артикул&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;Номер запчасти&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. &quot;Поставщик&quot;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6. &quot;Место доставки&quot; \(Проставляется локация, город и т.д.\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7. &quot;Способ доставки&quot; \(Самовывоз, доставка до ТК\)&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;8. &quot;Вес товара&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;9. &quot;Объёмный вес товара&quot;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;10. &quot;Планируемая дата доставки согласованная с Заказчиком&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;11. &quot;Способ доставки плановый&quot; \(на основании его выбирается калькулятор расчёта\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;12. &quot;Стоимость доставки плановая &quot; \(Расчёт ведётся от веса ОБЪЁМНОГО либо ФАКТИЧЕСКОГО, берётся максимальный вес из двух представленных, далее расчёт за вес а именно с калькуляторов &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(204, 0, 102\), rgb\(255, 255, 255\)\);&quot;&gt;ВОЗМОЖНО В ДАННОМ БЛОКЕ СТОИТ РАССМОТРЕТЬ И РЕАЛЬНУЮ ПЕРЕПАКОВКУ, Т.К. МОГУТ ЗАПАКОВАТЬ &quot;ПО ТУПОМУ&quot;, МНОГО ОБЪЁМНОГО ВЕСА СВОБОДНОГО&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="310" width="520" x="2410" y="-216.5000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-32" edge="1" parent="1" source="wwn2oWomlsWY15Cx0ud6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wwn2oWomlsWY15Cx0ud6-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;Получает информацию от смежных отделов информацию:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;&amp;nbsp;&quot;&lt;/span&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;№ Заказчика-номер заказа&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;\(000000-0000\) \(Показывает и информацию по нему, если нужно то можно открыть полную карточку заказа\)&lt;/span&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;2. &quot;Итоговая сумма по заказу р.&quot; \(Сумма с учётом всех налогов + маржи\)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;3. &quot;Маржа&quot; \(% и в денежном эквиваленте\)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb\(103, 171, 159\);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;4. &quot;Оплата Заказчика&quot; \(Оплачено/не оплачено\)&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;\(Статус проставит менеджер КОСТЫЛЬ, увести в функции менеджера\)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;5. &quot;Оплата поставщику&quot; \(Указывается сумма к оплате\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;6. &quot;Статус оплаты поставщику&quot; \(Оплачено/Не оплачено/ Долг\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;7. Сумма остатка оплаты поставщику \(Если частично оплачено или не оплачено\)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;8. &quot;Планируемая дата оплаты поставщику&quot; \(Ставиться планируемая дата если есть такая возможность отложенного платежа\)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;9.&quot;Дата оплаты поставщику&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(51, 51, 255\), rgb\(255, 255, 255\)\);&quot;&gt;СУММА ОПЛАТЫ ДОЛЖНА БРАТЬСЯ ОТ ЛОГИСТИЧЕСКОГО БЛОКА, Т.К.&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;ЛОГИСТ РАССЧИТЫВАЕТ ОКОНЧАТЕЛЬНУЮ СУММУ К ОПЛАТЕ, ПУТЁМ ТОГО ЧТО ПРАВИЛЬНО МОЖЕТ ПЕРЕПАКОВАТЬ ТОВАР&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;10. &quot;Сумма оплаты перевозчику &quot; \(Указывается сумма к оплате\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;11. &quot;Статус оплаты поставщику&quot; \(Оплачено/Не оплачено/ Долг\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;12. Сумма остатка оплаты поставщику \(Если частично оплачено или не оплачено\)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;13. &quot;Планируемая дата оплаты поставщику&quot; \(Ставиться планируемая дата если есть такая возможность отложенного платежа\)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;14.&quot;Дата оплаты поставщику&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;15.&quot;Форма оплаты&quot; \(ООО, ИП с НДС, ИПУСН с НДС, ИПУСН, Наличка\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;16. &quot;Статус заказа&quot; \(Не заказан/Заказан/Не отправлен/В пути/ Получен нет подписанной УПД/Завершен\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\); background-color: transparent;&quot;&gt;ДАННЫЕ УХОДЯТ В &quot;Библиотека товара&quot; под каждый заказ и позицию&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark\(rgb\(0, 0, 153\), rgb\(255, 255, 255\)\);&quot;&gt;Также необходимо привязать бухгалтерский блок&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="510" width="420" x="958" y="-2200" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-26" edge="1" parent="1" source="wwn2oWomlsWY15Cx0ud6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wwn2oWomlsWY15Cx0ud6-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Руководство/Финансы&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="450" x="940" y="-2490" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-29" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="На основании библиотечных данных, формирование справки" vertex="1">
+          <mxGeometry height="430" width="795" x="1150" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-31" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;" value="Формирование справки &quot;Движение средств&quot;&lt;div&gt;В справке учитываются все расходы, логистика, НДС, Таможня и т.д.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="1500" y="-1900" as="geometry" />
+        </mxCell>
+        <mxCell id="wwn2oWomlsWY15Cx0ud6-33" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="4. Сопутствующие расходы" vertex="1">
+          <mxGeometry height="80" width="120" x="-3190" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-18" edge="1" parent="1" source="t5Qeiz5YgGpD-yB01DVS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5320" y="2770" />
+            </Array>
+            <mxPoint x="-4490" y="2770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1308&quot; style=&quot;border-collapse:&lt;br/&gt; collapse;width:981pt&quot;&gt; &lt;colgroup&gt;&lt;col width=&quot;259&quot; style=&quot;mso-width-source:userset;mso-width-alt:9216;width:194pt&quot;&gt;&lt;/colgroup&gt; &lt;colgroup&gt;&lt;col width=&quot;204&quot; style=&quot;mso-width-source:userset;mso-width-alt:7253;width:153pt&quot;&gt;&lt;/colgroup&gt; &lt;colgroup&gt;&lt;col width=&quot;557&quot; style=&quot;mso-width-source:userset;mso-width-alt:19797;width:418pt&quot;&gt;&lt;/colgroup&gt; &lt;colgroup&gt;&lt;col width=&quot;288&quot; style=&quot;mso-width-source:userset;mso-width-alt:10240;width:216pt&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt;&lt;tr height=&quot;42&quot; style=&quot;mso-height-source:userset;height:31.8pt&quot;&gt;  &lt;td colspan=&quot;4&quot; height=&quot;42&quot; class=&quot;xl68&quot; width=&quot;1308&quot; style=&quot;border-right: 1pt solid black; width: 981pt;&quot;&gt;&lt;a name=&quot;RANGE!A1:D27&quot;&gt;Калькулятор цены — режим:&lt;br&gt;  По марже / По чистой прибыли&lt;/a&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;47&quot; style=&quot;mso-height-source:userset;height:35.4pt&quot;&gt;  &lt;td colspan=&quot;4&quot; height=&quot;47&quot; class=&quot;xl76&quot; width=&quot;1308&quot; style=&quot;border-right: 1pt solid black; width: 981pt;&quot;&gt;Инструкция: выберите режим счёта. В режиме &#39;По&lt;br&gt;  марже&#39; введите целевую маржу \(B11\). В режиме &#39;По чистой прибыли&#39; введите&lt;br&gt;  целевую чистую прибыль \(B12\). Поля в столбце C содержат подсказки.&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;20&quot; style=&quot;height:15.0pt&quot;&gt;  &lt;td height=&quot;20&quot; class=&quot;xl79&quot; style=&quot;height:15.0pt&quot;&gt;&lt;/td&gt;  &lt;td class=&quot;xl79&quot;&gt;&lt;/td&gt;  &lt;td class=&quot;xl79&quot;&gt;&lt;/td&gt;  &lt;td class=&quot;xl79&quot;&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl98&quot; width=&quot;259&quot; style=&quot;height:14.4pt;width:194pt&quot;&gt;Параметр&lt;/td&gt;  &lt;td class=&quot;xl99&quot; width=&quot;204&quot; style=&quot;border-left:none;width:153pt&quot;&gt;Значение \(ввод&lt;br&gt;  / выбор\)&lt;/td&gt;  &lt;td class=&quot;xl99&quot; width=&quot;557&quot; style=&quot;border-left:none;width:418pt&quot;&gt;Метаданные/формула&lt;/td&gt;  &lt;td class=&quot;xl100&quot; width=&quot;288&quot; style=&quot;border-left:none;width:216pt&quot;&gt;Примечание /&lt;br&gt;  подсказка&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:14.4pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Себестоимость \(без НДС\)&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;100&lt;br&gt;  000,00&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;Вводимая&lt;br&gt;  единица&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Ввод:&lt;br&gt;  сумма без НДС \(валюта\)&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:14.4pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Ставка НДС \(доля\)&lt;/td&gt;  &lt;td class=&quot;xl67&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;20,00%&lt;/td&gt;  &lt;td class=&quot;xl67&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;Вводимые&lt;br&gt;  %&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Дробное&lt;br&gt;  значение: 0.20 = 20%&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:14.4pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Ставка налога на прибыль \(доля\)&lt;/td&gt;  &lt;td class=&quot;xl67&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;15,00%&lt;/td&gt;  &lt;td class=&quot;xl67&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;Вводимые&lt;br&gt;  %&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Дробное&lt;br&gt;  значение: 0.15 = 15%&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;38&quot; style=&quot;height:28.8pt&quot;&gt;  &lt;td height=&quot;38&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:28.8pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Входящий НДС возмещается?&lt;/td&gt;  &lt;td class=&quot;xl65&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;Да&lt;/td&gt;  &lt;td class=&quot;xl65&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Выберите&lt;br&gt;  &#39;Да&#39; если входной НДС можно принять к вычету&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;38&quot; style=&quot;height:28.8pt&quot;&gt;  &lt;td height=&quot;38&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:28.8pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Тип маржи \(база\)&lt;/td&gt;  &lt;td class=&quot;xl65&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;От&lt;br&gt;  цены без НДС&lt;/td&gt;  &lt;td class=&quot;xl65&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Выберите:&lt;br&gt;  &#39;От цены без НДС&#39; или &#39;От цены с НДС&#39;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;58&quot; style=&quot;height:43.2pt&quot;&gt;  &lt;td height=&quot;58&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:43.2pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Режим расчёта&lt;/td&gt;  &lt;td class=&quot;xl65&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;По&lt;br&gt;  марже&lt;/td&gt;  &lt;td class=&quot;xl65&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Выберите:&lt;br&gt;  &#39;По марже&#39; \(цель — маржа\) или &#39;По чистой прибыли&#39; \(цель — чистая прибыль\)&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;77&quot; style=&quot;height:57.6pt&quot;&gt;  &lt;td height=&quot;77&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:57.6pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Ввод: Желаемая маржа \(доля\)&lt;/td&gt;  &lt;td class=&quot;xl67&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;12,00%&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;Вводимая&lt;br&gt;  единица&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Если&lt;br&gt;  режим &#39;По марже&#39; — укажите целевую маржу \(например 0.12 = 12%\). Интерпретация&lt;br&gt;  зависит от &#39;Типа маржи&#39; \(B9\).&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;58&quot; style=&quot;height:43.8pt&quot;&gt;  &lt;td height=&quot;58&quot; class=&quot;xl80&quot; width=&quot;259&quot; style=&quot;height:43.8pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Ввод: Желаемая чистая прибыль \(доля от цены без НДС\)&lt;/td&gt;  &lt;td class=&quot;xl81&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;12,14%&lt;/td&gt;  &lt;td class=&quot;xl82&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;Вводимая&lt;br&gt;  единица&lt;/td&gt;  &lt;td class=&quot;xl83&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Если&lt;br&gt;  режим &#39;По чистой прибыли&#39; — укажите долю чистой прибыли \(net profit / price&lt;br&gt;  без НДС\). Например 0.10 = 10%.&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl92&quot; width=&quot;259&quot; style=&quot;height:14.4pt;width:194pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl93&quot; width=&quot;204&quot; style=&quot;width:153pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl93&quot; width=&quot;557&quot; style=&quot;width:418pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl94&quot; width=&quot;288&quot; style=&quot;width:216pt&quot;&gt;&amp;nbsp;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;20&quot; style=&quot;height:15.0pt&quot;&gt;  &lt;td colspan=&quot;4&quot; height=&quot;20&quot; class=&quot;xl95&quot; width=&quot;1308&quot; style=&quot;border-right: 1pt solid black; width: 981pt;&quot;&gt;Результаты / Промежуточные&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;115&quot; style=&quot;height:86.4pt&quot;&gt;  &lt;td height=&quot;115&quot; class=&quot;xl84&quot; width=&quot;259&quot; style=&quot;height:86.4pt;width:194pt&quot;&gt;Расчетная&lt;br&gt;  цена без НДС \(цена продажи\)&lt;/td&gt;  &lt;td class=&quot;xl85&quot; width=&quot;204&quot; style=&quot;border-left:none;width:153pt&quot;&gt;113 636,36&lt;/td&gt;  &lt;td class=&quot;xl85&quot; width=&quot;557&quot; style=&quot;border-left:none;width:418pt&quot;&gt;/=ЕСЛИ\($B$10=&quot;По&lt;br&gt;  марже&quot;;ЕСЛИ\($B$11=&quot;&quot;;&quot;&quot;;ЕСЛИ\($B$9=&quot;От цены без&lt;br&gt;  НДС&quot;;ЕСЛИ\(1-$B$11&amp;lt;=0;&quot;&quot;;ЕСЛИ\($B$8=&quot;Да&quot;;$B$5/\(1-$B$11\);\($B$5*\(1+$B$6\)\)/\(1-$B$11\)\)\);ЕСЛИ\(1-$B$11&amp;lt;=0;&quot;&quot;;ЕСЛИ\($B$8=&quot;Да&quot;;$B$5/\(\(1-$B$11\)*\(1+$B$6\)\);\($B$5*\(1+$B$6\)\)/\(\(1-$B$11\)*\(1+$B$6\)\)\)\)\)\);ЕСЛИ\($B$10=&quot;По&lt;br&gt;  чистой&lt;br&gt;  прибыли&quot;;ЕСЛИ\($B$12=&quot;&quot;;&quot;&quot;;ЕСЛИ\(1-$B$7-$B$12&amp;lt;=0;&quot;&quot;;ЕСЛИ\($B$8=&quot;Да&quot;;$B$5*\(1-$B$7\)/\(1-$B$7-$B$12\);\($B$5*\(1+$B$6\)\)*\(1-$B$7\)/\(1-$B$7-$B$12\)\)\)\);&quot;&quot;\)\)&lt;/td&gt;  &lt;td class=&quot;xl86&quot; width=&quot;288&quot; style=&quot;border-left:none;width:216pt&quot;&gt;Цена без НДС,&lt;br&gt;  рассчитывается в зависимости от режима \(см. B10\)&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:14.4pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Цена с НДС \(выручка с НДС\)&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;136&lt;br&gt;  363,64&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;/=ЕСЛИ\($B$15=&quot;&quot;;&quot;&quot;;$B$15*\(1+$B$6\)\)&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Цена&lt;br&gt;  с НДС = цена без НДС * \(1+ставка НДС\)&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:14.4pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Себестоимость с НДС&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;120&lt;br&gt;  000,00&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;/=ЕСЛИ\($B$5=&quot;&quot;;&quot;&quot;;$B$5*\(1+$B$6\)\)&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Себестоимость&lt;br&gt;  \(без НДС\) * \(1+НДС\)&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;38&quot; style=&quot;height:28.8pt&quot;&gt;  &lt;td height=&quot;38&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:28.8pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Валовая прибыль до налога \(EBT\)&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;13&lt;br&gt;  636,36&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;/=ЕСЛИ\($B$15=&quot;&quot;;&quot;&quot;;$B$15&lt;br&gt;  - ЕСЛИ\($B$8=&quot;Да&quot;;$B$5;$B$17\)\)&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;EBT&lt;br&gt;  = цена без НДС - себестоимость \(в зависимости от вычета НДС\)&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:14.4pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Чистая прибыль после налога&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;11&lt;br&gt;  590,91&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;/=ЕСЛИ\($B$18=&quot;&quot;;&quot;&quot;;$B$18&lt;br&gt;  - $B$23\)&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Чистая&lt;br&gt;  прибыль = EBT - налог&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; class=&quot;xl71&quot; width=&quot;259&quot; style=&quot;height:14.4pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;НДС необходимый уплатить с завоза&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;20&lt;br&gt;  000,00&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;/=B5*B6&lt;/td&gt;  &lt;td class=&quot;xl72&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;&amp;nbsp;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;20&quot; style=&quot;height:15.0pt&quot;&gt;  &lt;td height=&quot;20&quot; class=&quot;xl80&quot; width=&quot;259&quot; style=&quot;height:15.0pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;НДС полный&lt;/td&gt;  &lt;td class=&quot;xl82&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;22&lt;br&gt;  727,27&lt;/td&gt;  &lt;td class=&quot;xl82&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;/=\(B16*20\)/120&lt;/td&gt;  &lt;td class=&quot;xl83&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;&amp;nbsp;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;20&quot; style=&quot;height:15.0pt&quot;&gt;  &lt;td height=&quot;20&quot; class=&quot;xl88&quot; width=&quot;259&quot; style=&quot;height:15.0pt;width:194pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl91&quot; width=&quot;204&quot; style=&quot;width:153pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl91&quot; width=&quot;557&quot; style=&quot;width:418pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl90&quot; width=&quot;288&quot; style=&quot;width:216pt&quot;&gt;&amp;nbsp;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;38&quot; style=&quot;height:28.8pt&quot;&gt;  &lt;td height=&quot;38&quot; class=&quot;xl84&quot; width=&quot;259&quot; style=&quot;height:28.8pt;width:194pt&quot;&gt;Налог на&lt;br&gt;  прибыль \(если EBT&amp;gt;0\)&lt;/td&gt;  &lt;td class=&quot;xl85&quot; width=&quot;204&quot; style=&quot;border-left:none;width:153pt&quot;&gt;2 045,45&lt;/td&gt;  &lt;td class=&quot;xl85&quot; width=&quot;557&quot; style=&quot;border-left:none;width:418pt&quot;&gt;/=ЕСЛИ\($B$18&amp;gt;0;$B$18*$B$7;0\)&lt;/td&gt;  &lt;td class=&quot;xl86&quot; width=&quot;288&quot; style=&quot;border-left:none;width:216pt&quot;&gt;Налог = EBT *&lt;br&gt;  ставка налога \(если EBT положителен\)&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;20&quot; style=&quot;height:15.0pt&quot;&gt;  &lt;td height=&quot;20&quot; class=&quot;xl80&quot; width=&quot;259&quot; style=&quot;height:15.0pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;НДС к уплате&lt;/td&gt;  &lt;td class=&quot;xl82&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;2&lt;br&gt;  727,27&lt;/td&gt;  &lt;td class=&quot;xl82&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;/=B21-B20&lt;/td&gt;  &lt;td class=&quot;xl83&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;&amp;nbsp;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;20&quot; style=&quot;height:15.0pt&quot;&gt;  &lt;td height=&quot;20&quot; class=&quot;xl88&quot; width=&quot;259&quot; style=&quot;height:15.0pt;width:194pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl89&quot; width=&quot;204&quot; style=&quot;width:153pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl89&quot; width=&quot;557&quot; style=&quot;width:418pt&quot;&gt;&amp;nbsp;&lt;/td&gt;  &lt;td class=&quot;xl90&quot; width=&quot;288&quot; style=&quot;width:216pt&quot;&gt;&amp;nbsp;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;77&quot; style=&quot;height:57.6pt&quot;&gt;  &lt;td height=&quot;77&quot; class=&quot;xl84&quot; width=&quot;259&quot; style=&quot;height:57.6pt;width:194pt&quot;&gt;Используемая&lt;br&gt;  маржа \(доля\)&lt;/td&gt;  &lt;td class=&quot;xl87&quot; width=&quot;204&quot; style=&quot;border-left:none;width:153pt&quot;&gt;12,00%&lt;/td&gt;  &lt;td class=&quot;xl87&quot; width=&quot;557&quot; style=&quot;border-left:none;width:418pt&quot;&gt;/=ЕСЛИ\($B$10=&quot;По&lt;br&gt;  марже&quot;;$B$11;ЕСЛИ\($B$10=&quot;По чистой прибыли&quot;;ЕСЛИ\($B$9=&quot;От&lt;br&gt;  цены без НДС&quot;;ЕСЛИ\($B$15=&quot;&quot;;&quot;&quot;;\($B$15 -&lt;br&gt;  ЕСЛИ\($B$8=&quot;Да&quot;;$B$5;$B$17\)\)/$B$15\);ЕСЛИ\($B$15=&quot;&quot;;&quot;&quot;;\($B$16&lt;br&gt;  - ЕСЛИ\($B$8=&quot;Да&quot;;$B$5;$B$17\)\)/$B$16\)\);&quot;&quot;\)\)&lt;/td&gt;  &lt;td class=&quot;xl86&quot; width=&quot;288&quot; style=&quot;border-left:none;width:216pt&quot;&gt;Если режим &#39;По&lt;br&gt;  марже&#39; — показывается вводимая маржа. Иначе — вычисленная маржа.&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;78&quot; style=&quot;height:58.2pt&quot;&gt;  &lt;td height=&quot;78&quot; class=&quot;xl73&quot; width=&quot;259&quot; style=&quot;height:58.2pt;border-top:none;&lt;br/&gt;  width:194pt&quot;&gt;Используемая чистая прибыль \(доля от цены без НДС\)&lt;/td&gt;  &lt;td class=&quot;xl74&quot; width=&quot;204&quot; style=&quot;border-top:none;border-left:none;width:153pt&quot;&gt;10,20%&lt;/td&gt;  &lt;td class=&quot;xl74&quot; width=&quot;557&quot; style=&quot;border-top:none;border-left:none;width:418pt&quot;&gt;/=ЕСЛИ\($B$10=&quot;По&lt;br&gt;  чистой прибыли&quot;;$B$12;ЕСЛИ\($B$10=&quot;По&lt;br&gt;  марже&quot;;ЕСЛИ\($B$15=&quot;&quot;;&quot;&quot;;$B$19/$B$15\);&quot;&quot;\)\)&lt;/td&gt;  &lt;td class=&quot;xl75&quot; width=&quot;288&quot; style=&quot;border-top:none;border-left:none;width:216pt&quot;&gt;Если&lt;br&gt;  режим &#39;По чистой прибыли&#39; — показывается вводимое значение. Иначе —&lt;br&gt;  вычисленная чистая прибыль/цена \(net profit margin\).&lt;/td&gt; &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="1398" width="1320" x="-5980" y="936" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-6" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;965&quot; style=&quot;border-collapse:&lt;br/&gt; collapse;width:724pt&quot;&gt; &lt;colgroup&gt;&lt;col width=&quot;245&quot; style=&quot;mso-width-source:userset;mso-width-alt:8704;width:184pt&quot;&gt;&lt;/colgroup&gt; &lt;colgroup&gt;&lt;col width=&quot;720&quot; style=&quot;mso-width-source:userset;mso-width-alt:25600;width:540pt&quot;&gt;&lt;/colgroup&gt; &lt;tbody&gt;&lt;tr height=&quot;24&quot; style=&quot;mso-height-source:userset;height:18.0pt&quot;&gt;  &lt;td height=&quot;24&quot; class=&quot;xl67&quot; width=&quot;245&quot; style=&quot;height:18.0pt;width:184pt&quot;&gt;Пояснения&lt;br&gt;  к калькулятору маржи&lt;/td&gt;  &lt;td width=&quot;720&quot; style=&quot;width:540pt&quot;&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;&lt;/td&gt;  &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;77&quot; style=&quot;mso-height-source:userset;height:57.6pt&quot;&gt;  &lt;td height=&quot;77&quot; class=&quot;xl65&quot; style=&quot;height:57.6pt&quot;&gt;Что делает калькулятор:&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;720&quot; style=&quot;width:540pt&quot;&gt;На основе введённой&lt;br&gt;  себестоимости \(без НДС\), ставки НДС и ставки налога на прибыль, а также&lt;br&gt;  желаемого % маржи, калькулятор вычисляет цену продажи, включающую НДС,&lt;br&gt;  необходимую для достижения этой маржи. Можно выбирать, измеряется ли маржа&lt;br&gt;  относительно цены без НДС или с НДС, а также учитывать, возмещается ли&lt;br&gt;  входящий НДС.&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;&lt;/td&gt;  &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;77&quot; style=&quot;mso-height-source:userset;height:57.6pt&quot;&gt;  &lt;td height=&quot;77&quot; class=&quot;xl65&quot; style=&quot;height:57.6pt&quot;&gt;Ключевые обозначения&lt;br&gt;  \(обозначим\):&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;720&quot; style=&quot;width:540pt&quot;&gt;C — себестоимость без НДС&lt;br&gt;  \(ячейка B9 в листе &#39;Калькулятор&#39;\).&lt;br&gt;&lt;br&gt;    v — ставка НДС \(B10\).&lt;br&gt;&lt;br&gt;    t — ставка налога на прибыль \(B11\).&lt;br&gt;&lt;br&gt;    m — желаемая маржа \(B13\).&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;&lt;/td&gt;  &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;192&quot; style=&quot;mso-height-source:userset;height:144.0pt&quot;&gt;  &lt;td height=&quot;192&quot; class=&quot;xl65&quot; style=&quot;height:144.0pt&quot;&gt;Математические выводы&lt;br&gt;  \(случай A — входящий НДС возмещается\):&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;720&quot; style=&quot;width:540pt&quot;&gt;1\) Если маржа задана&lt;br&gt;  относительно цены без НДС \(m = net_profit / price_ex\):&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;net_profit = \(price_ex - C\) * \(1 -&lt;br&gt;  t\)&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;m = \(price_ex - C\) * \(1 - t\) /&lt;br&gt;  price_ex&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;=&amp;gt; price_ex = C * \(1 - t\) / \(1&lt;br&gt;  - t - m\)&lt;br&gt;&lt;br&gt;    &lt;br&gt;&lt;br&gt;    2\) Если маржа задана относительно цены с НДС \(m = net_profit /&lt;br&gt;  price_inc\):&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;price_inc = price_ex * \(1 +&lt;br&gt;  v\)&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;net_profit = \(price_ex - C\) * \(1 -&lt;br&gt;  t\)&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;m = net_profit / price_inc =&lt;br&gt;  \(price_ex - C\) * \(1 - t\) / \(price_ex*\(1+v\)\)&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;=&amp;gt; price_ex = C * \(1 - t\) / \(1&lt;br&gt;  - t - \(1+v\)*m\)&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;&lt;/td&gt;  &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;96&quot; style=&quot;mso-height-source:userset;height:72.0pt&quot;&gt;  &lt;td height=&quot;96&quot; class=&quot;xl65&quot; style=&quot;height:72.0pt&quot;&gt;Математические выводы \(случай&lt;br&gt;  B — входящий НДС не возмещается\):&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;720&quot; style=&quot;width:540pt&quot;&gt;Здесь себестоимость для целей&lt;br&gt;  прибыли становится C*\(1+v\).&lt;br&gt;&lt;br&gt;    1\) Маржа от цены без НДС:&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;price_ex = C*\(1+v\) * \(1 - t\) / \(1&lt;br&gt;  - t - m\)&lt;br&gt;&lt;br&gt;    2\) Маржа от цены с НДС:&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp; &lt;/span&gt;price_ex = C*\(1+v\) * \(1 - t\) / \(1&lt;br&gt;  - t - \(1+v\)*m\)&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;&lt;/td&gt;  &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;77&quot; style=&quot;mso-height-source:userset;height:57.6pt&quot;&gt;  &lt;td height=&quot;77&quot; class=&quot;xl65&quot; style=&quot;height:57.6pt&quot;&gt;Ограничения и предупреждения:&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;720&quot; style=&quot;width:540pt&quot;&gt;Чтобы формулы давали смысл и не&lt;br&gt;  приводили к делению на ноль/отрицательному знаменателю, требуется:&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;- Для вариантов, где маржа от цены&lt;br&gt;  без НДС: m &amp;lt; 1 - t&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;- Для вариантов, где маржа от цены с&lt;br&gt;  НДС: m &amp;lt; \(1 - t\) / \(1 + v\)&lt;br&gt;&lt;br&gt;    Если условие нарушено, калькулятор выдаст предупреждение и не будет&lt;br&gt;  возвращать цену.&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;&lt;/td&gt;  &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;77&quot; style=&quot;mso-height-source:userset;height:57.6pt&quot;&gt;  &lt;td height=&quot;77&quot; class=&quot;xl65&quot; style=&quot;height:57.6pt&quot;&gt;Примеры использования:&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;720&quot; style=&quot;width:540pt&quot;&gt;1\) Если себестоимость 100000,&lt;br&gt;  НДС 20%, налог прибыли 15% и вы хотите маржу 10% от цены без НДС —&lt;br&gt;  калькулятор рассчитает необходимую цену с НДС автоматически.&lt;br&gt;&lt;br&gt;    2\) Если вы не имеете права на вычет входящего НДС — выберите &#39;Нет&#39; в&lt;br&gt;  соответствующем поле, и калькулятор учтёт НДС в себестоимости.&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;  &lt;td height=&quot;19&quot; style=&quot;height:14.4pt&quot;&gt;&lt;/td&gt;  &lt;td&gt;&lt;/td&gt; &lt;/tr&gt; &lt;tr height=&quot;58&quot; style=&quot;mso-height-source:userset;height:43.2pt&quot;&gt;  &lt;td height=&quot;58&quot; class=&quot;xl65&quot; style=&quot;height:43.2pt&quot;&gt;Где смотреть результаты:&lt;/td&gt;  &lt;td class=&quot;xl66&quot; width=&quot;720&quot; style=&quot;width:540pt&quot;&gt;Лист &#39;Калькулятор&#39; — основные&lt;br&gt;  вводы слева, а справа — вычисленные значения: цена без НДС, цена с НДС,&lt;br&gt;  валовая прибыль, налог на прибыль, чистая прибыль и реальные маржи. Также&lt;br&gt;  отображается чистый НДС к уплате \(если применимо\) и предупреждение при&lt;br&gt;  недостижимой марже.&lt;/td&gt; &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="1360" width="560" x="-4370" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;&lt;b&gt;Калькулятор рассписанный&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="400" x="-4260" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;Описание работы АНТОН&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="570" x="-5200" y="2670" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-26" edge="1" parent="1" source="t5Qeiz5YgGpD-yB01DVS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.978;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-20" parent="1" style="shape=or;whiteSpace=wrap;html=1;" value="1М" vertex="1">
+          <mxGeometry height="80" width="60" x="570" y="-1610" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-28" parent="1" style="shape=or;whiteSpace=wrap;html=1;" value="2М" vertex="1">
+          <mxGeometry height="80" width="60" x="41" y="-827" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-29" parent="1" style="shape=or;whiteSpace=wrap;html=1;" value="3М" vertex="1">
+          <mxGeometry height="80" width="60" x="1310" y="-780" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-30" parent="1" style="shape=or;whiteSpace=wrap;html=1;" value="4М" vertex="1">
+          <mxGeometry height="80" width="60" x="2930" y="-275.37" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-31" parent="1" style="shape=or;whiteSpace=wrap;html=1;" value="5М" vertex="1">
+          <mxGeometry height="80" width="60" x="2595.75" y="-1110" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-32" parent="1" style="shape=or;whiteSpace=wrap;html=1;" value="6М" vertex="1">
+          <mxGeometry height="80" width="60" x="1390" y="-2260" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-33" edge="1" parent="1" source="t5Qeiz5YgGpD-yB01DVS-34" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.646;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" target="PyLQcGEJ5zVv0vYb-gJY-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="-1433" />
+            </Array>
+            <mxPoint x="-10" y="-2200" as="sourcePoint" />
+            <mxPoint x="180" y="-1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Пояснение к п.1 &quot;Заказчик&quot;:, библиотека поставщиков:&lt;div&gt;1.&amp;nbsp;№ Заказчик&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;Заказчик&lt;/div&gt;&lt;div&gt;3. Контактный телефон&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="370" x="-230" y="-2410" as="geometry" />
+        </mxCell>
+        <mxCell id="t5Qeiz5YgGpD-yB01DVS-36" parent="1" style="shape=or;whiteSpace=wrap;html=1;" value="7М" vertex="1">
+          <mxGeometry height="80" width="60" x="142.5" y="-2500" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-5" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoTm0ZFFSuWWbOi-TXR0-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-24" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P1v9Knj4-V9O7zub6xK4-23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2640" y="-1430" />
+              <mxPoint x="2640" y="-1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Формирование логистической карточки:&lt;div&gt;1. &quot;Трек номер&quot; \(присваиваемый номер по логистической компании\)&lt;/div&gt;&lt;div&gt;В данный номер входит N количество заказов в готовившихся к отправке&lt;/div&gt;&lt;div&gt;2.&quot;Контрагент&quot;&lt;/div&gt;&lt;div&gt;3. &quot;Общий вес&quot;&lt;/div&gt;&lt;div&gt;4. &quot;Общий объёмный вес&quot; \(Упакованного товара, если необходимо\)&lt;/div&gt;&lt;div&gt;5. &quot;Стоимость&quot;&lt;/div&gt;&lt;div&gt;6. &quot;Плановый срок&quot;&lt;/div&gt;&lt;div&gt;7. &quot;Место доставки&quot;&lt;/div&gt;&lt;div&gt;8.&amp;nbsp;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&quot;Дата&amp;nbsp; фактическая поступления Заказчику&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;9. &quot;Сведения о задержке&quot;&lt;/div&gt;&lt;div&gt;10. &quot;Способ доставки&quot; \(Ави, авто, морской\)&lt;/div&gt;&lt;div&gt;11. &quot;Документ на перевозку&quot; \(перевозчика\)&lt;/div&gt;&lt;div&gt;12. &quot;Статус&quot; \(&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;Не отправлен/В пути/ Получен нет подписанной УПД/Завершен\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;13. &quot;Счёт перевозчика&quot; \(обработка счёта, чья функция, определяем переходим в блок финансы\)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;14. &quot;Номер накладной ТК&quot; \(Транспортная компания\)&lt;/div&gt;&lt;div&gt;15. &quot;Примечание&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Калькуляция вариантов доставки \(авиа/авто/ЖД/море\)&lt;/div&gt;&lt;div&gt;Выбор оптимального варианта \(сравнение план/факт\)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="640" width="540" x="1810" y="-1670" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;ОСТАТКИ ДЛЯ ИНФЫ \(НЕ В РАБОТУ&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;Может входить нгесколько заказкаов&amp;nbsp;&lt;div&gt;000000-0000&lt;/div&gt;&lt;div&gt;Дальнейший расчёт произвести по фактическому весу, каждая деталь делиться по весу на всю сумму \(точнее общий вес это 100% всё остальное \)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="255" x="2775" y="-930" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div style=&quot;text-align: left;&quot;&gt;Таблица упущенных заказов ведёт менеджер также \(по простому то что спрашивли но они не купили&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="700" width="700" x="345" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="PyLQcGEJ5zVv0vYb-gJY-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;font-size: 31px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Логист&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="1970" y="-1980" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-10" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="Модуль «Отслеживание грузов»" vertex="1">
+          <mxGeometry height="50" width="260" x="5810" y="-2370" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Этапы доставки \(отгрузка — склад — граница — доставка\)" vertex="1">
+          <mxGeometry height="30" width="400" x="6080" y="-2320" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Возможность ручного обновления статуса" vertex="1">
+          <mxGeometry height="30" width="400" x="6080" y="-2360" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Присвоение трек номера" vertex="1">
+          <mxGeometry height="30" width="400" x="6080" y="-2400" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-14" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1" value="Модуль «Уведомления»" vertex="1">
+          <mxGeometry height="50" width="260" x="5820" y="-2170" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-15" parent="1" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left" value="Push/SMS/email при изменении статуса" vertex="1">
+          <mxGeometry height="30" width="400" x="6090" y="-2180" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Уведомления о задержках, простоях, отклонении от маршрута" vertex="1">
+          <mxGeometry height="30" width="400" x="6090" y="-2140" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-17" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1" value="Модуль «Документы»" vertex="1">
+          <mxGeometry height="50" width="260" x="5820" y="-2050" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Загрузка и хранение накладных, ТТН, таможенных деклараций" vertex="1">
+          <mxGeometry height="30" width="420" x="6090" y="-2060" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-19" parent="1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left" value="Возможное включение автоматической проверки сроков действия документов" vertex="1">
+          <mxGeometry height="30" width="460" x="6090" y="-2020" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-20" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1" value="Модуль «Финансы»" vertex="1">
+          <mxGeometry height="50" width="260" x="5830" y="-1950" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Учёт стоимости перевозок \(стоимость остави, пошлины\)" vertex="1">
+          <mxGeometry height="30" width="400" x="6120" y="-1950" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="План/факт сравнение" vertex="1">
+          <mxGeometry height="30" width="400" x="6120" y="-1910" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-23" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1" value="Модуль «Аналитика и отчёты»" vertex="1">
+          <mxGeometry height="50" width="260" x="5830" y="-1800" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Время доставки по маршрутам" vertex="1">
+          <mxGeometry height="30" width="400" x="6120" y="-1820" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-25" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Потери, возвраты, недостачи" vertex="1">
+          <mxGeometry height="30" width="400" x="6120" y="-1790" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-26" parent="1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left" value="Интерактивные дашборды" vertex="1">
+          <mxGeometry height="30" width="400" x="6120" y="-1760" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-27" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1" value="Модуль «Прогнозирование»" vertex="1">
+          <mxGeometry height="50" width="260" x="5820" y="-1590" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-28" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="ETA \(ожидаемое время прибытия\) на основе статистики" vertex="1">
+          <mxGeometry height="30" width="420" x="6090" y="-1570" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-30" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1" value="Модуль «Пользовательский кабинет»" vertex="1">
+          <mxGeometry height="50" width="260" x="5820" y="-1130" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Для клиента: трек-номер, история заказов" vertex="1">
+          <mxGeometry height="30" width="400" x="6120" y="-1140" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Для склада: приём/выдача, контроль остатков" vertex="1">
+          <mxGeometry height="30" width="400" x="6120" y="-1110" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-36" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1" value="Модуль «Администрирование»" vertex="1">
+          <mxGeometry height="50" width="260" x="5820" y="-1430" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-37" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Роли и права доступа" vertex="1">
+          <mxGeometry height="30" width="400" x="6120" y="-1435" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-9" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P1v9Knj4-V9O7zub6xK4-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-38" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left" value="Логи действий пользователей" vertex="1">
+          <mxGeometry height="30" width="400" x="6120" y="-1405" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-39" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-9" target="hoTm0ZFFSuWWbOi-TXR0-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5460" y="-2345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-40" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-9" target="hoTm0ZFFSuWWbOi-TXR0-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5460" y="-2140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-41" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-9" target="hoTm0ZFFSuWWbOi-TXR0-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5460" y="-2020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-42" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-9" target="hoTm0ZFFSuWWbOi-TXR0-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5460" y="-1925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-43" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-9" target="hoTm0ZFFSuWWbOi-TXR0-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5460" y="-1550" />
+              <mxPoint x="5460" y="-1775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-44" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-9" target="hoTm0ZFFSuWWbOi-TXR0-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5460" y="-1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-45" edge="1" parent="1" target="hoTm0ZFFSuWWbOi-TXR0-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5460" y="-1105" />
+            </Array>
+            <mxPoint x="5460" y="-1730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-47" edge="1" parent="1" style="" target="hoTm0ZFFSuWWbOi-TXR0-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5460" y="-1405" />
+            </Array>
+            <mxPoint x="5460" y="-1730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-59" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" value="Отдел продаж → 1С&#xa;\(данные заказа\)" vertex="1">
+          <mxGeometry height="80" width="300" x="4450" y="-1530" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-60" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" value="Создание логистической карточки&#xa;\(объединение заказов\)" vertex="1">
+          <mxGeometry height="80" width="300" x="4450" y="-1410" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-61" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" value="Калькуляция вариантов доставки&#xa;\(авиа/авто/ЖД/море\)" vertex="1">
+          <mxGeometry height="80" width="300" x="4450" y="-1290" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-62" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" value="Выбор оптимального варианта&#xa;\(сравнение план/факт\)" vertex="1">
+          <mxGeometry height="80" width="300" x="4450" y="-1170" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-63" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" value="Формирование документов&lt;br&gt;\(ТТН, счёт\)" vertex="1">
+          <mxGeometry height="80" width="300" x="4450" y="-1050" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-64" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" value="Контроль и отчётность&#xa;\(статусы, план/факт, отчёты\)" vertex="1">
+          <mxGeometry height="80" width="300" x="4450" y="-930" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-65" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-59" style="endArrow=block;html=1;" target="hoTm0ZFFSuWWbOi-TXR0-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-66" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-60" style="endArrow=block;html=1;" target="hoTm0ZFFSuWWbOi-TXR0-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-67" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-61" style="endArrow=block;html=1;" target="hoTm0ZFFSuWWbOi-TXR0-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-68" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-62" style="endArrow=block;html=1;" target="hoTm0ZFFSuWWbOi-TXR0-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-69" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-63" style="endArrow=block;html=1;" target="hoTm0ZFFSuWWbOi-TXR0-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-9" parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Система отслеживания товаров" vertex="1">
+          <mxGeometry height="80" width="280" x="5320" y="-1815" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-70" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" value="Отдел продаж → 1С&#xa;\(данные заказа\)" vertex="1">
+          <mxGeometry height="80" width="300" x="1005" y="-1220" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-71" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-70" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.165;entryDx=0;entryDy=0;entryPerimeter=0;" target="wwn2oWomlsWY15Cx0ud6-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="-1180" />
+              <mxPoint x="1560" y="-910" />
+              <mxPoint x="1750" y="-910" />
+              <mxPoint x="1750" y="-160" />
+            </Array>
+            <mxPoint x="1700" y="-1090" as="sourcePoint" />
+            <mxPoint x="1750" y="-1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-72" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoTm0ZFFSuWWbOi-TXR0-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="-1180" as="sourcePoint" />
+            <mxPoint x="970" y="-1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-73" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" value="Создание логистической карточки&#xa;\(объединение заказов\)" vertex="1">
+          <mxGeometry height="80" width="300" x="1960" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-74" edge="1" parent="1" source="wwn2oWomlsWY15Cx0ud6-16" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="hoTm0ZFFSuWWbOi-TXR0-73" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2540" y="-300" />
+              <mxPoint x="2185" y="-300" />
+            </Array>
+            <mxPoint x="2130" y="-485.37" as="sourcePoint" />
+            <mxPoint x="2540" y="-445.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-75" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-73" style="endArrow=classic;html=1;rounded=0;exitX=0.148;exitY=-0.048;exitDx=0;exitDy=0;entryX=0.174;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="hoTm0ZFFSuWWbOi-TXR0-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2004" y="-710" />
+              <mxPoint x="1904" y="-710" />
+            </Array>
+            <mxPoint x="1590" y="-1230" as="sourcePoint" />
+            <mxPoint x="2000" y="-1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-86" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hoTm0ZFFSuWWbOi-TXR0-85" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-76" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;" value="1. Формирование документов&lt;br&gt;а\) &quot;Счёт&quot; \(Формирование счёта происходит на после пройденного этапа &quot;Создание логистической карточки&quot;\)&lt;div&gt;б\) &quot;ТТН \(ТОРГ-12\)&quot;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&amp;nbsp;\(Формирование происходит после формирования &quot;Счёт&quot;, после чего направляется получателю груза&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="410" x="3050" y="-1805" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-78" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.125;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="hoTm0ZFFSuWWbOi-TXR0-76" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2490" y="-1590" />
+              <mxPoint x="2490" y="-1760" />
+            </Array>
+            <mxPoint x="2350" y="-1620" as="sourcePoint" />
+            <mxPoint x="2930" y="-1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-84" parent="1" style="shape=rectangle;rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Бухгалтер/Помощник \(Роль не определена до конца\)&lt;div&gt;Этап сразу наступает после нажатия &quot;ок&quot; на операции&lt;/div&gt;&lt;div&gt;Этап &quot;ТТН \(ТОРГ-12\)&quot; наступает, срзу после статуса &quot;Получен&quot; 10п.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="300" x="2560" y="-1800" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-2" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P1v9Knj4-V9O7zub6xK4-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hoTm0ZFFSuWWbOi-TXR0-85" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Отправка по электронному документообороту" vertex="1">
+          <mxGeometry height="95" width="365" x="3720" y="-1807.5" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Загрузка подписанных закрывающих документов" vertex="1">
+          <mxGeometry height="60" width="312.5" x="4220" y="-1790" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-4" edge="1" parent="1" source="PyLQcGEJ5zVv0vYb-gJY-6" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.573;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="hoTm0ZFFSuWWbOi-TXR0-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2130" y="-1630" as="sourcePoint" />
+            <mxPoint x="2168" y="-1673" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-5" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1" value="Модуль «Документы»" vertex="1">
+          <mxGeometry height="50" width="260" x="3460" y="-1890" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-8" parent="1" style="whiteSpace=wrap;html=1;" value="Предоставление прав" vertex="1">
+          <mxGeometry height="60" width="120" x="6100" y="-1340" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-13" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="Логист получает N число заказов, формируя их по стране поставщика, за N дней должен привезти N позиций, на основании дат поставки и загруженности выбирает объединение пакетов заказа, либо же индивидуальная доставка" vertex="1">
+          <mxGeometry height="143" width="400" x="2040" y="-563" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-14" edge="1" parent="1" source="P1v9Knj4-V9O7zub6xK4-6" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.233;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;" target="wwn2oWomlsWY15Cx0ud6-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="3330" y="-2072" />
+            </Array>
+            <mxPoint x="1850" y="-1900" as="sourcePoint" />
+            <mxPoint x="1900" y="-1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-15" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;ОСТАТКИ ДЛЯ ИНФЫ \(НЕ В РАБОТУ\)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1.&amp;nbsp; &quot;Дата поступления товара поставщику фактическая&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2.&amp;nbsp; &quot;Перевозчик фактический&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3.&amp;nbsp; &quot;Дата передачи в логистику перевозчикам фактическая&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4.&amp;nbsp; &quot;Дата&amp;nbsp; фактическая поступления на слад&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. &quot;Цена доставки фактическая&quot; \(&lt;span style=&quot;color: rgb\(204, 0, 102\); background-color: transparent;&quot;&gt;ВОЗМОЖНО В ДАННОМ БЛОКЕ СТОИТ РАССМОТРЕТЬ И РЕАЛЬНУЮ ПЕРЕПАКОВКУ, Т.К. МОГУТ ЗАПАКОВАТЬ &quot;ПО ТУПОМУ&quot;, МНОГО ОБЪЁМНОГО ВЕСА СВОБОДНОГО\)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6. &quot;Дата передачи товара&quot; \(СДЕК, курьер, Заказчик\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7. &quot;Трек номер товара&quot; \(Если отправили ТК\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;8. &quot;Статус получения заказа Заказчику&quot; \(Не отправлен/В пути/ Получен заказчиком&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;9. &quot;Закрывающий документ&quot; \(ТОРГ-12, УПД, Накладная\) \(ОТ КАКОГО БЛОКА ПРИДЁТ ИНФОРМАЦИЯ МЕНЕДЖЕР?\)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;10. &quot;Скан подписанного закрывающего документа&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;11. &quot;Примечание&quot;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;ГДЕ ЧТО УПАКОВАНО ОТСЛЕЖИВАТЬ&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="335.75" width="335.75" x="2320" y="-989.9999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-16" edge="1" parent="1" source="hoTm0ZFFSuWWbOi-TXR0-3" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.221;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" target="P1v9Knj4-V9O7zub6xK4-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2215" y="-1010" />
+              <mxPoint x="2394" y="-1010" />
+            </Array>
+            <mxPoint x="2790" y="-1120" as="sourcePoint" />
+            <mxPoint x="2840" y="-1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-17" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=60;position=0.32;position2=0.2;base=19;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Дробление Заказа на этапе поставки, т.е. разные позиции из заказа, могут быть направлены, разными перевозчиками, их надо дробить, если раздробили заказ, необходимо уведомление" vertex="1">
+          <mxGeometry height="230" width="260" x="1757.88" y="-1900" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 34px;&quot;&gt;Где-то тут склад&lt;/font&gt;" vertex="1">
+          <mxGeometry height="137.5" width="320" x="-1240" y="-1920" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-19" edge="1" parent="1" source="P1v9Knj4-V9O7zub6xK4-18" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-630" y="-1490" as="sourcePoint" />
+            <mxPoint x="200" y="-1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-20" parent="1" style="whiteSpace=wrap;html=1;align=center;" value="&lt;font style=&quot;font-size: 39px;&quot;&gt;&lt;b&gt;Общая библиотека&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="300" width="530" x="3650" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-26" edge="1" parent="1" source="P1v9Knj4-V9O7zub6xK4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P1v9Knj4-V9O7zub6xK4-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4045" y="-505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P1v9Knj4-V9O7zub6xK4-23" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Библиотека доставок&lt;div&gt;\(Сохраняет все данные по поставкам ценам и т.д.\)&lt;/div&gt;&lt;div&gt;Также в процентах и в стоимости, определяем стоимость фактической доставки каждого элемента, а именно:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;А%= вес товара / общий вес товара * 100&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;Где:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;А - % от общего веса&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark\(rgb\(0, 0, 0\), rgb\(255, 255, 255\)\);&quot;&gt;B = Общая сумма * А%&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Где:&lt;/div&gt;&lt;div&gt;B - сумма на одну единицу товара&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="430" width="490" x="3800" y="-1200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="k5HXZ1_5msACCXh6M0XW" name="Страница — 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oVECNtxVXtUkWbZWemqN-1" value="&lt;h2&gt;Карточка заказа&lt;/h2&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oVECNtxVXtUkWbZWemqN-2" value="Код" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="oVECNtxVXtUkWbZWemqN-1">
+          <mxGeometry y="20" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oVECNtxVXtUkWbZWemqN-3" value="&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:48pt&quot; width=&quot;64&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:86.4pt&quot; height=&quot;115&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:86.4pt;width:48pt&quot; width=&quot;64&quot; class=&quot;xl63&quot; height=&quot;115&quot;&gt;&amp;nbsp;Заказчик&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="oVECNtxVXtUkWbZWemqN-1">
+          <mxGeometry y="40" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oVECNtxVXtUkWbZWemqN-4" value="&amp;nbsp;Номер заказа&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="oVECNtxVXtUkWbZWemqN-1">
+          <mxGeometry y="70" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="112sWbD4myiqkPoYCslt-1" value="&lt;div&gt;&amp;nbsp;№ Заказчика-номер заказа&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="oVECNtxVXtUkWbZWemqN-1">
+          <mxGeometry y="90" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="112sWbD4myiqkPoYCslt-2" value="&lt;div&gt;....&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="oVECNtxVXtUkWbZWemqN-1">
+          <mxGeometry y="110" width="180" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

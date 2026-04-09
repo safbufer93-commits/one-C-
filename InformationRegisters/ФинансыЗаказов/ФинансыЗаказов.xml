@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:InformationRegister" uuid="db8d5e17-90d9-4c71-94dd-5a8c1b6fae22">
+	<mdclass:n>ФинансыЗаказов</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Финансы заказов</core:content></core:item></mdclass:Synonym>
+	<mdclass:Periodicity>Second</mdclass:Periodicity>
+	<mdclass:WriteMode>Independent</mdclass:WriteMode>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Dimension uuid="1eff5a20-8936-4078-a855-8204c8d08362">
+		<mdclass:n>Заказ</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказ</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>DocumentRef.Заказ</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="9d394097-a2ac-42ba-b32b-01cf859088e0">
+		<mdclass:n>ВидОплаты</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Вид оплаты</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>EnumRef.ВидОплаты</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Resource uuid="e5d86f97-4148-4c9e-bad3-daa6402e8181">
+		<mdclass:n>Сумма</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers>
+	</mdclass:Resource>
+	<mdclass:Resource uuid="fbc2063a-6043-4d20-aafb-51975a0da70d">
+		<mdclass:n>СуммаРуб</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма руб</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers>
+	</mdclass:Resource>
+		<mdclass:Attribute uuid="cfd9ba45-694c-4bc8-b043-de63839f6f57">
+			<mdclass:n>СтатусОплаты</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Статус оплаты</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>CatalogRef.Статусы</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="e55f46b8-d359-4e61-83e9-99742994ef7f">
+			<mdclass:n>КонтрагентЗаказчик</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказчик</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>CatalogRef.Заказчики</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="6ce5bf26-3e6f-4e7e-832f-b731339c0666">
+			<mdclass:n>Валюта</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Валюта</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>3</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="95f2b5d8-40de-4715-b47d-a406f6dd01fb">
+			<mdclass:n>ДатаПлан</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Плановая дата</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:date</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="6e3f2aa3-73de-4ed5-8945-38b7237ff066">
+			<mdclass:n>ДатаФакт</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Фактическая дата</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:date</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="1aefc2d2-86f7-4c2d-9cc6-f66b8682de40">
+			<mdclass:n>ДокументОплаты</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Документ оплаты</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>DocumentRef.ОплатаЗаказа</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+</mdclass:InformationRegister>

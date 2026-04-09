@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="b5332d0b-4efe-9904-7086-ed650ef5c5aa">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЭтапыДоставки" category="Record">
+				<xr:TypeId>9c724825-8bb3-9823-342b-a97e9fdd97e1</xr:TypeId>
+				<xr:ValueId>17e2f9a0-4033-3f22-40ba-c88eae62fe90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЭтапыДоставки" category="Manager">
+				<xr:TypeId>bf913828-5e2b-ae63-1295-2bb18348c758</xr:TypeId>
+				<xr:ValueId>deadc2a1-fb15-aaa3-220d-9d369cca00c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЭтапыДоставки" category="Selection">
+				<xr:TypeId>3e3ab1c3-dd8c-ed34-75e6-a92cbcc63e55</xr:TypeId>
+				<xr:ValueId>42f8fd05-a9aa-4767-617c-c90a7d28d681</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЭтапыДоставки" category="List">
+				<xr:TypeId>2e6838e1-6774-ef91-9c0f-3014f20a5c59</xr:TypeId>
+				<xr:ValueId>5af7adff-8df5-8f8c-4e6e-ce9f32a0b710</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЭтапыДоставки" category="RecordSet">
+				<xr:TypeId>1dca4f89-96eb-ae2c-e49a-f30a3b87591a</xr:TypeId>
+				<xr:ValueId>2b66bba3-1281-1513-3150-89cb74941bab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЭтапыДоставки" category="RecordKey">
+				<xr:TypeId>a8d658c2-b383-989c-ea81-97d843cae090</xr:TypeId>
+				<xr:ValueId>7ee0d065-a31d-4e79-8319-6e64662c1ea8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЭтапыДоставки" category="RecordManager">
+				<xr:TypeId>bd3f37b9-06f0-39f9-9c32-e6395ac422d9</xr:TypeId>
+				<xr:ValueId>e452246c-305f-bbe4-d41a-1b55371ac6e3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЭтапыДоставки</Name>
+			<Synonym/>
+			<Comment/>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+		<Dimension uuid="add7e00a-b39a-daf3-66f9-f367425b4f64">
+			<Properties>
+				<Name>Отправка</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Отправка</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="16838630-4d14-78f1-0a83-4b8be2ddbd79">
+			<Properties>
+				<Name>ТочкаМаршрута</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.ТочкиМаршрута</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="ab54d099-84ff-7a39-4ddf-3352953de7d2">
+			<Properties>
+				<Name>Порядок</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>10</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Resource uuid="57cc0bb3-a123-efd6-c2aa-445727f372be">
+			<Properties>
+				<Name>ПланДата</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Resource uuid="aaad9fe4-9184-6bca-0482-d3587818611f">
+			<Properties>
+				<Name>ФактДата</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:dateTime</v8:Type>
+					<v8:DateQualifiers>
+						<v8:DateFractions>Date</v8:DateFractions>
+					</v8:DateQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Resource uuid="801f7863-af3e-4e9b-17d0-1b08e74c950c">
+			<Properties>
+				<Name>СтатусЭтапа</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.СтатусЭтапаДоставки</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Attribute uuid="6679b52d-5841-72ab-fa89-aca0135806fa">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

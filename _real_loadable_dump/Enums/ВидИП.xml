@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="13f77085-3f6f-d0bc-85f5-12268195dde2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидИП" category="Ref">
+				<xr:TypeId>13e88a7d-b5c4-aa1e-2c1c-a02b7c50fbbe</xr:TypeId>
+				<xr:ValueId>063d6b72-0400-7945-172f-68efeb789b7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидИП" category="Manager">
+				<xr:TypeId>101ac719-2206-3df8-76fe-ecca77f2b1d8</xr:TypeId>
+				<xr:ValueId>29e3ffde-8b7e-b42f-8812-dacfef0c9e4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидИП" category="List">
+				<xr:TypeId>a316db55-00ca-9e95-15a4-d3825ad24662</xr:TypeId>
+				<xr:ValueId>6f88fd9b-036a-e080-44e8-e97f4c16fcb4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидИП</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="69e6eab0-1d21-129d-fe76-377cfd89920d">
+				<Properties>
+					<Name>ИП13</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dbd9dcec-5721-13ac-f215-cf899ab94b7b">
+				<Properties>
+					<Name>ИП7</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c96f7260-fea9-7655-ab9f-4754640d4688">
+				<Properties>
+					<Name>ИП6</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d9c04fbd-efd9-4c77-ed2c-590802b1463f">
+				<Properties>
+					<Name>ООО</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9abe7b97-9b3c-6617-1c72-6d1f054a6ddd">
+				<Properties>
+					<Name>НЕТ</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

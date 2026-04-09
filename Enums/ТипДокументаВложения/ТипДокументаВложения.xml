@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="3576b40e-fdec-486d-96cb-cb7135ad3db3">
+	<mdclass:n>ТипДокументаВложения</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Тип документа</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="04aac174-d3e7-4efa-b058-f361600ae020">
+		<mdclass:n>Счет</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Счет</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="3427ba7b-fc31-4048-83ab-43642ce62817">
+		<mdclass:n>ТТН</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ТТН</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="1670741c-9190-4b20-96ec-e7749ec7fdbd">
+		<mdclass:n>ТОРГ12</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ТОРГ12</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="2b5b6294-0dd6-4251-8952-94e7ceebbc92">
+		<mdclass:n>УПД</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>УПД</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="5c807fa7-82da-4924-a9fa-c9a74defcf9a">
+		<mdclass:n>НакладнаяТК</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>НакладнаяТК</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="9a6ba2b8-b26c-4884-bcfd-606ff395c2cb">
+		<mdclass:n>Декларация</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Декларация</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="f882932e-bb01-4bd4-bb04-e0a65edde7dd">
+		<mdclass:n>СчетПеревозчика</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>СчетПеревозчика</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="a3f3f4ad-89bc-414f-8ffb-1129a51c254a">
+		<mdclass:n>Прочее</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Прочее</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="f0b17c4b-53f2-4e9d-a942-4f9c8b4fd101">
+	<mdclass:n>ЭтапДоставки</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Этап доставки</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="f0b17c4b-53f2-4e9d-a942-4f9c8b4fd102">
+		<mdclass:n>ЗаборУПоставщика</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Забор у поставщика</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="f0b17c4b-53f2-4e9d-a942-4f9c8b4fd103">
+		<mdclass:n>Консолидация</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Консолидация</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="f0b17c4b-53f2-4e9d-a942-4f9c8b4fd104">
+		<mdclass:n>Таможня</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Таможня</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="f0b17c4b-53f2-4e9d-a942-4f9c8b4fd105">
+		<mdclass:n>Транзит</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Транзит</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="f0b17c4b-53f2-4e9d-a942-4f9c8b4fd106">
+		<mdclass:n>Сортировка</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сортировка</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="f0b17c4b-53f2-4e9d-a942-4f9c8b4fd107">
+		<mdclass:n>Выдача</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Выдача</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="f0b17c4b-53f2-4e9d-a942-4f9c8b4fd108">
+		<mdclass:n>Доставлено</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Доставлено</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

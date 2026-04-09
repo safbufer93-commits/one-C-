@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ecbe26b8-f629-885c-bdec-fea11742bee2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ФормаОплаты" category="Ref">
+				<xr:TypeId>4383c9d7-8000-13cf-d39c-904d92e97b20</xr:TypeId>
+				<xr:ValueId>c7f1c0c0-7f27-e401-89a0-656b374abed6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ФормаОплаты" category="Manager">
+				<xr:TypeId>0356525e-4864-46bb-5f46-fcbecca022eb</xr:TypeId>
+				<xr:ValueId>feb685b4-65f7-eccd-15fc-dac37149cf3f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ФормаОплаты" category="List">
+				<xr:TypeId>e538cff7-536f-541a-2d72-9b3e50a916b1</xr:TypeId>
+				<xr:ValueId>8ff912fb-8090-782e-2bd6-7b4a12d976d8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФормаОплаты</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3d52ceb9-3309-4445-4276-8cd49a7c4c58">
+				<Properties>
+					<Name>Наличные</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cf6c460f-0b1c-f620-9007-2b39c719e00d">
+				<Properties>
+					<Name>Безналичные</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ec47eb3c-f43a-ef2f-c3ec-0a775b240059">
+				<Properties>
+					<Name>СНДС</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d1ee1d63-40e2-a8dc-a2c6-833edbe2341a">
+				<Properties>
+					<Name>БезНДС</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f879d5cd-ba1c-df7f-ef1b-471504452b0a">
+				<Properties>
+					<Name>Другое</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

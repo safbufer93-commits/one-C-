@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Report" uuid="b55f5ea1-9d48-45f9-ae6d-e17825161001">
+	<mdclass:n>ЛогистическийОтчет</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Логистический отчет</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+</mdclass:Report>

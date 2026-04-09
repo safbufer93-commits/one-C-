@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="a2e6f0fc-cd01-3750-06d1-086c88d5407c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РаспределениеРасходовПоПозициям" category="Record">
+				<xr:TypeId>e097d478-ae29-5768-6e67-6934744cebe5</xr:TypeId>
+				<xr:ValueId>7a923c28-24b7-a3f1-0384-e98710daa587</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РаспределениеРасходовПоПозициям" category="Manager">
+				<xr:TypeId>8719ded8-219b-8740-045d-4dfc48428baf</xr:TypeId>
+				<xr:ValueId>e1f66e71-6567-f5f1-0dda-971883ca1e2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РаспределениеРасходовПоПозициям" category="Selection">
+				<xr:TypeId>26caeb5c-43f6-c01d-d04d-7e11a6e456f1</xr:TypeId>
+				<xr:ValueId>41320cbd-b6c9-1bc2-9c3f-91dbb4d18c2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РаспределениеРасходовПоПозициям" category="List">
+				<xr:TypeId>50475940-09a3-47c9-7136-d725f18f70b5</xr:TypeId>
+				<xr:ValueId>4d0fd251-48b9-7686-18e8-3cc4021f4e7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РаспределениеРасходовПоПозициям" category="RecordSet">
+				<xr:TypeId>2a80f594-c04d-d25b-99a1-a7333012d911</xr:TypeId>
+				<xr:ValueId>4babdaf3-18c3-fd9d-c057-ebee5e428e50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РаспределениеРасходовПоПозициям" category="RecordKey">
+				<xr:TypeId>f8154d07-0bf4-cc52-8da0-660f12c1c898</xr:TypeId>
+				<xr:ValueId>4134a594-cb17-a9cb-5b1b-70d4224374c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РаспределениеРасходовПоПозициям" category="RecordManager">
+				<xr:TypeId>a51d6615-bbef-c5c7-ae9f-e91c8047e6ef</xr:TypeId>
+				<xr:ValueId>1e338cf8-df0e-800f-fc54-34105526c99a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РаспределениеРасходовПоПозициям</Name>
+			<Synonym/>
+			<Comment/>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+		<Dimension uuid="f55ede74-60f3-c917-ca6a-caae18ad5940">
+			<Properties>
+				<Name>Заказ</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:DocumentRef.Заказ</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="23dcd7d3-b3fc-2293-a144-e3d6afba1844">
+			<Properties>
+				<Name>НомерПозиции</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>10</v8:Digits>
+						<v8:FractionDigits>0</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="47940832-0101-fc51-4247-cbbe0e58fd17">
+			<Properties>
+				<Name>СтатьяРасходов</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.СтатьиРасходов</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Resource uuid="732d09bb-6cf3-a08c-8f8e-efea6f346843">
+			<Properties>
+				<Name>СуммаРуб</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:decimal</v8:Type>
+					<v8:NumberQualifiers>
+						<v8:Digits>15</v8:Digits>
+						<v8:FractionDigits>2</v8:FractionDigits>
+						<v8:AllowedSign>Any</v8:AllowedSign>
+					</v8:NumberQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

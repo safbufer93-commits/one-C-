@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="860e62c7-2555-aa1f-378e-fa648c019269">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособРаспределения" category="Ref">
+				<xr:TypeId>c78d9a8c-b947-2b36-bb95-282faf00fdc3</xr:TypeId>
+				<xr:ValueId>bff41c6f-0eff-ffb8-82f3-673e93340ef6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособРаспределения" category="Manager">
+				<xr:TypeId>9f90c9b9-186f-9a97-f34c-b55a4965dfb1</xr:TypeId>
+				<xr:ValueId>a0374ba0-7167-421f-3837-108e0c1f8d9f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособРаспределения" category="List">
+				<xr:TypeId>2e6c67b2-adb6-bb7c-bba5-27d53d469569</xr:TypeId>
+				<xr:ValueId>c4923b1f-639d-b203-d74b-db992501a99f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособРаспределения</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="788cb350-23f9-5f88-fdc7-358c95df88d0">
+				<Properties>
+					<Name>ПоВесу</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="98b391de-8e18-e5b9-ca6f-7a21118bf409">
+				<Properties>
+					<Name>ПоСумме</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7c210bd3-183a-4667-f741-866754f20d9c">
+				<Properties>
+					<Name>Поровну</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

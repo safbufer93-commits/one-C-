@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Catalog" uuid="2e6a54a2-63a6-4ed5-b73e-865d9b73d81e">
+	<mdclass:n>Статусы</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Статусы</core:content></core:item></mdclass:Synonym>
+	<mdclass:Hierarchical>false</mdclass:Hierarchical>
+	<mdclass:CodeLength>9</mdclass:CodeLength>
+	<mdclass:DescriptionLength>80</mdclass:DescriptionLength>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+		<mdclass:Attribute uuid="391f27da-ba6c-4b23-8065-32894b2ed0d9">
+			<mdclass:n>Категория</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Категория</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>EnumRef.КатегорияСтатуса</mdclass:Type>
+			<mdclass:FillRequired>true</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="126a1134-98a5-4238-9db6-a1b0d0bc454d">
+			<mdclass:n>Порядок</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Порядок сортировки</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>10</mdclass:Digits><mdclass:FractionDigits>0</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="d2db5b7d-5673-4242-b3a3-cf57ae605e06">
+			<mdclass:n>Финальный</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Финальный статус</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:boolean</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+</mdclass:Catalog>

@@ -1,0 +1,29 @@
+# Temp probes, local test DBs and generated dumps
+_*
+_*/
+
+# Keep only source-controlled 1C metadata folders
+!_real_loadable_dump/
+_real_loadable_dump/*
+!_real_loadable_dump/ConfigDumpInfo.xml
+!_real_loadable_dump/Configuration.xml
+!_real_loadable_dump/CommonModules/
+!_real_loadable_dump/Catalogs/
+!_real_loadable_dump/DataProcessors/
+!_real_loadable_dump/Documents/
+!_real_loadable_dump/Enums/
+!_real_loadable_dump/InformationRegisters/
+!_real_loadable_dump/Languages/
+!_real_loadable_dump/Reports/
+!_real_loadable_dump/Roles/
+!_real_loadable_dump/Subsystems/
+
+# Logs
+*.log
+
+# Archives
+*.zip
+
+# OS / editor
+Thumbs.db
+Desktop.ini

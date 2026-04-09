@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="d972b050-8737-6185-a1c2-3884397e2c48">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипСобытияТрекинга" category="Ref">
+				<xr:TypeId>31f4559b-4842-da4a-f0d2-646dffdabf29</xr:TypeId>
+				<xr:ValueId>12fbd39a-7ecb-0a0b-e082-20825926bac7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипСобытияТрекинга" category="Manager">
+				<xr:TypeId>50e84837-244f-7809-c491-18f21cf4c442</xr:TypeId>
+				<xr:ValueId>1cab2c23-f1ce-39f6-b465-e1e3b5995924</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипСобытияТрекинга" category="List">
+				<xr:TypeId>2cb1d56d-9097-91b8-8053-b883c6534d6a</xr:TypeId>
+				<xr:ValueId>20e4a378-08a0-7af5-1d2c-e1f53e6272fb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипСобытияТрекинга</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="456f4b73-46d8-46e2-d3ef-a758957e20a5">
+				<Properties>
+					<Name>Создано</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="91219aac-4b74-8429-8eb1-dc9dcd214e25">
+				<Properties>
+					<Name>ПринятоКПеревозке</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="667fcd59-f3fa-c434-393c-7d56ee3b0d01">
+				<Properties>
+					<Name>НаМаршруте</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f9a258b2-07f5-ebe7-98e7-717da69dccf0">
+				<Properties>
+					<Name>НаТаможне</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="659448e4-5495-babb-bc81-ae95ea654add">
+				<Properties>
+					<Name>Доставлено</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

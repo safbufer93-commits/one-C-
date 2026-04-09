@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Subsystem" uuid="b9972d80-1f48-4408-916c-bec3bf3c1001">
+	<mdclass:n>Отчеты</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Отчеты</core:content></core:item></mdclass:Synonym>
+	<mdclass:Comment>Управленческая отчетность и рабочий стол.</mdclass:Comment>
+</mdclass:Subsystem>

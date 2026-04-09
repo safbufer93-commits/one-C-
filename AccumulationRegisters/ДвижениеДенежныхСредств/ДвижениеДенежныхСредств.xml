@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:AccumulationRegister" uuid="137cc7bf-4dd8-4993-9310-a7750ebcb8c1">
+	<mdclass:n>ДвижениеДенежныхСредств</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Движение денежных средств (управл.)</core:content></core:item></mdclass:Synonym>
+	<mdclass:RegisterType>Balance</mdclass:RegisterType>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+		<mdclass:Attribute uuid="10fb3ea1-aaa7-4bc2-9cf8-5094a91ff127">
+			<mdclass:n>Заказ</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказ</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>DocumentRef.Заказ</mdclass:Type>
+			<mdclass:FillRequired>true</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="71c69d94-16ce-4fff-8993-bf6a971fc7ab">
+			<mdclass:n>СтатьяДДС</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Статья ДДС</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>CatalogRef.СтатьиДДС</mdclass:Type>
+			<mdclass:FillRequired>true</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="71906152-ca7a-4dfe-af6f-8fe843ce89d1">
+			<mdclass:n>КонтрагентЗаказчик</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Контрагент</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>CatalogRef.Заказчики</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="05bc9df4-468a-48a8-b638-c92d2fc99dac">
+			<mdclass:n>Валюта</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Валюта</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>3</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>true</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="c9982350-c8f8-4e9b-ae71-67d0fc1eea13">
+			<mdclass:n>ВидОплаты</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Вид оплаты</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>EnumRef.ВидОплаты</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+			<mdclass:Indexing>Index</mdclass:Indexing>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="4a4b1527-8b31-405d-8a28-de28cc467671">
+			<mdclass:n>Сумма</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>true</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="1b114069-31f7-402d-b7fe-2d3fc905b674">
+			<mdclass:n>СуммаРуб</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма руб</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Subsystem" uuid="dfd3d058-89bc-4529-8561-0fc157261001">
+	<mdclass:n>Логистика</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Логистика</core:content></core:item></mdclass:Synonym>
+	<mdclass:Comment>Отправки, маршруты, трекинг и доставка.</mdclass:Comment>
+</mdclass:Subsystem>

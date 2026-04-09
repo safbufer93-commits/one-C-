@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:DataProcessor" uuid="2914ea13-44c8-4bd4-b84e-f02f3ff11001">
+	<mdclass:n>РабочийСтолМенеджера</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Рабочий стол менеджера</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Attribute uuid="2914ea13-44c8-4bd4-b84e-f02f3ff11002"><mdclass:n>ТекущийМенеджер</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Текущий менеджер</core:content></core:item></mdclass:Synonym><mdclass:Type>CatalogRef.Сотрудники</mdclass:Type><mdclass:FillRequired>false</mdclass:FillRequired><mdclass:Indexing>Index</mdclass:Indexing></mdclass:Attribute>
+	<mdclass:Attribute uuid="2914ea13-44c8-4bd4-b84e-f02f3ff11003"><mdclass:n>ПериодНачало</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Период начало</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:date</mdclass:Type><mdclass:FillRequired>false</mdclass:FillRequired></mdclass:Attribute>
+	<mdclass:Attribute uuid="2914ea13-44c8-4bd4-b84e-f02f3ff11004"><mdclass:n>ПериодКонец</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Период конец</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:date</mdclass:Type><mdclass:FillRequired>false</mdclass:FillRequired></mdclass:Attribute>
+	<mdclass:Attribute uuid="2914ea13-44c8-4bd4-b84e-f02f3ff11005"><mdclass:n>ТолькоМоиЗаказы</mdclass:n><mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Только мои заказы</core:content></core:item></mdclass:Synonym><mdclass:Type>xsd:boolean</mdclass:Type><mdclass:FillRequired>false</mdclass:FillRequired></mdclass:Attribute>
+</mdclass:DataProcessor>

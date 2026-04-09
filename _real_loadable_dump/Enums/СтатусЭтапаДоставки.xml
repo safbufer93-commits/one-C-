@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e5a05d7b-ca62-eb41-bf8e-0cd7c03a8427">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусЭтапаДоставки" category="Ref">
+				<xr:TypeId>1e8b7a2b-c840-2521-fd12-0b626da320fa</xr:TypeId>
+				<xr:ValueId>aadf918f-125e-5ea8-9160-1d5a2b69109f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусЭтапаДоставки" category="Manager">
+				<xr:TypeId>6c87cddb-c73b-5bd0-bca3-0f4346bca7b8</xr:TypeId>
+				<xr:ValueId>f5449f88-2e1a-392e-c33e-5a403ee17a25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусЭтапаДоставки" category="List">
+				<xr:TypeId>058dae2c-9472-430e-1161-8e0373f5a193</xr:TypeId>
+				<xr:ValueId>74d733b8-436e-6f2e-2fe8-5f1b38e8154a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусЭтапаДоставки</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="24a1a9a6-487d-4516-a391-1845e8165cd3">
+				<Properties>
+					<Name>План</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3e69c00c-407e-9118-8c4b-013a5d5307e7">
+				<Properties>
+					<Name>ВРаботе</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ec3d92a2-914a-6b74-e872-36e863997d8e">
+				<Properties>
+					<Name>Задержка</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3fabf7ff-b3ae-3419-327a-c2c9896ebe71">
+				<Properties>
+					<Name>Завершен</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="14239b2c-80c8-043e-a99f-d8168c2f2085">
+				<Properties>
+					<Name>Отменен</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

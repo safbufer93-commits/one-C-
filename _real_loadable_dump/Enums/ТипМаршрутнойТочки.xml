@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="bb61c317-a1e8-9627-fd00-e5c840dadb73">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипМаршрутнойТочки" category="Ref">
+				<xr:TypeId>2d753281-034e-c1da-3d18-7b229c39ebb2</xr:TypeId>
+				<xr:ValueId>7fea5ab7-5cc5-cfcf-2620-390968ac32bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипМаршрутнойТочки" category="Manager">
+				<xr:TypeId>a39b4ada-6dc0-f808-47d8-e59a339421a9</xr:TypeId>
+				<xr:ValueId>7d7af6d4-72f6-8ab2-ee56-c14453708ca5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипМаршрутнойТочки" category="List">
+				<xr:TypeId>8baaffa0-f76e-0c80-6571-6c654afa0e4d</xr:TypeId>
+				<xr:ValueId>912fff16-83af-e337-aa96-ec6aea68a181</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипМаршрутнойТочки</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e3e1b2f3-54a1-1756-c831-bc51b07a7106">
+				<Properties>
+					<Name>Поставщик</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dd93f79c-c138-2428-b253-43f53472e5b5">
+				<Properties>
+					<Name>Склад</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b2117c03-9337-68f4-b560-ac934b01598b">
+				<Properties>
+					<Name>Таможня</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bfc17aa7-ae82-d959-9c81-c9121c60f5a2">
+				<Properties>
+					<Name>ТранспортнаяКомпания</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6bc69c6a-d5da-45e6-6e3d-890194f3b38b">
+				<Properties>
+					<Name>Клиент</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

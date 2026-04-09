@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<Table name="Список" id="1">
+			<Representation>List</Representation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<ContextMenu name="СписокКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3"/>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+			<LabelField name="Ссылка" id="1">
+				<DataPath>Список.Ref</DataPath>
+				<ContextMenu name="СсылкаКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="3"/>
+			</LabelField>
+			<LabelField name="Дата" id="4">
+				<DataPath>Список.Date</DataPath>
+				<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+				<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+			</LabelField>
+			<LabelField name="Номер" id="7">
+				<DataPath>Список.Number</DataPath>
+				<ContextMenu name="НомерКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="9"/>
+			</LabelField>
+			<LabelField name="Заказ" id="10">
+				<DataPath>Список.Заказ</DataPath>
+				<ContextMenu name="ЗаказКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="ЗаказРасширеннаяПодсказка" id="12"/>
+			</LabelField>
+			<LabelField name="Отправка" id="13">
+				<DataPath>Список.Отправка</DataPath>
+				<ContextMenu name="ОтправкаКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="ОтправкаРасширеннаяПодсказка" id="15"/>
+			</LabelField>
+			<LabelField name="ТипДокумента" id="16">
+				<DataPath>Список.ТипДокумента</DataPath>
+				<ContextMenu name="ТипДокументаКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="ТипДокументаРасширеннаяПодсказка" id="18"/>
+			</LabelField>
+			<LabelField name="НомерДокумента" id="19">
+				<DataPath>Список.НомерДокумента</DataPath>
+				<ContextMenu name="НомерДокументаКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="НомерДокументаРасширеннаяПодсказка" id="21"/>
+			</LabelField>
+			<LabelField name="ДатаДокумента" id="22">
+				<DataPath>Список.ДатаДокумента</DataPath>
+				<ContextMenu name="ДатаДокументаКонтекстноеМеню" id="23"/>
+				<ExtendedTooltip name="ДатаДокументаРасширеннаяПодсказка" id="24"/>
+			</LabelField>
+			<LabelField name="Файл" id="25">
+				<DataPath>Список.Файл</DataPath>
+				<ContextMenu name="ФайлКонтекстноеМеню" id="26"/>
+				<ExtendedTooltip name="ФайлРасширеннаяПодсказка" id="27"/>
+			</LabelField>
+			<LabelField name="Комментарий" id="28">
+				<DataPath>Список.Комментарий</DataPath>
+				<ContextMenu name="КомментарийКонтекстноеМеню" id="29"/>
+				<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="30"/>
+			</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Document.РегистрацияДокумента</MainTable>
+			</Settings>
+		</Attribute>
+	</Attributes>
+</Form>

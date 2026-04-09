@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:Enum" uuid="d0c154d2-8858-400b-bd7a-003b78baaddb">
+	<mdclass:n>ВидИП</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Вид ИП</core:content></core:item></mdclass:Synonym>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:EnumValue uuid="667f3f01-8833-4b7b-9a28-2947351cf9a7">
+		<mdclass:n>ИП13</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ИП13</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="311b7fcf-8479-4570-b1b7-5249352a5653">
+		<mdclass:n>ИП7</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ИП7</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="f221e1dc-44cb-4f87-ba58-3dcc7da5fc0a">
+		<mdclass:n>ИП6</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ИП6</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="8afd1580-e872-4ca8-8da8-93de12ec4be7">
+		<mdclass:n>ООО</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>ООО</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+	<mdclass:EnumValue uuid="b68120d2-8d04-45bb-a330-d4ae571070b6">
+		<mdclass:n>НЕТ</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>НЕТ</core:content></core:item></mdclass:Synonym>
+	</mdclass:EnumValue>
+</mdclass:Enum>

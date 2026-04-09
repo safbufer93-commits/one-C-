@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="0ad8e02b-f2b8-cf26-7040-37cef7bc754e">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПереходыСтатусов" category="Record">
+				<xr:TypeId>b307841e-cd53-9295-9524-0f81cfdd33cc</xr:TypeId>
+				<xr:ValueId>3ffe5a50-2fb4-42a1-97bc-b3c018acc476</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПереходыСтатусов" category="Manager">
+				<xr:TypeId>848f6d32-5cac-ee56-1d78-9be922815bbb</xr:TypeId>
+				<xr:ValueId>3281e075-193b-eb83-c01a-40c4ffffec89</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПереходыСтатусов" category="Selection">
+				<xr:TypeId>b556c2b0-fe68-085a-73ff-c37a260a8dbe</xr:TypeId>
+				<xr:ValueId>a8024fe3-751a-b389-3c58-a7fa2440b1b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПереходыСтатусов" category="List">
+				<xr:TypeId>1406cb82-30b2-cd72-28ed-04ab8ec1754c</xr:TypeId>
+				<xr:ValueId>3ef70d04-091b-883c-ba3f-8021d3d552b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПереходыСтатусов" category="RecordSet">
+				<xr:TypeId>b2e7d414-0472-0606-02ce-455a2e09ccf1</xr:TypeId>
+				<xr:ValueId>7d3bca98-e1ed-43d2-633a-27128c879d51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПереходыСтатусов" category="RecordKey">
+				<xr:TypeId>001d021c-d059-e430-347f-33b52f57f10d</xr:TypeId>
+				<xr:ValueId>71838280-eb34-e063-5c4e-2bb2b5ab5269</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПереходыСтатусов" category="RecordManager">
+				<xr:TypeId>d08ac018-2b94-d327-2c94-f44eae06b5c4</xr:TypeId>
+				<xr:ValueId>a94eeb6f-a700-09b6-4ecd-c12144b8e882</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПереходыСтатусов</Name>
+			<Synonym/>
+			<Comment/>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+		<Dimension uuid="a243c7b9-f0c9-a27b-d23a-a1f91acdbdc5">
+			<Properties>
+				<Name>Категория</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.КатегорияСтатуса</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="7061b446-06ed-3892-dfb0-2427304679b6">
+			<Properties>
+				<Name>СтатусИсточник</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Dimension uuid="d2aa03e7-280f-390c-6b6c-7891c6bd3ed4">
+			<Properties>
+				<Name>СтатусНазначение</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:CatalogRef.Статусы</v8:Type>
+				</Type>
+				<FillChecking>ShowError</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Dimension>
+		<Resource uuid="973f4059-f3c4-be28-4511-07df30c2c828">
+			<Properties>
+				<Name>Разрешен</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+
+			</Properties>
+		</Resource>
+		<Attribute uuid="727d31e2-9f66-b00b-87f3-b890c6d7a419">
+			<Properties>
+				<Name>РольПользователя</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>cfg:EnumRef.РольПользователя</v8:Type>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>Index</Indexing>
+			</Properties>
+		</Attribute>
+		<Attribute uuid="c91347ea-7ac3-bc04-fc32-cd7a97643896">
+			<Properties>
+				<Name>Комментарий</Name>
+				<Synonym/>
+				<Comment/>
+				<Type>
+					<v8:Type>xs:string</v8:Type>
+					<v8:StringQualifiers>
+						<v8:Length>250</v8:Length>
+						<v8:AllowedLength>Variable</v8:AllowedLength>
+					</v8:StringQualifiers>
+				</Type>
+				<FillChecking>DontCheck</FillChecking>
+				<Indexing>DontIndex</Indexing>
+			</Properties>
+		</Attribute>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

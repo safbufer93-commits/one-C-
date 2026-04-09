@@ -1,0 +1,2727 @@
+{
+  "path": "C:\\Users\\Admin\\Desktop\\Тендеры\\Volvo Находка\\Калькулятор Volvo.xlsx",
+  "main_sheet": "Калькулятор",
+  "aux_sheet": "Сопутсвующие расходы",
+  "data_area": "A6:CE1500",
+  "headers_row": 5,
+  "columns": [
+    {
+      "column": "A",
+      "index": 1,
+      "header": "",
+      "sample_kind": "input",
+      "sample_value": "3-4 недели до турции",
+      "sample_cached_value": "3-4 недели до турции",
+      "counts": {
+        "input": 4,
+        "empty": 1491
+      },
+      "unique_inputs": [
+        "3-4 недели до турции",
+        "Наличие",
+        "2 дня"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "B",
+      "index": 2,
+      "header": "№ п/п",
+      "sample_kind": "input",
+      "sample_value": 1,
+      "sample_cached_value": 1,
+      "counts": {
+        "input": 1495
+      },
+      "unique_inputs": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "C",
+      "index": 3,
+      "header": "Выбор ИП",
+      "sample_kind": "input",
+      "sample_value": "Нет",
+      "sample_cached_value": "Нет",
+      "counts": {
+        "input": 4,
+        "empty": 1491
+      },
+      "unique_inputs": [
+        "Нет",
+        "ИП 7%"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "D",
+      "index": 4,
+      "header": "Выбери тип доставки",
+      "sample_kind": "input",
+      "sample_value": "Турция Авиа с таможней 7 дней",
+      "sample_cached_value": "Турция Авиа с таможней 7 дней",
+      "counts": {
+        "input": 4,
+        "empty": 1491
+      },
+      "unique_inputs": [
+        "Турция Авиа с таможней 7 дней",
+        "Польша 3 дня"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "E",
+      "index": 5,
+      "header": "Наименование",
+      "sample_kind": "input",
+      "sample_value": " Торсион кабины",
+      "sample_cached_value": " Торсион кабины",
+      "counts": {
+        "input": 4,
+        "empty": 1491
+      },
+      "unique_inputs": [
+        "Торсион кабины"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "F",
+      "index": 6,
+      "header": "Бренд",
+      "sample_kind": "input",
+      "sample_value": "Volvo",
+      "sample_cached_value": "Volvo",
+      "counts": {
+        "input": 2,
+        "empty": 1493
+      },
+      "unique_inputs": [
+        "Volvo"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "G",
+      "index": 7,
+      "header": "Номер запчасти",
+      "sample_kind": "input",
+      "sample_value": 3198853,
+      "sample_cached_value": 3198853,
+      "counts": {
+        "input": 4,
+        "empty": 1491
+      },
+      "unique_inputs": [
+        "3198853"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "H",
+      "index": 8,
+      "header": "Цена дилера",
+      "sample_kind": "input",
+      "sample_value": 3850,
+      "sample_cached_value": 3850,
+      "counts": {
+        "input": 4,
+        "empty": 1491
+      },
+      "unique_inputs": [
+        "3850",
+        "500",
+        "25.01362397820164",
+        "3893.17"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "I",
+      "index": 9,
+      "header": "VAT 5%",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"ОАЭ Авиа с таможней 7 дней\",H6/100*5,IF(D6=\"ОАЭ Авиа без таможни 14 дней\",H6/100*5,IF(D6=\"ОАЭ сборный груз 60 дней\",H6/100*5,0)))",
+      "sample_cached_value": 0,
+      "counts": {
+        "formula": 1494,
+        "input": 1
+      },
+      "unique_inputs": [
+        "0"
+      ],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"ОАЭ Авиа с таможней 7 дней\",H#/100*5,IF(D#=\"ОАЭ Авиа без таможни 14 дней\",H#/100*5,IF(D#=\"ОАЭ сборный груз 60 дней\",H#/100*5,0)))",
+          "count": 1494
+        }
+      ]
+    },
+    {
+      "column": "J",
+      "index": 10,
+      "header": "H  Высота СМ",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "K",
+      "index": 11,
+      "header": "L Длина СМ",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "L",
+      "index": 12,
+      "header": "W Ширина СМ",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "M",
+      "index": 13,
+      "header": "Вес фактический ед. товара",
+      "sample_kind": "input",
+      "sample_value": 23,
+      "sample_cached_value": 23,
+      "counts": {
+        "input": 16,
+        "empty": 1479
+      },
+      "unique_inputs": [
+        "23",
+        "72",
+        "1",
+        "5.56",
+        "1.95",
+        "2.1",
+        "0.28",
+        "44.2",
+        "2.17",
+        "2.93",
+        "0.08",
+        "0.34"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "N",
+      "index": 14,
+      "header": "Кол-во",
+      "sample_kind": "input",
+      "sample_value": 1,
+      "sample_cached_value": 1,
+      "counts": {
+        "input": 16,
+        "empty": 1479
+      },
+      "unique_inputs": [
+        "1",
+        "2"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "O",
+      "index": 15,
+      "header": "Объём м3",
+      "sample_kind": "formula",
+      "sample_value": "=(J6/100)*(K6/100)*(L6/100)*N6",
+      "sample_cached_value": 0,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(J#/100)*(K#/100)*(L#/100)*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "P",
+      "index": 16,
+      "header": "Объёмный вес",
+      "sample_kind": "formula",
+      "sample_value": "=(J6*K6*L6)/6000",
+      "sample_cached_value": 0,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(J#*K#*L#)/6000",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "Q",
+      "index": 17,
+      "header": "Общий вес",
+      "sample_kind": "formula",
+      "sample_value": "=MAX(M6,P6)*N6",
+      "sample_cached_value": 23,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=MAX(M#,P#)*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "R",
+      "index": 18,
+      "header": "Стоимость итого (USD)",
+      "sample_kind": "formula",
+      "sample_value": "=(H6+I6)*N6",
+      "sample_cached_value": 3850,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(H#+I#)*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "S",
+      "index": 19,
+      "header": "Стоимость итого (Руб)",
+      "sample_kind": "formula",
+      "sample_value": "=R6*T6",
+      "sample_cached_value": 308000,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=R#*T#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "T",
+      "index": 20,
+      "header": "Курс валют",
+      "sample_kind": "input",
+      "sample_value": 80,
+      "sample_cached_value": 80,
+      "counts": {
+        "input": 1495
+      },
+      "unique_inputs": [
+        "80",
+        "86",
+        "82"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "U",
+      "index": 21,
+      "header": "Комиссия за услуги оплаты (Т Банк) 3%",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"Карго 63 Авиадоставка\",\"0\",IF(D6=\"ОАЭ Авиа без таможни 14 дней\",\"0\",IF(D6=\"Карго 63 Авто (T1) 20 дней\",\"0\",IF(D6=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",\"0\",IF(D6=\"Карго 63 Авиадоставка 7-8 дней\",\"0\",IF(D6=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",\"0\",IF(D6=\"Польша 3 дня\",\"0\",S6/100*3)))))))",
+      "sample_cached_value": 9240,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"Карго 63 Авиадоставка\",\"0\",IF(D#=\"ОАЭ Авиа без таможни 14 дней\",\"0\",IF(D#=\"Карго 63 Авто (T#) 20 дней\",\"0\",IF(D#=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",\"0\",IF(D#=\"Карго 63 Авиадоставка 7-8 дней\",\"0\",IF(D#=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",\"0\",IF(D#=\"Польша 3 дня\",\"0\",S#/100*3)))))))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "V",
+      "index": 22,
+      "header": "Итого рубли",
+      "sample_kind": "formula",
+      "sample_value": "=S6+U6",
+      "sample_cached_value": 317240,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=S#+U#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "W",
+      "index": 23,
+      "header": "Вес",
+      "sample_kind": "formula",
+      "sample_value": "=Q6",
+      "sample_cached_value": 23,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=Q#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "X",
+      "index": 24,
+      "header": "Стоимость за ед.",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"ОАЭ Авиа без таможни 14 дней\",IF(P6>M6,((M6*1.1)*10)+(((P6-M6)*1.1)*5.5),M6*10),IF(D6=\"ОАЭ Авиа с таможней 7 дней\",MAX(M6*1.1,P6*1.1)*10.5,IF(D6=\"Карго 63 Авиадоставка 7-8 дней\",(M6*1.1)*7.5+10,IF(D6=\"Карго 63 Авто (T1) 20 дней\",(M6*1.1)*4.5+10,IF(D6=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",(M6*1.1)*10,IF(D6=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",(M6*1.1)*9.5,IF(D6=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",(M6*1.1)*8.5,IF(D6=\"Турция Авиа с таможней 7 дней\",MAX(M6*1.1,P6*1.1)*3.5,IF(D6=\"Турция сбрный груз 20 дней\",'Сопутсвующие расходы'!$I$13/SUM($S$6:$S$1496)*S6,IF(D6=\"Турция сборный груз единичная расценка 20 дней\",(M6*1.1)*4.5+10,IF(D6=\"Польша 3 дня\",(M6*1.1)*20,IF(D6=\"ОАЭ сборный груз 60 дней\",'Сопутсвующие расходы'!$I$17/SUM($S$6:$S$1496)*S6,0))))))))))))",
+      "sample_cached_value": 88.55,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"ОАЭ Авиа без таможни 14 дней\",IF(P#>M#,((M#*1.1)*10)+(((P#-M#)*1.1)*5.5),M#*10),IF(D#=\"ОАЭ Авиа с таможней 7 дней\",MAX(M#*1.1,P#*1.1)*10.5,IF(D#=\"Карго 63 Авиадоставка 7-8 дней\",(M#*1.1)*7.5+10,IF(D#=\"Карго 63 Авто (T#) 20 дней\",(M#*1.1)*4.5+10,IF(D#=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",(M#*1.1)*10,IF(D#=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",(M#*1.1)*9.5,IF(D#=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",(M#*1.1)*8.5,IF(D#=\"Турция Авиа с таможней 7 дней\",MAX(M#*1.1,P#*1.1)*3.5,IF(D#=\"Турция сбрный груз 20 дней\",'Сопутсвующие расходы'!$I$13/SUM($S$6:$S$1496)*S#,IF(D#=\"Турция сборный груз единичная расценка 20 дней\",(M#*1.1)*4.5+10,IF(D#=\"Польша 3 дня\",(M#*1.1)*20,IF(D#=\"ОАЭ сборный груз 60 дней\",'Сопутсвующие расходы'!$I$17/SUM($S$6:$S$1496)*S#,0))))))))))))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "Y",
+      "index": 25,
+      "header": "Стоимость доставки",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"Турция сбрный груз 20 дней\",X6*I2,X6*N6)",
+      "sample_cached_value": 88.55,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"Турция сбрный груз 20 дней\",X#*I#,X#*N#)",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "Z",
+      "index": 26,
+      "header": "Стоимость рубли",
+      "sample_kind": "formula",
+      "sample_value": "=(Y6*T6)+(T6*Y6)*0.03",
+      "sample_cached_value": 7296.52,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(Y#*T#)+(T#*Y#)*0.03",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AA",
+      "index": 27,
+      "header": "Пошлина % Для товаров которые считаются без таможни установить 0",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"ОАЭ Авиа без таможни 14 дней\",\"0\",IF(D6=\"ОАЭ Авиа с таможней 7 дней\",\"7\",IF(D6=\"Карго 63 Авиадоставка 7-8 дней\",\"0\",IF(D6=\"Карго 63 Авто (T1) 20 дней\",\"0\",IF(D6=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",\"0\",IF(D6=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",\"0\",IF(D6=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",\"0\",IF(D6=\"Турция Авиа с таможней 7 дней\",\"7\",IF(D6=\"Турция сбрный груз 20 дней\",\"7\",IF(D6=\"Турция сборный груз единичная расценка 20 дней\",\"7\",IF(D6=\"ОАЭ сборный груз 60 дней\",\"7\",IF(D6=\"Польша 3 дня\",\"0\",0))))))))))))",
+      "sample_cached_value": "7",
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"ОАЭ Авиа без таможни 14 дней\",\"0\",IF(D#=\"ОАЭ Авиа с таможней 7 дней\",\"7\",IF(D#=\"Карго 63 Авиадоставка 7-8 дней\",\"0\",IF(D#=\"Карго 63 Авто (T#) 20 дней\",\"0\",IF(D#=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",\"0\",IF(D#=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",\"0\",IF(D#=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",\"0\",IF(D#=\"Турция Авиа с таможней 7 дней\",\"7\",IF(D#=\"Турция сбрный груз 20 дней\",\"7\",IF(D#=\"Турция сборный груз единичная расценка 20 дней\",\"7\",IF(D#=\"ОАЭ сборный груз 60 дней\",\"7\",IF(D#=\"Польша 3 дня\",\"0\",0))))))))))))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AB",
+      "index": 28,
+      "header": "Общая стоимость пошлины",
+      "sample_kind": "formula",
+      "sample_value": "=(V6+Z6)/100*AA6",
+      "sample_cached_value": 22717.5564,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(V#+Z#)/100*AA#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AC",
+      "index": 29,
+      "header": "НДС при ввозе 22%",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"ОАЭ Авиа без таможни 14 дней\",\"0\",IF(D6=\"ОАЭ Авиа с таможней 7 дней\",(AB6+Z6+V6)*$BE$6,IF(D6=\"Карго 63 Авиадоставка 7-8 дней\",\"0\",IF(D6=\"Карго 63 Авто (T1) 20 дней\",\"0\",IF(D6=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",\"0\",IF(D6=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",\"0\",IF(D6=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",\"0\",IF(D6=\"Турция Авиа с таможней 7 дней\",(AB6+Z6+V6)*$BE$6,IF(D6=\"Турция сбрный груз 20 дней\",(AB6+Z6+V6)*$BE$6,IF(D6=\"Турция сборный груз единичная расценка 20 дней\",(AB6+Z6+V6)*$BE$6,IF(D6=\"ОАЭ сборный груз 60 дней\",(AB6+Z6+V6)*$BE$6,0)))))))))))",
+      "sample_cached_value": 76395.896808,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"ОАЭ Авиа без таможни 14 дней\",\"0\",IF(D#=\"ОАЭ Авиа с таможней 7 дней\",(AB#+Z#+V#)*$BE$6,IF(D#=\"Карго 63 Авиадоставка 7-8 дней\",\"0\",IF(D#=\"Карго 63 Авто (T#) 20 дней\",\"0\",IF(D#=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",\"0\",IF(D#=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",\"0\",IF(D#=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",\"0\",IF(D#=\"Турция Авиа с таможней 7 дней\",(AB#+Z#+V#)*$BE$6,IF(D#=\"Турция сбрный груз 20 дней\",(AB#+Z#+V#)*$BE$6,IF(D#=\"Турция сборный груз единичная расценка 20 дней\",(AB#+Z#+V#)*$BE$6,IF(D#=\"ОАЭ сборный груз 60 дней\",(AB#+Z#+V#)*$BE$6,0)))))))))))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AD",
+      "index": 30,
+      "header": "Стоимость",
+      "sample_kind": "formula",
+      "sample_value": "=V6+Z6+AB6",
+      "sample_cached_value": 347254.0764,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=V#+Z#+AB#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AE",
+      "index": 31,
+      "header": "НДС при ввозе",
+      "sample_kind": "formula",
+      "sample_value": "=AC6",
+      "sample_cached_value": 76395.896808,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AC#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AF",
+      "index": 32,
+      "header": "Итого",
+      "sample_kind": "formula",
+      "sample_value": "=AD6+AE6",
+      "sample_cached_value": 423649.973208,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AD#+AE#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AG",
+      "index": 33,
+      "header": "Добавочная стоиость на сопуствующие расходы",
+      "sample_kind": "formula",
+      "sample_value": "=AD6*VLOOKUP(D6,'Сопутсвующие расходы'!O:R,3,0)",
+      "sample_cached_value": 48615.57069600001,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AD#*VLOOKUP(D#,'Сопутсвующие расходы'!O:R,3,0)",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AH",
+      "index": 34,
+      "header": "Общая сумма",
+      "sample_kind": "formula",
+      "sample_value": "=AD6+AG6",
+      "sample_cached_value": 395869.64709600003,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AD#+AG#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AI",
+      "index": 35,
+      "header": "НДС при ввозе",
+      "sample_kind": "formula",
+      "sample_value": "=AE6",
+      "sample_cached_value": 76395.896808,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AE#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AJ",
+      "index": 36,
+      "header": "Итого",
+      "sample_kind": "formula",
+      "sample_value": "=AH6+AI6",
+      "sample_cached_value": 472265.543904,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AH#+AI#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AK",
+      "index": 37,
+      "header": "Стоимость закупки на еденицу без НДС",
+      "sample_kind": "formula",
+      "sample_value": "=AH6/N6",
+      "sample_cached_value": 395869.64709600003,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AH#/N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AL",
+      "index": 38,
+      "header": "НДС с добавочной стоимостьтю на еденицу",
+      "sample_kind": "formula",
+      "sample_value": "=AI6/N6",
+      "sample_cached_value": 76395.896808,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AI#/N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AM",
+      "index": 39,
+      "header": "Итого на еденицу с НДС",
+      "sample_kind": "formula",
+      "sample_value": "=AK6+AL6",
+      "sample_cached_value": 472265.543904,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AK#+AL#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AN",
+      "index": 40,
+      "header": "Процент прибыли",
+      "sample_kind": "input",
+      "sample_value": 0.3,
+      "sample_cached_value": 0.3,
+      "counts": {
+        "input": 1495
+      },
+      "unique_inputs": [
+        "0.3",
+        "0.35",
+        "0.1"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "AO",
+      "index": 41,
+      "header": "Прибыль после всех налогов на ед.",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"ОАЭ Авиа без таможни 14 дней\",((S6+U6+Z6+AG6)*AN6)/N6,IF(D6=\"Карго 63 Авиадоставка 7-8 дней\",((S6+U6+Z6+AG6)*AN6)/N6,IF(D6=\"Авто (T1)\",((S6+U6+Z6+AG6)*AN6)/N6,IF(D6=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((S6+U6+Z6+AG6)*AN6)/N6,IF(D6=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((S6+U6+Z6+AG6)*AN6)/N6,IF(D6=\"Карго 63 Авто (T1) 20 дней\",((S6+U6+Z6+AG6)*AN6)/N6,IF(D6=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((S6+U6+Z6+AG6)*AN6)/N6,(BA6-(AD6/N6))*(1-$BF$6)-(AG6/N6))))))))",
+      "sample_cached_value": 118760.89412880005,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"ОАЭ Авиа без таможни 14 дней\",((S#+U#+Z#+AG#)*AN#)/N#,IF(D#=\"Карго 63 Авиадоставка 7-8 дней\",((S#+U#+Z#+AG#)*AN#)/N#,IF(D#=\"Авто (T#)\",((S#+U#+Z#+AG#)*AN#)/N#,IF(D#=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((S#+U#+Z#+AG#)*AN#)/N#,IF(D#=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((S#+U#+Z#+AG#)*AN#)/N#,IF(D#=\"Карго 63 Авто (T#) 20 дней\",((S#+U#+Z#+AG#)*AN#)/N#,IF(D#=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((S#+U#+Z#+AG#)*AN#)/N#,(BA#-(AD#/N#))*(1-$BF$6)-(AG#/N#))))))))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AP",
+      "index": 42,
+      "header": "Прибыль после всех налогов на все позиции",
+      "sample_kind": "formula",
+      "sample_value": "=AO6*N6",
+      "sample_cached_value": 118760.89412880005,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AO#*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AQ",
+      "index": 43,
+      "header": "ООО Цена продажи с НДС 22% ед.товара",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"Турция Авиа с таможней 7 дней\",BA6*(1+$BE$6),IF(D6=\"Турция сборный груз единичная расценка 20 дней\",BA6*(1+$BE$6),IF(D6=\"Турция сбрный груз 20 дней\",BA6*(1+$BE$6),IF(D6=\"ОАЭ Авиа с таможней 7 дней\",BA6*(1+$BE$6),IF(D6=\"ОАЭ сборный груз 60 дней\",BA6*(1+$BE$6),IF(C6=\"ИП 7%\",IF(D6=\"ОАЭ Авиа без таможни 14 дней\",((AK6*(1+$BH$6)*(1+$BI$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Польша 3 дня\",((AK6*(1+$BH$6)*(1+$BI$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго 63 Авиадоставка 7-8 дней\",((AK6*(1+$BH$6)*(1+$BI$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго 63 Авто (T1) 20 дней\",((AK6*(1+$BH$6)*(1+$BI$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((AK6*(1+$BH$6)*(1+$BI$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((AK6*(1+$BH$6)*(1+$BI$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((AK6*(1+$BH$6)*(1+$BI$6))+(AO6/(1-$BF$6)))*(1+$BE$6),0))))))),IF(C6=\"ИП 13%\",IF(D6=\"ОАЭ Авиа без таможни 14 дней\",((AK6*(1+$BG$6)*(1+$BE$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго 63 Авиадоставка 7-8 дней\",((AK6*(1+$BG$6)*(1+$BE$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго 63 Авто (T1) 20 дней\",((AK6*(1+$BG$6)*(1+$BE$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((AK6*(1+$BG$6)*(1+$BE$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((AK6*(1+$BG$6)*(1+$BE$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((AK6*(1+$BG$6)*(1+$BE$6))+(AO6/(1-$BF$6)))*(1+$BE$6),IF(D6=\"Польша 3 дня\",((AK6*(1+$BG$6)*(1+$BE$6))+(AO6/(1-$BF$6)))*(1+$BE$6),0))))))),0)))))))",
+      "sample_cached_value": 695915.6893230081,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"Турция Авиа с таможней 7 дней\",BA#*(1+$BE$6),IF(D#=\"Турция сборный груз единичная расценка 20 дней\",BA#*(1+$BE$6),IF(D#=\"Турция сбрный груз 20 дней\",BA#*(1+$BE$6),IF(D#=\"ОАЭ Авиа с таможней 7 дней\",BA#*(1+$BE$6),IF(D#=\"ОАЭ сборный груз 60 дней\",BA#*(1+$BE$6),IF(C#=\"ИП 7%\",IF(D#=\"ОАЭ Авиа без таможни 14 дней\",((AK#*(1+$BH$6)*(1+$BI$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Польша 3 дня\",((AK#*(1+$BH$6)*(1+$BI$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго 63 Авиадоставка 7-8 дней\",((AK#*(1+$BH$6)*(1+$BI$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго 63 Авто (T#) 20 дней\",((AK#*(1+$BH$6)*(1+$BI$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((AK#*(1+$BH$6)*(1+$BI$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((AK#*(1+$BH$6)*(1+$BI$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((AK#*(1+$BH$6)*(1+$BI$6))+(AO#/(1-$BF$6)))*(1+$BE$6),0))))))),IF(C#=\"ИП 13%\",IF(D#=\"ОАЭ Авиа без таможни 14 дней\",((AK#*(1+$BG$6)*(1+$BE$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго 63 Авиадоставка 7-8 дней\",((AK#*(1+$BG$6)*(1+$BE$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго 63 Авто (T#) 20 дней\",((AK#*(1+$BG$6)*(1+$BE$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((AK#*(1+$BG$6)*(1+$BE$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((AK#*(1+$BG$6)*(1+$BE$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((AK#*(1+$BG$6)*(1+$BE$6))+(AO#/(1-$BF$6)))*(1+$BE$6),IF(D#=\"Польша 3 дня\",((AK#*(1+$BG$6)*(1+$BE$6))+(AO#/(1-$BF$6)))*(1+$BE$6),0))))))),0)))))))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AR",
+      "index": 44,
+      "header": "ООО Цена продажи с НДС 22% на все пзиции",
+      "sample_kind": "formula",
+      "sample_value": "=AQ6*N6",
+      "sample_cached_value": 695915.6893230081,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AQ#*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AS",
+      "index": 45,
+      "header": "ИП 13% Цена продажи с НДС 22% на ед. товара",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"ОАЭ Авиа без таможни 14 дней\",((AK6+AO6)*(1+$BG$6))*(1+$BE$6),IF(D6=\"Карго 63 Авиадоставка 7-8 дней\",((AK6+AO6)*(1+$BG$6))*(1+$BE$6),IF(D6=\"Карго 63 Авто (T1) 20 дней\",((AK6+AO6)*(1+$BG$6))*(1+$BE$6),IF(D6=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((AK6+AO6)*(1+$BG$6))*(1+$BE$6),IF(D6=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((AK6+AO6)*(1+$BG$6))*(1+$BE$6),IF(D6=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((AK6+AO6)*(1+$BG$6))*(1+$BE$6),IF(D6=\"Польша 3 дня\",((AK6+AO6)*(1+$BG$6))*(1+$BE$6),BB6*(1+$BE$6))))))))",
+      "sample_cached_value": 672673.4940448976,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"ОАЭ Авиа без таможни 14 дней\",((AK#+AO#)*(1+$BG$6))*(1+$BE$6),IF(D#=\"Карго 63 Авиадоставка 7-8 дней\",((AK#+AO#)*(1+$BG$6))*(1+$BE$6),IF(D#=\"Карго 63 Авто (T#) 20 дней\",((AK#+AO#)*(1+$BG$6))*(1+$BE$6),IF(D#=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((AK#+AO#)*(1+$BG$6))*(1+$BE$6),IF(D#=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((AK#+AO#)*(1+$BG$6))*(1+$BE$6),IF(D#=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((AK#+AO#)*(1+$BG$6))*(1+$BE$6),IF(D#=\"Польша 3 дня\",((AK#+AO#)*(1+$BG$6))*(1+$BE$6),BB#*(1+$BE$6))))))))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AT",
+      "index": 46,
+      "header": "ИП 13% Цена продажи с НДС 22% на все пзиции",
+      "sample_kind": "formula",
+      "sample_value": "=AS6*N6",
+      "sample_cached_value": 672673.4940448976,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AS#*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AU",
+      "index": 47,
+      "header": "ИП 7% Цена продажи НДС 5% на ед. товара",
+      "sample_kind": "formula",
+      "sample_value": "=IF(D6=\"ОАЭ Авиа без таможни 14 дней\",((AK6+AO6)*(1+$BH$6))*(1+$BI$6),IF(D6=\"Карго 63 Авиадоставка 7-8 дней\",((AK6+AO6)*(1+$BH$6))*(1+$BI$6),IF(D6=\"Карго 63 Авто (T1) 20 дней\",((AK6+AO6)*(1+$BH$6))*(1+$BI$6),IF(D6=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((AK6+AO6)*(1+$BH$6))*(1+$BI$6),IF(D6=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((AK6+AO6)*(1+$BH$6))*(1+$BI$6),IF(D6=\"Польша 3 дня\",((AK6+AO6)*(1+$BH$6))*(1+$BI$6),IF(D6=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((AK6+AO6)*(1+$BH$6))*(1+$BI$6),BC6*(1+$BI$6))))))))",
+      "sample_cached_value": 553590.2082480001,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IF(D#=\"ОАЭ Авиа без таможни 14 дней\",((AK#+AO#)*(1+$BH$6))*(1+$BI$6),IF(D#=\"Карго 63 Авиадоставка 7-8 дней\",((AK#+AO#)*(1+$BH$6))*(1+$BI$6),IF(D#=\"Карго 63 Авто (T#) 20 дней\",((AK#+AO#)*(1+$BH$6))*(1+$BI$6),IF(D#=\"Карго Риммеил (Азреы) Экспресс 2-3 дня\",((AK#+AO#)*(1+$BH$6))*(1+$BI$6),IF(D#=\"Карго Риммеил (Азреы) Трехдневка 3-5 дней\",((AK#+AO#)*(1+$BH$6))*(1+$BI$6),IF(D#=\"Польша 3 дня\",((AK#+AO#)*(1+$BH$6))*(1+$BI$6),IF(D#=\"Карго Риммеил (Азреы) Семидневка 5-7 дней\",((AK#+AO#)*(1+$BH$6))*(1+$BI$6),BC#*(1+$BI$6))))))))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AV",
+      "index": 48,
+      "header": "ИП 7% Цена продажи НДС 5% на все пзиции",
+      "sample_kind": "formula",
+      "sample_value": "=AU6*N6",
+      "sample_cached_value": 553590.2082480001,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AU#*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AW",
+      "index": 49,
+      "header": "ИП 6% Цена продажи без НДС на ед. товара",
+      "sample_kind": "formula",
+      "sample_value": "=(AD6/N6)+((AK6*AN6+(AG6/N6))/(1-$BJ$6))",
+      "sample_cached_value": 525314.1453625532,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(AD#/N#)+((AK#*AN#+(AG#/N#))/(1-$BJ$6))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AX",
+      "index": 50,
+      "header": "ИП 6% Цена продажи без НДС на ед. товара",
+      "sample_kind": "formula",
+      "sample_value": "=AW6*N6",
+      "sample_cached_value": 525314.1453625532,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AW#*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AY",
+      "index": 51,
+      "header": "Продажа наличными",
+      "sample_kind": "formula",
+      "sample_value": "=(AD6/N6)+(AG6/N6)+AO6",
+      "sample_cached_value": 514630.54122480005,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(AD#/N#)+(AG#/N#)+AO#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "AZ",
+      "index": 52,
+      "header": "Продажа наличными на все позиции",
+      "sample_kind": "formula",
+      "sample_value": "=AY6*N6",
+      "sample_cached_value": 514630.54122480005,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AY#*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BA",
+      "index": 53,
+      "header": "Цена продажи без НДС ООО",
+      "sample_kind": "formula",
+      "sample_value": "=(AD6/N6)+((AK6*AN6+(AG6/N6))/(1-$BF$6))",
+      "sample_cached_value": 570422.6961664001,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(AD#/N#)+((AK#*AN#+(AG#/N#))/(1-$BF$6))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BB",
+      "index": 54,
+      "header": "Цена продажи без НДС ИП 13",
+      "sample_kind": "formula",
+      "sample_value": "=(AD6/N6)+((AK6*AN6+(AG6/N6))/(1-$BG$6))",
+      "sample_cached_value": 551371.7164302439,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(AD#/N#)+((AK#*AN#+(AG#/N#))/(1-$BG$6))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BC",
+      "index": 55,
+      "header": "Цена продажи без НДС ИП 7",
+      "sample_kind": "formula",
+      "sample_value": "=(AD6/N6)+((AK6*AN6+(AG6/N6))/(1-$BH$6))",
+      "sample_cached_value": 527228.76976,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(AD#/N#)+((AK#*AN#+(AG#/N#))/(1-$BH$6))",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BD",
+      "index": 56,
+      "header": "Прибыль ИП",
+      "sample_kind": "formula",
+      "sample_value": "=(BB6-(AD6/N6))*(1-$BG$6)-(AG6/N6)",
+      "sample_cached_value": 118760.89412879999,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=(BB#-(AD#/N#))*(1-$BG$6)-(AG#/N#)",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BE",
+      "index": 57,
+      "header": "НДС",
+      "sample_kind": "input",
+      "sample_value": 0.22,
+      "sample_cached_value": 0.22,
+      "counts": {
+        "input": 1,
+        "empty": 1494
+      },
+      "unique_inputs": [
+        "0.22"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "BF",
+      "index": 58,
+      "header": "ООО",
+      "sample_kind": "input",
+      "sample_value": 0.25,
+      "sample_cached_value": 0.25,
+      "counts": {
+        "input": 1,
+        "empty": 1494
+      },
+      "unique_inputs": [
+        "0.25"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "BG",
+      "index": 59,
+      "header": "ИП",
+      "sample_kind": "input",
+      "sample_value": 0.18,
+      "sample_cached_value": 0.18,
+      "counts": {
+        "input": 1,
+        "empty": 1494
+      },
+      "unique_inputs": [
+        "0.18"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "BH",
+      "index": 60,
+      "header": "ИП Марлен",
+      "sample_kind": "input",
+      "sample_value": 0.07,
+      "sample_cached_value": 0.07,
+      "counts": {
+        "input": 1,
+        "empty": 1494
+      },
+      "unique_inputs": [
+        "0.07"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "BI",
+      "index": 61,
+      "header": "НДС ПОД МАРЛЕНА",
+      "sample_kind": "input",
+      "sample_value": 0.05,
+      "sample_cached_value": 0.05,
+      "counts": {
+        "input": 1,
+        "empty": 1494
+      },
+      "unique_inputs": [
+        "0.05"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "BJ",
+      "index": 62,
+      "header": "ИП 6%",
+      "sample_kind": "input",
+      "sample_value": 0.06,
+      "sample_cached_value": 0.06,
+      "counts": {
+        "input": 1,
+        "empty": 1494
+      },
+      "unique_inputs": [
+        "0.06"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "BK",
+      "index": 63,
+      "header": "",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "BL",
+      "index": 64,
+      "header": "",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "BM",
+      "index": 65,
+      "header": "",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "BN",
+      "index": 66,
+      "header": "Сопутствующие расходы",
+      "sample_kind": "input",
+      "sample_value": "Агентское вознагражение  (USD)",
+      "sample_cached_value": "Агентское вознагражение  (USD)",
+      "counts": {
+        "input": 1495
+      },
+      "unique_inputs": [
+        "Агентское вознагражение  (USD)"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "BO",
+      "index": 67,
+      "header": "Сумма",
+      "sample_kind": "input",
+      "sample_value": 240,
+      "sample_cached_value": 240,
+      "counts": {
+        "input": 1495
+      },
+      "unique_inputs": [
+        "240"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "BP",
+      "index": 68,
+      "header": "Курс",
+      "sample_kind": "input",
+      "sample_value": 83,
+      "sample_cached_value": 83,
+      "counts": {
+        "input": 1495
+      },
+      "unique_inputs": [
+        "83"
+      ],
+      "formula_templates": []
+    },
+    {
+      "column": "BQ",
+      "index": 69,
+      "header": "Рубли",
+      "sample_kind": "formula",
+      "sample_value": "=BO6*BP6",
+      "sample_cached_value": 19920,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=BO#*BP#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BR",
+      "index": 70,
+      "header": "НДС с продажи (выходной) на ед. (ООО)",
+      "sample_kind": "formula",
+      "sample_value": "=BA6*$BE$6",
+      "sample_cached_value": 125492.99315660802,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=BA#*$BE$6",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BS",
+      "index": 71,
+      "header": "НДС при ввозе (входной) на ед.",
+      "sample_kind": "formula",
+      "sample_value": "=IFERROR(AE6/N6,0)",
+      "sample_cached_value": 76395.896808,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=IFERROR(AE#/N#,0)",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BT",
+      "index": 72,
+      "header": "НДС к уплате на ед. (выходной-входной)",
+      "sample_kind": "formula",
+      "sample_value": "=BR6-BS6",
+      "sample_cached_value": 49097.096348608015,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=BR#-BS#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BU",
+      "index": 73,
+      "header": "НДС к уплате на все позиции",
+      "sample_kind": "formula",
+      "sample_value": "=BT6*N6",
+      "sample_cached_value": 49097.096348608015,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=BT#*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BV",
+      "index": 74,
+      "header": "Прибыль до налога на ед. (офиц. база)",
+      "sample_kind": "formula",
+      "sample_value": "=BA6-(AD6/N6)",
+      "sample_cached_value": 223168.61976640008,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=BA#-(AD#/N#)",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BW",
+      "index": 75,
+      "header": "Налог на прибыль на ед. (ООО)",
+      "sample_kind": "formula",
+      "sample_value": "=MAX(0,BV6*$BF$6)",
+      "sample_cached_value": 55792.15494160002,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=MAX(0,BV#*$BF$6)",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BX",
+      "index": 76,
+      "header": "Налог на прибыль на все позиции",
+      "sample_kind": "formula",
+      "sample_value": "=BW6*N6",
+      "sample_cached_value": 55792.15494160002,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=BW#*N#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BY",
+      "index": 77,
+      "header": "Прибыль после всех налогов на ед. (cash проверка)",
+      "sample_kind": "formula",
+      "sample_value": "=AQ6-((AD6+AG6+AE6)/N6)-BT6-BW6",
+      "sample_cached_value": 118760.89412879999,
+      "counts": {
+        "formula": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": [
+        {
+          "formula": "=AQ#-((AD#+AG#+AE#)/N#)-BT#-BW#",
+          "count": 1495
+        }
+      ]
+    },
+    {
+      "column": "BZ",
+      "index": 78,
+      "header": "",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "CA",
+      "index": 79,
+      "header": "",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "CB",
+      "index": 80,
+      "header": "",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "CC",
+      "index": 81,
+      "header": "",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "CD",
+      "index": 82,
+      "header": "",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    },
+    {
+      "column": "CE",
+      "index": 83,
+      "header": "",
+      "sample_kind": "empty",
+      "sample_value": null,
+      "sample_cached_value": null,
+      "counts": {
+        "empty": 1495
+      },
+      "unique_inputs": [],
+      "formula_templates": []
+    }
+  ],
+  "delivery_values_from_column_D": [
+    "Турция Авиа с таможней 7 дней",
+    "Польша 3 дня"
+  ],
+  "ip_values_from_column_C": [
+    "Нет",
+    "ИП 7%"
+  ],
+  "profit_values_from_column_AN": [
+    "0.3",
+    "0.35",
+    "0.1"
+  ],
+  "delivery_strings_from_formulas": [
+    "Авто (T1)",
+    "Карго 63 Авиадоставка",
+    "Карго 63 Авиадоставка 7-8 дней",
+    "Карго 63 Авто (T1) 20 дней",
+    "Карго Риммеил (Азреы) Семидневка 5-7 дней",
+    "Карго Риммеил (Азреы) Трехдневка 3-5 дней",
+    "Карго Риммеил (Азреы) Экспресс 2-3 дня",
+    "ОАЭ Авиа без таможни 14 дней",
+    "ОАЭ Авиа с таможней 7 дней",
+    "ОАЭ сборный груз 60 дней",
+    "Польша 3 дня",
+    "Турция Авиа с таможней 7 дней",
+    "Турция сборный груз единичная расценка 20 дней",
+    "Турция сбрный груз 20 дней"
+  ],
+  "ip_strings_from_formulas": [
+    "ИП 13%",
+    "ИП 7%"
+  ],
+  "data_validations": [],
+  "settings_cells": {
+    "I1": {
+      "formula": "=SUM(O6:O1500)",
+      "cached_value": 0
+    },
+    "I2": {
+      "formula": 1,
+      "cached_value": 1
+    },
+    "K2": {
+      "formula": "=3.12*I2",
+      "cached_value": 3.12
+    },
+    "AG4": {
+      "formula": "=VLOOKUP($D$6,'Сопутсвующие расходы'!O:R,4,0)*Калькулятор!T8",
+      "cached_value": 54180
+    },
+    "AO1": {
+      "formula": "=AK9+AO9",
+      "cached_value": 498459.57330000005
+    },
+    "AP1": {
+      "formula": "=AO1*1.18",
+      "cached_value": 588182.296494
+    },
+    "AT1": {
+      "formula": "=((AK9*(1+$BH$6)*(1+$BI$6))+(AO9/(1-$BF$6)))*(1+$BE$6)",
+      "cached_value": 712670.6577734702
+    },
+    "AV1": {
+      "formula": "=((AK9*(1+$BH$6)*(1+$BI$6)))",
+      "cached_value": 430784.1004635001
+    },
+    "AQ4": {
+      "formula": "=((AK9*(1+$BH$6)*(1+$BI$6))+(AO9/(1-$BF$6)))*(1+$BE$6)",
+      "cached_value": 712670.6577734702
+    },
+    "AR4": {
+      "formula": "=AQ9/122*22",
+      "cached_value": 128514.38090997003
+    },
+    "BE6": {
+      "formula": 0.22,
+      "cached_value": 0.22
+    },
+    "BF6": {
+      "formula": 0.25,
+      "cached_value": 0.25
+    },
+    "BG6": {
+      "formula": 0.18,
+      "cached_value": 0.18
+    },
+    "BH6": {
+      "formula": 0.07,
+      "cached_value": 0.07
+    },
+    "BI6": {
+      "formula": 0.05,
+      "cached_value": 0.05
+    },
+    "BJ6": {
+      "formula": 0.06,
+      "cached_value": 0.06
+    }
+  },
+  "aux_cells": [
+    {
+      "row": 2,
+      "cells": [
+        {
+          "cell": "A2",
+          "value": "Турция сборный груз единичная расценка 20 дней",
+          "cached_value": "Турция сборный груз единичная расценка 20 дней"
+        },
+        {
+          "cell": "C2",
+          "value": "Карго 63 Авиадоставка",
+          "cached_value": "Карго 63 Авиадоставка"
+        },
+        {
+          "cell": "L2",
+          "value": "ИП 7%",
+          "cached_value": "ИП 7%"
+        },
+        {
+          "cell": "O2",
+          "value": "Доставка",
+          "cached_value": "Доставка"
+        },
+        {
+          "cell": "Q2",
+          "value": "% сопуствующих расходов\nДЛЯ РАСЧЁТА ПО НИМ СЧИТАЕТСЯ",
+          "cached_value": "% сопуствующих расходов\nДЛЯ РАСЧЁТА ПО НИМ СЧИТАЕТСЯ"
+        },
+        {
+          "cell": "R2",
+          "value": "Сумма сопуствующих расходов",
+          "cached_value": "Сумма сопуствующих расходов"
+        },
+        {
+          "cell": "S2",
+          "value": "Базовые",
+          "cached_value": "Базовые"
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "cells": [
+        {
+          "cell": "A3",
+          "value": "Турция Авиа с таможней 7 дней",
+          "cached_value": "Турция Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "C3",
+          "value": "Карго 63 Авто (T1) 25 дней",
+          "cached_value": "Карго 63 Авто (T1) 25 дней"
+        },
+        {
+          "cell": "D3",
+          "value": 4.5,
+          "cached_value": 4.5
+        },
+        {
+          "cell": "H3",
+          "value": "Авиадоставка Турция с таможней",
+          "cached_value": "Авиадоставка Турция с таможней"
+        },
+        {
+          "cell": "J3",
+          "value": "Данные",
+          "cached_value": "Данные"
+        },
+        {
+          "cell": "L3",
+          "value": "ИП 13%",
+          "cached_value": "ИП 13%"
+        },
+        {
+          "cell": "O3",
+          "value": "Карго 63 Авиадоставка 7-8 дней",
+          "cached_value": "Карго 63 Авиадоставка 7-8 дней"
+        },
+        {
+          "cell": "P3",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q3",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "S3",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "X3",
+          "value": "Да",
+          "cached_value": "Да"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "cells": [
+        {
+          "cell": "A4",
+          "value": "Турция сбрный груз 20 дней",
+          "cached_value": "Турция сбрный груз 20 дней"
+        },
+        {
+          "cell": "C4",
+          "value": "Карго Риммеил (Азреы) Трехдневка 3-5 дней",
+          "cached_value": "Карго Риммеил (Азреы) Трехдневка 3-5 дней"
+        },
+        {
+          "cell": "G4",
+          "value": "Турция Авиа с таможней 7 дней",
+          "cached_value": "Турция Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H4",
+          "value": "Таможенное оформление РФ (Брокер)",
+          "cached_value": "Таможенное оформление РФ (Брокер)"
+        },
+        {
+          "cell": "I4",
+          "value": 22000,
+          "cached_value": 22000
+        },
+        {
+          "cell": "L4",
+          "value": "Нет",
+          "cached_value": "Нет"
+        },
+        {
+          "cell": "O4",
+          "value": "Карго 63 Авто (T1) 20 дней",
+          "cached_value": "Карго 63 Авто (T1) 20 дней"
+        },
+        {
+          "cell": "P4",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q4",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "S4",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "X4",
+          "value": "Нет",
+          "cached_value": "Нет"
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "cells": [
+        {
+          "cell": "A5",
+          "value": "ОАЭ Авиа с таможней 7 дней",
+          "cached_value": "ОАЭ Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "G5",
+          "value": "Турция Авиа с таможней 7 дней",
+          "cached_value": "Турция Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H5",
+          "value": "Рустем услуги",
+          "cached_value": "Рустем услуги"
+        },
+        {
+          "cell": "I5",
+          "value": 5000,
+          "cached_value": 5000
+        },
+        {
+          "cell": "O5",
+          "value": "Карго Риммеил (Азреы) Экспресс 2-3 дня",
+          "cached_value": "Карго Риммеил (Азреы) Экспресс 2-3 дня"
+        },
+        {
+          "cell": "P5",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q5",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "S5",
+          "value": 0.01,
+          "cached_value": 0.01
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "cells": [
+        {
+          "cell": "A6",
+          "value": "ОАЭ Авиа без таможни 14 дней",
+          "cached_value": "ОАЭ Авиа без таможни 14 дней"
+        },
+        {
+          "cell": "G6",
+          "value": "Турция Авиа с таможней 7 дней",
+          "cached_value": "Турция Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H6",
+          "value": "Дополнительные сборы",
+          "cached_value": "Дополнительные сборы"
+        },
+        {
+          "cell": "I6",
+          "value": "=210*78",
+          "cached_value": 16380
+        },
+        {
+          "cell": "O6",
+          "value": "Карго 63 Авиадоставка 7-8 дней",
+          "cached_value": "Карго 63 Авиадоставка 7-8 дней"
+        },
+        {
+          "cell": "P6",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q6",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "S6",
+          "value": 0.01,
+          "cached_value": 0.01
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "cells": [
+        {
+          "cell": "A7",
+          "value": "ОАЭ сборный груз 60 дней",
+          "cached_value": "ОАЭ сборный груз 60 дней"
+        },
+        {
+          "cell": "G7",
+          "value": "Турция Авиа с таможней 7 дней",
+          "cached_value": "Турция Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "O7",
+          "value": "Карго Риммеил (Азреы) Семидневка 5-7 дней",
+          "cached_value": "Карго Риммеил (Азреы) Семидневка 5-7 дней"
+        },
+        {
+          "cell": "P7",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q7",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "S7",
+          "value": 0.01,
+          "cached_value": 0.01
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "cells": [
+        {
+          "cell": "A8",
+          "value": "Карго Риммеил (Азреы) Экспресс 2-3 дня",
+          "cached_value": "Карго Риммеил (Азреы) Экспресс 2-3 дня"
+        },
+        {
+          "cell": "B8",
+          "value": 10,
+          "cached_value": 10
+        },
+        {
+          "cell": "G8",
+          "value": "Турция Авиа с таможней 7 дней",
+          "cached_value": "Турция Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H8",
+          "value": "Цена за 1 кг в $",
+          "cached_value": "Цена за 1 кг в $"
+        },
+        {
+          "cell": "I8",
+          "value": 3.5,
+          "cached_value": 3.5
+        },
+        {
+          "cell": "O8",
+          "value": "ОАЭ Авиа без таможни 14 дней",
+          "cached_value": "ОАЭ Авиа без таможни 14 дней"
+        },
+        {
+          "cell": "P8",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q8",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "S8",
+          "value": 0.01,
+          "cached_value": 0.01
+        }
+      ]
+    },
+    {
+      "row": 9,
+      "cells": [
+        {
+          "cell": "A9",
+          "value": "Карго Риммеил (Азреы) Семидневка 5-7 дней",
+          "cached_value": "Карго Риммеил (Азреы) Семидневка 5-7 дней"
+        },
+        {
+          "cell": "B9",
+          "value": 10,
+          "cached_value": 10
+        },
+        {
+          "cell": "G9",
+          "value": "Турция Авиа с таможней 7 дней",
+          "cached_value": "Турция Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H9",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I9",
+          "value": 0.1,
+          "cached_value": 0.1
+        },
+        {
+          "cell": "O9",
+          "value": "ОАЭ Авиа с таможней 7 дней",
+          "cached_value": "ОАЭ Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "P9",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q9",
+          "value": 0.1,
+          "cached_value": 0.1
+        },
+        {
+          "cell": "R9",
+          "value": 1420,
+          "cached_value": 1420
+        },
+        {
+          "cell": "S9",
+          "value": 0.1,
+          "cached_value": 0.1
+        }
+      ]
+    },
+    {
+      "row": 10,
+      "cells": [
+        {
+          "cell": "A10",
+          "value": "Карго 63 Авиадоставка 7-8 дней",
+          "cached_value": "Карго 63 Авиадоставка 7-8 дней"
+        },
+        {
+          "cell": "G10",
+          "value": "Турция Авиа с таможней 7 дней",
+          "cached_value": "Турция Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H10",
+          "value": "Таможня",
+          "cached_value": "Таможня"
+        },
+        {
+          "cell": "I10",
+          "value": "Да",
+          "cached_value": "Да"
+        },
+        {
+          "cell": "K10",
+          "value": "=_xlfn.WEBSERVICE(\"https://www.cbr-xml-daily.com/daily_utf8.xml\")",
+          "cached_value": "#VALUE!"
+        },
+        {
+          "cell": "O10",
+          "value": "Турция морская доставка",
+          "cached_value": "Турция морская доставка"
+        },
+        {
+          "cell": "P10",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q10",
+          "value": 0.1,
+          "cached_value": 0.1
+        },
+        {
+          "cell": "S10",
+          "value": 0.1,
+          "cached_value": 0.1
+        }
+      ]
+    },
+    {
+      "row": 11,
+      "cells": [
+        {
+          "cell": "A11",
+          "value": "Карго 63 Авто (T1) 20 дней",
+          "cached_value": "Карго 63 Авто (T1) 20 дней"
+        },
+        {
+          "cell": "B11",
+          "value": 4.5,
+          "cached_value": 4.5
+        },
+        {
+          "cell": "H11",
+          "value": "Деловые линии морской с таможней",
+          "cached_value": "Деловые линии морской с таможней"
+        },
+        {
+          "cell": "K11",
+          "value": "=_xlfn.FILTERXML(K10,\"//Valute[CharCode='USD']/Value\")",
+          "cached_value": "#VALUE!"
+        },
+        {
+          "cell": "O11",
+          "value": "Турция сбрный груз 20 дней",
+          "cached_value": "Турция сбрный груз 20 дней"
+        },
+        {
+          "cell": "P11",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q11",
+          "value": 0.05,
+          "cached_value": 0.05
+        },
+        {
+          "cell": "R11",
+          "value": 460,
+          "cached_value": 460
+        },
+        {
+          "cell": "S11",
+          "value": 0.05,
+          "cached_value": 0.05
+        }
+      ]
+    },
+    {
+      "row": 12,
+      "cells": [
+        {
+          "cell": "A12",
+          "value": "Польша 3 дня",
+          "cached_value": "Польша 3 дня"
+        },
+        {
+          "cell": "G12",
+          "value": "Турция сбрный груз 20 дней",
+          "cached_value": "Турция сбрный груз 20 дней"
+        },
+        {
+          "cell": "H12",
+          "value": "Таможенное оформление РФ (Брокер)",
+          "cached_value": "Таможенное оформление РФ (Брокер)"
+        },
+        {
+          "cell": "I12",
+          "value": 22000,
+          "cached_value": 22000
+        },
+        {
+          "cell": "K12",
+          "value": "=_xlfn.NUMBERVALUE(K11,\",\",\" \")",
+          "cached_value": "#VALUE!"
+        },
+        {
+          "cell": "O12",
+          "value": "Турция Авиа с таможней 7 дней",
+          "cached_value": "Турция Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "P12",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q12",
+          "value": 0.14,
+          "cached_value": 0.14
+        },
+        {
+          "cell": "R12",
+          "value": 630,
+          "cached_value": 630
+        },
+        {
+          "cell": "S12",
+          "value": 0.1,
+          "cached_value": 0.1
+        }
+      ]
+    },
+    {
+      "row": 13,
+      "cells": [
+        {
+          "cell": "G13",
+          "value": "Турция сбрный груз 20 дней",
+          "cached_value": "Турция сбрный груз 20 дней"
+        },
+        {
+          "cell": "H13",
+          "value": "Цена доставки в $",
+          "cached_value": "Цена доставки в $"
+        },
+        {
+          "cell": "I13",
+          "value": "=J13*Калькулятор!I2",
+          "cached_value": 420
+        },
+        {
+          "cell": "J13",
+          "value": 420,
+          "cached_value": 420
+        },
+        {
+          "cell": "O13",
+          "value": "Турция сборный груз единичная расценка 20 дней",
+          "cached_value": "Турция сборный груз единичная расценка 20 дней"
+        },
+        {
+          "cell": "P13",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q13",
+          "value": 0.05,
+          "cached_value": 0.05
+        },
+        {
+          "cell": "R13",
+          "value": 460,
+          "cached_value": 460
+        },
+        {
+          "cell": "S13",
+          "value": 0.05,
+          "cached_value": 0.05
+        }
+      ]
+    },
+    {
+      "row": 14,
+      "cells": [
+        {
+          "cell": "O14",
+          "value": "Польша 3 дня",
+          "cached_value": "Польша 3 дня"
+        },
+        {
+          "cell": "P14",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q14",
+          "value": 0.01,
+          "cached_value": 0.01
+        }
+      ]
+    },
+    {
+      "row": 15,
+      "cells": [
+        {
+          "cell": "G15",
+          "value": "Турция сбрный груз 20 дней",
+          "cached_value": "Турция сбрный груз 20 дней"
+        },
+        {
+          "cell": "H15",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I15",
+          "value": 0.1,
+          "cached_value": 0.1
+        },
+        {
+          "cell": "O15",
+          "value": "ОАЭ сборный груз 60 дней",
+          "cached_value": "ОАЭ сборный груз 60 дней"
+        },
+        {
+          "cell": "P15",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "Q15",
+          "value": 0.05,
+          "cached_value": 0.05
+        },
+        {
+          "cell": "R15",
+          "value": 460,
+          "cached_value": 460
+        },
+        {
+          "cell": "S15",
+          "value": 0.05,
+          "cached_value": 0.05
+        }
+      ]
+    },
+    {
+      "row": 16,
+      "cells": [
+        {
+          "cell": "G16",
+          "value": "Турция сбрный груз 20 дней",
+          "cached_value": "Турция сбрный груз 20 дней"
+        },
+        {
+          "cell": "H16",
+          "value": "Таможня",
+          "cached_value": "Таможня"
+        },
+        {
+          "cell": "I16",
+          "value": "Да",
+          "cached_value": "Да"
+        }
+      ]
+    },
+    {
+      "row": 17,
+      "cells": [
+        {
+          "cell": "G17",
+          "value": "ОАЭ сборный груз 60 дней",
+          "cached_value": "ОАЭ сборный груз 60 дней"
+        },
+        {
+          "cell": "H17",
+          "value": "Цена доставки в $",
+          "cached_value": "Цена доставки в $"
+        },
+        {
+          "cell": "I17",
+          "value": "=J17*Калькулятор!I2",
+          "cached_value": 1500
+        },
+        {
+          "cell": "J17",
+          "value": 1500,
+          "cached_value": 1500
+        }
+      ]
+    },
+    {
+      "row": 18,
+      "cells": [
+        {
+          "cell": "H18",
+          "value": "Турция морской",
+          "cached_value": "Турция морской"
+        }
+      ]
+    },
+    {
+      "row": 19,
+      "cells": [
+        {
+          "cell": "G19",
+          "value": "Турция морская доставка",
+          "cached_value": "Турция морская доставка"
+        },
+        {
+          "cell": "H19",
+          "value": "Таможенное оформление РФ (Брокер)",
+          "cached_value": "Таможенное оформление РФ (Брокер)"
+        },
+        {
+          "cell": "I19",
+          "value": 22000,
+          "cached_value": 22000
+        }
+      ]
+    },
+    {
+      "row": 20,
+      "cells": [
+        {
+          "cell": "G20",
+          "value": "Турция морская доставка",
+          "cached_value": "Турция морская доставка"
+        },
+        {
+          "cell": "H20",
+          "value": "Цена доставки",
+          "cached_value": "Цена доставки"
+        },
+        {
+          "cell": "I20",
+          "value": 36150,
+          "cached_value": 36150
+        }
+      ]
+    },
+    {
+      "row": 21,
+      "cells": [
+        {
+          "cell": "G21",
+          "value": "Турция морская доставка",
+          "cached_value": "Турция морская доставка"
+        },
+        {
+          "cell": "H21",
+          "value": "Вывоз с СВХ",
+          "cached_value": "Вывоз с СВХ"
+        },
+        {
+          "cell": "I21",
+          "value": 5000,
+          "cached_value": 5000
+        }
+      ]
+    },
+    {
+      "row": 22,
+      "cells": [
+        {
+          "cell": "G22",
+          "value": "Турция морская доставка",
+          "cached_value": "Турция морская доставка"
+        },
+        {
+          "cell": "H22",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I22",
+          "value": 0.1,
+          "cached_value": 0.1
+        }
+      ]
+    },
+    {
+      "row": 23,
+      "cells": [
+        {
+          "cell": "G23",
+          "value": "Турция морская доставка",
+          "cached_value": "Турция морская доставка"
+        },
+        {
+          "cell": "H23",
+          "value": "Таможня",
+          "cached_value": "Таможня"
+        },
+        {
+          "cell": "I23",
+          "value": "Да",
+          "cached_value": "Да"
+        }
+      ]
+    },
+    {
+      "row": 24,
+      "cells": [
+        {
+          "cell": "H24",
+          "value": "ОАЭ в Белую",
+          "cached_value": "ОАЭ в Белую"
+        }
+      ]
+    },
+    {
+      "row": 25,
+      "cells": [
+        {
+          "cell": "G25",
+          "value": "ОАЭ Авиа с таможней 7 дней",
+          "cached_value": "ОАЭ Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H25",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I25",
+          "value": 0.1,
+          "cached_value": 0.1
+        }
+      ]
+    },
+    {
+      "row": 26,
+      "cells": [
+        {
+          "cell": "G26",
+          "value": "ОАЭ Авиа с таможней 7 дней",
+          "cached_value": "ОАЭ Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H26",
+          "value": "Цена за 1 кг в $",
+          "cached_value": "Цена за 1 кг в $"
+        },
+        {
+          "cell": "I26",
+          "value": 4.5,
+          "cached_value": 4.5
+        }
+      ]
+    },
+    {
+      "row": 27,
+      "cells": [
+        {
+          "cell": "G27",
+          "value": "ОАЭ Авиа с таможней 7 дней",
+          "cached_value": "ОАЭ Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H27",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I27",
+          "value": 0.1,
+          "cached_value": 0.1
+        }
+      ]
+    },
+    {
+      "row": 28,
+      "cells": [
+        {
+          "cell": "G28",
+          "value": "ОАЭ Авиа с таможней 7 дней",
+          "cached_value": "ОАЭ Авиа с таможней 7 дней"
+        },
+        {
+          "cell": "H28",
+          "value": "Таможня",
+          "cached_value": "Таможня"
+        },
+        {
+          "cell": "I28",
+          "value": "Да",
+          "cached_value": "Да"
+        }
+      ]
+    },
+    {
+      "row": 30,
+      "cells": [
+        {
+          "cell": "G30",
+          "value": "Карго 63 Авиадоставка",
+          "cached_value": "Карго 63 Авиадоставка"
+        },
+        {
+          "cell": "H30",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I30",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "J30",
+          "value": "=VLOOKUP(G30,A:A,1,0)",
+          "cached_value": "#N/A"
+        }
+      ]
+    },
+    {
+      "row": 31,
+      "cells": [
+        {
+          "cell": "G31",
+          "value": "Авто (T1)",
+          "cached_value": "Авто (T1)"
+        },
+        {
+          "cell": "H31",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I31",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "J31",
+          "value": "=VLOOKUP(G31,A:A,1,0)",
+          "cached_value": "#N/A"
+        }
+      ]
+    },
+    {
+      "row": 32,
+      "cells": [
+        {
+          "cell": "G32",
+          "value": "Карго Риммеил (Азреы) Экспресс 2-3 дня",
+          "cached_value": "Карго Риммеил (Азреы) Экспресс 2-3 дня"
+        },
+        {
+          "cell": "H32",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I32",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "J32",
+          "value": "=VLOOKUP(G32,A:A,1,0)",
+          "cached_value": "Карго Риммеил (Азреы) Экспресс 2-3 дня"
+        }
+      ]
+    },
+    {
+      "row": 33,
+      "cells": [
+        {
+          "cell": "G33",
+          "value": "Карго Риммеил (Азреы) Трехдневка 3-5 дней",
+          "cached_value": "Карго Риммеил (Азреы) Трехдневка 3-5 дней"
+        },
+        {
+          "cell": "H33",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I33",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "J33",
+          "value": "=VLOOKUP(G33,A:A,1,0)",
+          "cached_value": "#N/A"
+        }
+      ]
+    },
+    {
+      "row": 34,
+      "cells": [
+        {
+          "cell": "G34",
+          "value": "Карго Риммеил (Азреы) Семидневка 5-7 дней",
+          "cached_value": "Карго Риммеил (Азреы) Семидневка 5-7 дней"
+        },
+        {
+          "cell": "H34",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I34",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "J34",
+          "value": "=VLOOKUP(G34,A:A,1,0)",
+          "cached_value": "Карго Риммеил (Азреы) Семидневка 5-7 дней"
+        }
+      ]
+    },
+    {
+      "row": 35,
+      "cells": [
+        {
+          "cell": "G35",
+          "value": "ОАЭ Авиа без таможни 14 дней",
+          "cached_value": "ОАЭ Авиа без таможни 14 дней"
+        },
+        {
+          "cell": "H35",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I35",
+          "value": 0.01,
+          "cached_value": 0.01
+        },
+        {
+          "cell": "J35",
+          "value": "=VLOOKUP(G35,A:A,1,0)",
+          "cached_value": "ОАЭ Авиа без таможни 14 дней"
+        }
+      ]
+    },
+    {
+      "row": 36,
+      "cells": [
+        {
+          "cell": "G36",
+          "value": "Турция морская доставка ТУРКИ",
+          "cached_value": "Турция морская доставка ТУРКИ"
+        },
+        {
+          "cell": "H36",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I36",
+          "value": 0.1,
+          "cached_value": 0.1
+        },
+        {
+          "cell": "J36",
+          "value": "=VLOOKUP(G36,A:A,1,0)",
+          "cached_value": "#N/A"
+        }
+      ]
+    },
+    {
+      "row": 37,
+      "cells": [
+        {
+          "cell": "G37",
+          "value": "Турция доставка Деловые линии морской фрахт",
+          "cached_value": "Турция доставка Деловые линии морской фрахт"
+        },
+        {
+          "cell": "H37",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I37",
+          "value": 0.1,
+          "cached_value": 0.1
+        },
+        {
+          "cell": "J37",
+          "value": "=VLOOKUP(G37,A:A,1,0)",
+          "cached_value": "#N/A"
+        }
+      ]
+    },
+    {
+      "row": 38,
+      "cells": [
+        {
+          "cell": "G38",
+          "value": "Турция Авиадоставка с таможней",
+          "cached_value": "Турция Авиадоставка с таможней"
+        },
+        {
+          "cell": "H38",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I38",
+          "value": 0.1,
+          "cached_value": 0.1
+        },
+        {
+          "cell": "J38",
+          "value": "=VLOOKUP(G38,A:A,1,0)",
+          "cached_value": "#N/A"
+        }
+      ]
+    },
+    {
+      "row": 39,
+      "cells": [
+        {
+          "cell": "G39",
+          "value": "ОАЭ с таможней",
+          "cached_value": "ОАЭ с таможней"
+        },
+        {
+          "cell": "H39",
+          "value": "Сопуствующие расходы в %",
+          "cached_value": "Сопуствующие расходы в %"
+        },
+        {
+          "cell": "I39",
+          "value": 0.1,
+          "cached_value": 0.1
+        },
+        {
+          "cell": "J39",
+          "value": "=VLOOKUP(G39,A:A,1,0)",
+          "cached_value": "#N/A"
+        }
+      ]
+    }
+  ]
+}

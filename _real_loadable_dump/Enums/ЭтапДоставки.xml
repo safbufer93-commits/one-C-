@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="7148279a-b1f3-f07b-f7dd-a4920cd3aac4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ЭтапДоставки" category="Ref">
+				<xr:TypeId>d13b3646-6d23-a697-1735-f46437fee193</xr:TypeId>
+				<xr:ValueId>2fcec5fc-497d-614b-0a43-7249393a892c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ЭтапДоставки" category="Manager">
+				<xr:TypeId>0758037e-bb05-2b6b-0e60-e9d9b31cf8a3</xr:TypeId>
+				<xr:ValueId>668de58a-c997-25ed-9410-a63a243ed92c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ЭтапДоставки" category="List">
+				<xr:TypeId>ef15bd0b-3910-c296-595f-9ffec571d38d</xr:TypeId>
+				<xr:ValueId>105f7772-bea5-23a0-619f-8385f238e158</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЭтапДоставки</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4b1a380a-9876-2f88-2701-454e29f19c3e">
+				<Properties>
+					<Name>ЗаборУПоставщика</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="29b19dcf-dfdb-677f-4133-3e182c4d5663">
+				<Properties>
+					<Name>Консолидация</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8b5d9d89-0de1-37a5-8624-61bc79bf6ae7">
+				<Properties>
+					<Name>Таможня</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="12ee6e5f-d053-2641-771b-78a5506a043c">
+				<Properties>
+					<Name>Транзит</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="df40c7a4-bbf7-25e3-653b-a6622b31bb8e">
+				<Properties>
+					<Name>Сортировка</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9f579c93-4aa6-bad9-ebbb-34b643cc250a">
+				<Properties>
+					<Name>Выдача</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="89059464-2610-2df5-2881-3c54a4cff97a">
+				<Properties>
+					<Name>Доставлено</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

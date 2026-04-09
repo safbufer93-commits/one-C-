@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="0db39b06-30f5-b8a0-138e-a6d02fd990d2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиДДС" category="Object">
+				<xr:TypeId>80d4248c-6187-638a-5c81-00228c2b94c2</xr:TypeId>
+				<xr:ValueId>4b77b1bc-eb66-0d23-d102-000de7c91a2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиДДС" category="Ref">
+				<xr:TypeId>872b9938-a16d-ef1a-0a10-8a2bc06587f0</xr:TypeId>
+				<xr:ValueId>91699ab8-6a78-5ef3-642b-8c4af167ef10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиДДС" category="Selection">
+				<xr:TypeId>ab4fad9f-0672-21cd-624e-9899c5db6439</xr:TypeId>
+				<xr:ValueId>366aa8ee-06d2-1af3-fc83-19338626dbbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиДДС" category="List">
+				<xr:TypeId>c6768160-d1ae-a306-07c8-bce60e0d0f00</xr:TypeId>
+				<xr:ValueId>489caeb4-ee0f-ce14-1820-46221214ba85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиДДС" category="Manager">
+				<xr:TypeId>9110560c-305a-e8c6-bd34-c89f5ce1103b</xr:TypeId>
+				<xr:ValueId>c6ea24e9-f4c3-a393-34bf-662fc4b2bab4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатьиДДС</Name>
+			<Synonym/>
+			<Comment/>
+			<Hierarchical>false</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultObjectForm>Catalog.СтатьиДДС.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultListForm>Catalog.СтатьиДДС.Form.ФормаСписка</DefaultListForm>
+		</Properties>
+		<ChildObjects>
+
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

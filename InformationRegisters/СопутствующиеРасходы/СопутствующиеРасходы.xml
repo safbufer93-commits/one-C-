@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://v8.1c.ru/8.3/MDClasses" xmlns:core="http://v8.1c.ru/8.1/data/core" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdclass:InformationRegister" uuid="c750ace2-70ae-41c5-90fc-8719baeb3d5a">
+	<mdclass:n>СопутствующиеРасходы</mdclass:n>
+	<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сопутствующие расходы</core:content></core:item></mdclass:Synonym>
+	<mdclass:Periodicity>Second</mdclass:Periodicity>
+	<mdclass:WriteMode>Independent</mdclass:WriteMode>
+	<mdclass:UseStandardCommands>true</mdclass:UseStandardCommands>
+	<mdclass:Dimension uuid="abe43609-9a1a-4b2f-b6b0-8f1a889a44d0">
+		<mdclass:n>Заказ</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Заказ</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>DocumentRef.Заказ</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Dimension uuid="7c6529b4-f7ed-4a27-bfaa-2129bdcf9fb2">
+		<mdclass:n>СтатьяРасходов</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Статья расходов</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>CatalogRef.СтатьиРасходов</mdclass:Type>
+		<mdclass:FillRequired>true</mdclass:FillRequired>
+		<mdclass:Indexing>Index</mdclass:Indexing>
+	</mdclass:Dimension>
+	<mdclass:Resource uuid="22d1a639-ff5c-4154-a265-9d21565d6948">
+		<mdclass:n>Сумма</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers>
+	</mdclass:Resource>
+	<mdclass:Resource uuid="4caf1a3b-df2f-43f2-9c10-6f09a044d4af">
+		<mdclass:n>СуммаРуб</mdclass:n>
+		<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Сумма руб</core:content></core:item></mdclass:Synonym>
+		<mdclass:Type>xsd:decimal</mdclass:Type><mdclass:NumberQualifiers><mdclass:Digits>15</mdclass:Digits><mdclass:FractionDigits>2</mdclass:FractionDigits></mdclass:NumberQualifiers>
+	</mdclass:Resource>
+		<mdclass:Attribute uuid="5acfe93f-714a-4699-98d7-f5cb37a1c849">
+			<mdclass:n>СпособРаспределения</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Способ распределения</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>EnumRef.СпособРаспределения</mdclass:Type>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+		<mdclass:Attribute uuid="63087ac2-ed6d-41c6-acbc-25ef9c0815a4">
+			<mdclass:n>Валюта</mdclass:n>
+			<mdclass:Synonym><core:item><core:lang>ru</core:lang><core:content>Валюта</core:content></core:item></mdclass:Synonym>
+			<mdclass:Type>xsd:string</mdclass:Type><mdclass:StringQualifiers><mdclass:Length>3</mdclass:Length><mdclass:AllowedLength>Variable</mdclass:AllowedLength></mdclass:StringQualifiers>
+			<mdclass:FillRequired>false</mdclass:FillRequired>
+		</mdclass:Attribute>
+</mdclass:InformationRegister>

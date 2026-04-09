@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Заказ" id="7">
+			<DataPath>Объект.Заказ</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЗаказКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ЗаказРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Отправка" id="10">
+			<DataPath>Объект.Отправка</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтправкаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ОтправкаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ПланСумма" id="13">
+			<DataPath>Объект.ПланСумма</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПланСуммаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ПланСуммаРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ФактСумма" id="16">
+			<DataPath>Объект.ФактСумма</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ФактСуммаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ФактСуммаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ОтклонениеСумма" id="19">
+			<DataPath>Объект.ОтклонениеСумма</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтклонениеСуммаКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ОтклонениеСуммаРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ОтклонениеПроцент" id="22">
+			<DataPath>Объект.ОтклонениеПроцент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтклонениеПроцентКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ОтклонениеПроцентРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ВаловаяПрибыль" id="25">
+			<DataPath>Объект.ВаловаяПрибыль</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВаловаяПрибыльКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ВаловаяПрибыльРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="НалогНаПрибыль" id="28">
+			<DataPath>Объект.НалогНаПрибыль</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НалогНаПрибыльКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="НалогНаПрибыльРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ЧистаяПрибыль" id="31">
+			<DataPath>Объект.ЧистаяПрибыль</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЧистаяПрибыльКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ЧистаяПрибыльРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="МаржаПроцент" id="34">
+			<DataPath>Объект.МаржаПроцент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="МаржаПроцентКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="МаржаПроцентРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="Пояснения" id="37">
+			<DataPath>Объект.Пояснения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПоясненияКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ПоясненияРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="РешениеРуководителя" id="40">
+			<DataPath>Объект.РешениеРуководителя</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РешениеРуководителяКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="РешениеРуководителяРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<CheckBoxField name="Утверждено" id="43">
+			<DataPath>Объект.Утверждено</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="УтвержденоКонтекстноеМеню" id="44"/>
+			<ExtendedTooltip name="УтвержденоРасширеннаяПодсказка" id="45"/>
+		</CheckBoxField>
+		<InputField name="ДатаРешения" id="46">
+			<DataPath>Объект.ДатаРешения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаРешенияКонтекстноеМеню" id="47"/>
+			<ExtendedTooltip name="ДатаРешенияРасширеннаяПодсказка" id="48"/>
+		</InputField>
+		<InputField name="Комментарий" id="49">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="51"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ФинальнаяСправка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

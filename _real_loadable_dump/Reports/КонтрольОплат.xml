@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Report uuid="155085ff-72ae-981a-cf27-fcdb1e0ace6e">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.КонтрольОплат" category="Object">
+				<xr:TypeId>d7720e89-d145-6d26-4312-68e44577f809</xr:TypeId>
+				<xr:ValueId>9271dc1d-45ad-e1de-ebe6-41f75b08adf6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.КонтрольОплат" category="Manager">
+				<xr:TypeId>c467e697-f382-19b4-4429-c1a393d06fa4</xr:TypeId>
+				<xr:ValueId>72fde701-954f-7b00-5daf-5df822fce26b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КонтрольОплат</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+		</Properties>
+		<ChildObjects>
+
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="1d5b1c59-810e-26a0-c12c-676ca8cdd326">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипДокументаВложения" category="Ref">
+				<xr:TypeId>2b0be26a-ad61-71e7-34d9-38801eaf1ac7</xr:TypeId>
+				<xr:ValueId>42f5651c-63d6-854c-2fe5-fff630ca404a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипДокументаВложения" category="Manager">
+				<xr:TypeId>bfdde04b-5c73-d09e-0e29-113d7dee114e</xr:TypeId>
+				<xr:ValueId>dd4a26a8-a4ea-9989-43c5-575f69820ed8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипДокументаВложения" category="List">
+				<xr:TypeId>8276b490-ee4c-b659-da9c-57e136873572</xr:TypeId>
+				<xr:ValueId>a921150b-571b-2164-3892-7676ee036dc1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипДокументаВложения</Name>
+			<Synonym/>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="f18bb07c-d680-9780-9be6-c3eefb391be5">
+				<Properties>
+					<Name>Счет</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="06838e76-339d-40d9-8bec-78d52c19d8cc">
+				<Properties>
+					<Name>ТТН</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="31beed7c-f69b-b987-3a74-f7f7b83b9577">
+				<Properties>
+					<Name>ТОРГ12</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f8704b7b-6b35-5c73-f1ef-fcee788e16c8">
+				<Properties>
+					<Name>УПД</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a18f1a30-5e3a-84fa-88ad-9969c9871354">
+				<Properties>
+					<Name>НакладнаяТК</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9d57aaec-8af9-8083-56a9-7be514886595">
+				<Properties>
+					<Name>Декларация</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fe985916-d548-5787-3124-ceef44c581fe">
+				<Properties>
+					<Name>СчетПеревозчика</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e0b137c2-ffcd-ad21-5c84-fefe15edcf8c">
+				<Properties>
+					<Name>Прочее</Name>
+					<Synonym/>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
