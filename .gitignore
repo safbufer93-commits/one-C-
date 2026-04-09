@@ -5,6 +5,7 @@ _*/
 # Keep only source-controlled 1C metadata folders
 !_real_loadable_dump/
 _real_loadable_dump/*
+!_real_loadable_dump/*.xml
 !_real_loadable_dump/ConfigDumpInfo.xml
 !_real_loadable_dump/Configuration.xml
 !_real_loadable_dump/CommonModules/

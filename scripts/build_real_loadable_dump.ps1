@@ -17,16 +17,34 @@ function Write-Utf8([string]$Path, [string]$Text) {
 }
 
 function Get-FullRightsTemplatePath([string]$RootPath) {
-    $rightsDir = Join-Path $RootPath "_dump_rights_probe"
-    if (Test-Path -LiteralPath $rightsDir) {
-        $fullRightsName = [string]::Concat([char]0x41F, [char]0x43E, [char]0x43B, [char]0x43D, [char]0x44B, [char]0x435, [char]0x41F, [char]0x440, [char]0x430, [char]0x432, [char]0x430)
+    $fullRightsName = [string]::Concat([char]0x41F, [char]0x43E, [char]0x43B, [char]0x43D, [char]0x44B, [char]0x435, [char]0x41F, [char]0x440, [char]0x430, [char]0x432, [char]0x430)
+    $rightsSuffix = [string]::Concat([char]0x2E, [char]0x41F, [char]0x440, [char]0x430, [char]0x432, [char]0x430, [char]0x2E, [char]0x78, [char]0x6D, [char]0x6C)
+    $candidatesDirs = @(
+        (Join-Path $RootPath "rights_templates"),
+        (Join-Path $RootPath "_dump_rights_probe"),
+        (Join-Path $RootPath "_battle_full_dump_with_rights"),
+        (Join-Path $RootPath "_battle_full_rights_dumped_rights")
+    )
+
+    foreach ($rightsDir in $candidatesDirs) {
+        if (-not (Test-Path -LiteralPath $rightsDir)) {
+            continue
+        }
+
         $candidate = Get-ChildItem -Path $rightsDir -Filter '*.xml' -File |
-            Where-Object { $_.Name -like 'Роль.*.Права.xml' -and $_.Name.Contains($fullRightsName) } |
+            Where-Object {
+                $_.Name.EndsWith($rightsSuffix, [System.StringComparison]::OrdinalIgnoreCase) -and (
+                    $_.Name.Contains($fullRightsName) -or
+                    $_.Name -match 'FullRights'
+                )
+            } |
             Select-Object -First 1
+
         if ($candidate) {
             return $candidate.FullName
         }
     }
+
     return $null
 }
 
@@ -348,8 +366,11 @@ Write-Utf8 (Join-Path $OutDir "_conversion_notes.txt") ($notes -join "`r`n")
 $fullRightsTemplatePath = Get-FullRightsTemplatePath $RootDir
 $fullRightsContent = Build-FullRightsContent $fullRightsTemplatePath
 if ($fullRightsContent) {
+    $roleFilePrefix = [string]::Concat([char]0x420, [char]0x43E, [char]0x43B, [char]0x44C, [char]0x2E)
+    $roleFileSuffix = [string]::Concat([char]0x2E, [char]0x41F, [char]0x440, [char]0x430, [char]0x432, [char]0x430, [char]0x2E, [char]0x78, [char]0x6D, [char]0x6C)
     foreach ($roleName in ($children.Role | Sort-Object -Unique)) {
-        Write-Utf8 (Join-Path $OutDir "Роль.$roleName.Права.xml") $fullRightsContent
+        $roleFileName = [string]::Concat($roleFilePrefix, $roleName, $roleFileSuffix)
+        Write-Utf8 (Join-Path $OutDir $roleFileName) $fullRightsContent
     }
 }
 
